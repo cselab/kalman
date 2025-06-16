@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation_funseach_half_noise/extract.py", line 2, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'

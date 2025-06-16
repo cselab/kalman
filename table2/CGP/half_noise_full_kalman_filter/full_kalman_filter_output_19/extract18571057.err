@@ -1,0 +1,10 @@
+/n/home10/vsaketos/wavegp/kalmangp/half_noise_full_kalman_filter/full_kalman_filter_output_19/extract.py:12: RuntimeWarning: overflow encountered in matmul
+  def matmul(inp, args): return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/half_noise_full_kalman_filter/full_kalman_filter_output_19/extract.py:11: RuntimeWarning: invalid value encountered in subtract
+  def minus(inp, args): return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/half_noise_full_kalman_filter/full_kalman_filter_output_19/extract.py:12: RuntimeWarning: invalid value encountered in matmul
+  def matmul(inp, args): return inp[0] @ inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:3596: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)

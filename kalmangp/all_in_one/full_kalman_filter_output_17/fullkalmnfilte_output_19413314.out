@@ -94329,3 +94329,1299 @@ Island 3 BEST Graph : digraph {
   10 -> 30
 }
 
+Generation 21950 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 21950 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 21950 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 21950 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22000 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22000 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22000 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22000 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22050 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22050 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22050 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22050 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22100 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22100 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22100 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22100 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22150 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22150 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22150 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22150 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22200 - Island 0 Best found in this generation: inf
+Island 0 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22200 - Island 1 Best found in this generation: inf
+Island 1 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22200 - Island 2 Best found in this generation: inf
+Island 2 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+
+Generation 22200 - Island 3 Best found in this generation: inf
+Island 3 BEST SO FAR: 0.5727440093000075 DISTANCE FROM KALMAN FILTER : 0.5727440093000075
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "inv"]
+  5 -> 7
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  8 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  11 [label = "add"]
+  7 -> 11 [color = red]
+  5 -> 11 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  2 -> 12 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  15 [label = "matmul"]
+  9 -> 15 [color = red]
+  8 -> 15 [color = blue]
+  19 [label = "add"]
+  13 -> 19 [color = red]
+  11 -> 19 [color = blue]
+  22 [label = "inv"]
+  19 -> 22
+  25 [label = o0]
+  8 -> 25
+  26 [label = o1]
+  22 -> 26
+  27 [label = o2]
+  4 -> 27
+  28 [label = o3]
+  13 -> 28
+  29 [label = o4]
+  15 -> 29
+  30 [label = o5]
+  10 -> 30
+}
+

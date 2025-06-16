@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/fun_gp_no_oracle/full_kalman_filter.py", line 1, in <module>
+    import scipy.linalg
+ModuleNotFoundError: No module named 'scipy'

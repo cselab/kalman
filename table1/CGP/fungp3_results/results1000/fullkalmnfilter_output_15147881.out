@@ -1,0 +1,7885 @@
+Sanity check loss: 1.027071398125594
+Generation 00000 - Island 0 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict412.6148090999373_vs_kalman.png
+Island 0 BEST SO FAR: 412.6148090999373 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  8 [label = "transpose"]
+  1 -> 8
+  11 [label = "minus"]
+  0 -> 11 [color = red]
+  3 -> 11 [color = blue]
+  14 [label = "minus"]
+  11 -> 14 [color = red]
+  8 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  0 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00000 - Island 1 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict2.1460146975722583_vs_kalman.png
+Island 1 BEST SO FAR: 2.1460146975722583 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  9 [label = "minus"]
+  6 -> 9 [color = red]
+  6 -> 9 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  9 -> 16
+  17 [label = o2]
+  2 -> 17
+  18 [label = o3]
+  1 -> 18
+}
+
+Generation 00000 - Island 2 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict9.304332760540117_vs_kalman.png
+Island 2 BEST SO FAR: 9.304332760540117 DISTANCE FROM KALMAN FILTER : 5.27866642119895 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "add"]
+  0 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "transpose"]
+  8 -> 9
+  12 [label = "transpose"]
+  4 -> 12
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  2 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  9 -> 18
+}
+
+Generation 00000 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict2.1460146975722583_vs_kalman.png
+Island 3 BEST SO FAR: 2.1460146975722583 DISTANCE FROM KALMAN FILTER : 5.27866642119895 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "transpose"]
+  4 -> 7
+  12 [label = "transpose"]
+  5 -> 12
+  15 [label = o0]
+  7 -> 15
+  16 [label = o1]
+  2 -> 16
+  17 [label = o2]
+  6 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 2]
+Resetting Island 3 using best from Island 0
+Resetting Island 1 using best from Island 2
+Generation 00050 - Island 0 Best found in this generation: 2.1056393742312696
+Plot saved to: plots/predict1.9980846085348818_vs_kalman.png
+Island 0 BEST SO FAR: 1.9980846085348818 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  13 [label = "transpose"]
+  5 -> 13
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00050 - Island 1 Best found in this generation: 2.1460131317736058
+Plot saved to: plots/predict2.1056393742312696_vs_kalman.png
+Island 1 BEST SO FAR: 2.1056393742312696 DISTANCE FROM KALMAN FILTER : 5.27866642119895 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  9 [label = "add"]
+  7 -> 9 [color = red]
+  8 -> 9 [color = blue]
+  10 [label = "minus"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  12 [label = "matmul"]
+  8 -> 12 [color = red]
+  10 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  2 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  9 -> 18
+}
+
+Generation 00050 - Island 2 Best found in this generation: 2.102014364636192
+Plot saved to: plots/predict2.1056836964621626_vs_kalman.png
+Island 2 BEST SO FAR: 2.1056836964621626 DISTANCE FROM KALMAN FILTER : 5.27866642119895 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "add"]
+  7 -> 9 [color = red]
+  8 -> 9 [color = blue]
+  10 [label = "minus"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  12 [label = "matmul"]
+  8 -> 12 [color = red]
+  10 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  2 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  9 -> 18
+}
+
+Generation 00050 - Island 3 Best found in this generation: 2.111719939054539
+Plot saved to: plots/predict1.913250107866491_vs_kalman.png
+Island 3 BEST SO FAR: 1.913250107866491 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  5 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [3, 0]
+Resetting Island 1 using best from Island 3
+Resetting Island 2 using best from Island 0
+Generation 00100 - Island 0 Best found in this generation: 1.9577179562557707
+Plot saved to: plots/predict1.9980846085348818_vs_kalman.png
+Island 0 BEST SO FAR: 1.9980846085348818 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  13 [label = "transpose"]
+  5 -> 13
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00100 - Island 1 Best found in this generation: 2.0912120801201883
+Plot saved to: plots/predict1.913250107866491_vs_kalman.png
+Island 1 BEST SO FAR: 1.913250107866491 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  5 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00100 - Island 2 Best found in this generation: 2.146014680191933
+Plot saved to: plots/predict1.9577179562557707_vs_kalman.png
+Island 2 BEST SO FAR: 1.9577179562557707 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  13 [label = "transpose"]
+  1 -> 13
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00100 - Island 3 Best found in this generation: 2.1460146975722574
+Plot saved to: plots/predict1.913250107866491_vs_kalman.png
+Island 3 BEST SO FAR: 1.913250107866491 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  5 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 3]
+Resetting Island 2 using best from Island 1
+Resetting Island 0 using best from Island 3
+Generation 00150 - Island 0 Best found in this generation: 1.7941055322484458
+Plot saved to: plots/predict1.7941055322484458_vs_kalman.png
+Island 0 BEST SO FAR: 1.7941055322484458 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  4 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00150 - Island 1 Best found in this generation: 1.9784700282042722
+Plot saved to: plots/predict1.7324303740305544_vs_kalman.png
+Island 1 BEST SO FAR: 1.7324303740305544 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00150 - Island 2 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.7324303740305544_vs_kalman.png
+Island 2 BEST SO FAR: 1.7324303740305544 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00150 - Island 3 Best found in this generation: 2.0473851216990604
+Plot saved to: plots/predict1.7941055322484458_vs_kalman.png
+Island 3 BEST SO FAR: 1.7941055322484458 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "transpose"]
+  1 -> 9
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  4 -> 12 [color = red]
+  9 -> 12 [color = blue]
+  13 [label = "matmul"]
+  5 -> 13 [color = red]
+  12 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [2, 1]
+Resetting Island 3 using best from Island 2
+Resetting Island 0 using best from Island 1
+Generation 00200 - Island 0 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.7324303740305544_vs_kalman.png
+Island 0 BEST SO FAR: 1.7324303740305544 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00200 - Island 1 Best found in this generation: 1.9933159749526308
+Plot saved to: plots/predict1.7324303740305544_vs_kalman.png
+Island 1 BEST SO FAR: 1.7324303740305544 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00200 - Island 2 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.729866624151713_vs_kalman.png
+Island 2 BEST SO FAR: 1.729866624151713 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00200 - Island 3 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.729866624151713_vs_kalman.png
+Island 3 BEST SO FAR: 1.729866624151713 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 3 using best from Island 1
+Resetting Island 0 using best from Island 2
+Generation 00250 - Island 0 Best found in this generation: 1.729866624151713
+Plot saved to: plots/predict1.729866624151713_vs_kalman.png
+Island 0 BEST SO FAR: 1.729866624151713 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00250 - Island 1 Best found in this generation: 2.1456463114421567
+Plot saved to: plots/predict1.7287044517465775_vs_kalman.png
+Island 1 BEST SO FAR: 1.7287044517465775 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  4 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00250 - Island 2 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.729866624151713_vs_kalman.png
+Island 2 BEST SO FAR: 1.729866624151713 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = "matmul"]
+  3 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  12 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00250 - Island 3 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.7287044517465775_vs_kalman.png
+Island 3 BEST SO FAR: 1.7287044517465775 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  4 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 3 using best from Island 1
+Resetting Island 0 using best from Island 2
+Generation 00300 - Island 0 Best found in this generation: 1.7287044517465775
+Plot saved to: plots/predict1.7287044517465775_vs_kalman.png
+Island 0 BEST SO FAR: 1.7287044517465775 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  4 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00300 - Island 1 Best found in this generation: 1.7287044517465775
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 1 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00300 - Island 2 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.7287044517465775_vs_kalman.png
+Island 2 BEST SO FAR: 1.7287044517465775 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  4 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  6 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00300 - Island 3 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 3 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 3]
+Resetting Island 0 using best from Island 1
+Resetting Island 2 using best from Island 3
+Generation 00350 - Island 0 Best found in this generation: 1.717068689693136
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 0 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00350 - Island 1 Best found in this generation: 2.1460146975722574
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 1 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00350 - Island 2 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 2 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00350 - Island 3 Best found in this generation: 2.0499287882328514
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 3 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00400 - Island 0 Best found in this generation: 1.717068689693136
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 0 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00400 - Island 1 Best found in this generation: 1.7657683164685485
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 1 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00400 - Island 2 Best found in this generation: 1.7287044517465775
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 2 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00400 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 3 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00450 - Island 0 Best found in this generation: 1.717068689693136
+Plot saved to: plots/predict1.5693571950805159_vs_kalman.png
+Island 0 BEST SO FAR: 1.5693571950805159 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "add"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+Generation 00450 - Island 1 Best found in this generation: 1.7324303740305544
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 1 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00450 - Island 2 Best found in this generation: 1.7287044517465775
+Plot saved to: plots/predict1.421087102373519_vs_kalman.png
+Island 2 BEST SO FAR: 1.421087102373519 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "minus"]
+  6 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  7 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+Generation 00450 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.717068689693136_vs_kalman.png
+Island 3 BEST SO FAR: 1.717068689693136 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "matmul"]
+  3 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  13 [label = "matmul"]
+  1 -> 13 [color = red]
+  9 -> 13 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  4 -> 16
+  17 [label = o2]
+  8 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 2]
+Resetting Island 1 using best from Island 0
+Resetting Island 3 using best from Island 2
+Generation 00500 - Island 0 Best found in this generation: 1.1321333372287992
+Plot saved to: plots/predict1.1321333372287992_vs_kalman.png
+Island 0 BEST SO FAR: 1.1321333372287992 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  9 [label = "transpose"]
+  7 -> 9
+  10 [label = "add"]
+  1 -> 10 [color = red]
+  9 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+Generation 00500 - Island 1 Best found in this generation: 1.1789328111550785
+Plot saved to: plots/predict1.0890720148837467_vs_kalman.png
+Island 1 BEST SO FAR: 1.0890720148837467 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "add"]
+  1 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  9 [label = "transpose"]
+  7 -> 9
+  10 [label = "add"]
+  1 -> 10 [color = red]
+  9 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+Generation 00500 - Island 2 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.1321333372287992_vs_kalman.png
+Island 2 BEST SO FAR: 1.1321333372287992 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  5 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  1 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00500 - Island 3 Best found in this generation: 1.2100704039950625
+Plot saved to: plots/predict1.1321333372287992_vs_kalman.png
+Island 3 BEST SO FAR: 1.1321333372287992 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  5 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  14 [label = "add"]
+  10 -> 14 [color = red]
+  1 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [2, 0]
+Resetting Island 1 using best from Island 2
+Resetting Island 3 using best from Island 0
+Generation 00550 - Island 0 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0890720148837467_vs_kalman.png
+Island 0 BEST SO FAR: 1.0890720148837467 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "add"]
+  1 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  9 [label = "transpose"]
+  7 -> 9
+  10 [label = "add"]
+  1 -> 10 [color = red]
+  9 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+Generation 00550 - Island 1 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 1 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00550 - Island 2 Best found in this generation: 1.2100704039950625
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 2 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00550 - Island 3 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0890720148837467_vs_kalman.png
+Island 3 BEST SO FAR: 1.0890720148837467 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "add"]
+  1 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  9 [label = "transpose"]
+  7 -> 9
+  10 [label = "add"]
+  1 -> 10 [color = red]
+  9 -> 10 [color = blue]
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  5 -> 17
+  18 [label = o3]
+  10 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00600 - Island 0 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 0 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00600 - Island 1 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 1 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00600 - Island 2 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 2 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00600 - Island 3 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0767690207320102_vs_kalman.png
+Island 3 BEST SO FAR: 1.0767690207320102 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "transpose"]
+  3 -> 8
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00650 - Island 0 Best found in this generation: 1.0525516737312728
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 0 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  5 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00650 - Island 1 Best found in this generation: 1.0962564804204875
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 1 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  3 -> 8
+  9 [label = "transpose"]
+  1 -> 9
+  10 [label = "matmul"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  9 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  11 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00650 - Island 2 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 2 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  5 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00650 - Island 3 Best found in this generation: 1.1391329499434601
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 3 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  3 -> 8
+  9 [label = "transpose"]
+  1 -> 9
+  10 [label = "matmul"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  9 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  11 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00700 - Island 0 Best found in this generation: 1.0525516737312728
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 0 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  5 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00700 - Island 1 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 1 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  3 -> 8
+  9 [label = "transpose"]
+  1 -> 9
+  10 [label = "matmul"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  9 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  11 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00700 - Island 2 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 2 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  5 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00700 - Island 3 Best found in this generation: 1.1575908385432394
+Plot saved to: plots/predict1.0525516737312728_vs_kalman.png
+Island 3 BEST SO FAR: 1.0525516737312728 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "transpose"]
+  3 -> 8
+  9 [label = "transpose"]
+  1 -> 9
+  10 [label = "matmul"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  9 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  11 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 0]
+Resetting Island 2 using best from Island 1
+Resetting Island 3 using best from Island 0
+Generation 00750 - Island 0 Best found in this generation: 1.0444996117488334
+Plot saved to: plots/predict1.0444996117488334_vs_kalman.png
+Island 0 BEST SO FAR: 1.0444996117488334 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  9 [label = "minus"]
+  5 -> 9 [color = red]
+  3 -> 9 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  9 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00750 - Island 1 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00750 - Island 2 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00750 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0444996117488334_vs_kalman.png
+Island 3 BEST SO FAR: 1.0444996117488334 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  9 [label = "minus"]
+  5 -> 9 [color = red]
+  3 -> 9 [color = blue]
+  10 [label = "transpose"]
+  1 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "add"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  13 -> 14 [color = red]
+  9 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00800 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00800 - Island 1 Best found in this generation: 1.1789328111550785
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00800 - Island 2 Best found in this generation: 1.0577854671953935
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00800 - Island 3 Best found in this generation: 1.1789328111550785
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00850 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00850 - Island 1 Best found in this generation: 1.0657755035531669
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00850 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00850 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00900 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00900 - Island 1 Best found in this generation: 1.0657755035531669
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00900 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00900 - Island 3 Best found in this generation: 1.2100704039950636
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00950 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00950 - Island 1 Best found in this generation: 1.0577854671953935
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00950 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 00950 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01000 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01000 - Island 1 Best found in this generation: 1.0577854671953935
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01000 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01000 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01050 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01050 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01050 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01050 - Island 3 Best found in this generation: 1.1391329499434601
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01100 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01100 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01100 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01100 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01150 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01150 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01150 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01150 - Island 3 Best found in this generation: 1.8011603014950643
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01200 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01200 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01200 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01200 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01250 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01250 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01250 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01250 - Island 3 Best found in this generation: 1.1321333372287992
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01300 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01300 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01300 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01300 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01350 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01350 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01350 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01350 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01400 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01400 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01400 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01400 - Island 3 Best found in this generation: 1.675513399574794
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01450 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01450 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01450 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01450 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01500 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01500 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01500 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01500 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01550 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01550 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01550 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01550 - Island 3 Best found in this generation: 1.2576081385750222
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01600 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01600 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01600 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01600 - Island 3 Best found in this generation: 1.1789328111550785
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01650 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01650 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01650 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01650 - Island 3 Best found in this generation: 1.5693571950805165
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01700 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01700 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01700 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01700 - Island 3 Best found in this generation: 1.2100704039950625
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01750 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01750 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01750 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01750 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01800 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01800 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01800 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01800 - Island 3 Best found in this generation: 2.146014697539311
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01850 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01850 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01850 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01850 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01900 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01900 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01900 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01900 - Island 3 Best found in this generation: 2.1256084803339266
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01950 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01950 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01950 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 01950 - Island 3 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02000 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02000 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02000 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02000 - Island 3 Best found in this generation: 1.0890720148837467
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02050 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02050 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02050 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02050 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02100 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02100 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02100 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02100 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02150 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02150 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02150 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02150 - Island 3 Best found in this generation: 1.219755749213323
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02200 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02200 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02200 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02200 - Island 3 Best found in this generation: 1.2100704039950625
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02250 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02250 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02250 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02250 - Island 3 Best found in this generation: 1.0767690207320102
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 02300 - Island 0 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 0 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02300 - Island 1 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 1 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02300 - Island 2 Best found in this generation: 1.0348344410609576
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 2 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+
+Generation 02300 - Island 3 Best found in this generation: 2.1460146975722583
+Plot saved to: plots/predict1.0348344410609576_vs_kalman.png
+Island 3 BEST SO FAR: 1.0348344410609576 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  1 -> 7
+  8 [label = "minus"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  10 [label = "minus"]
+  1 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "minus"]
+  6 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  13 [label = "matmul"]
+  7 -> 13 [color = red]
+  10 -> 13 [color = blue]
+  14 [label = "add"]
+  1 -> 14 [color = red]
+  13 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  12 -> 16
+  17 [label = o2]
+  11 -> 17
+  18 [label = o3]
+  14 -> 18
+}
+

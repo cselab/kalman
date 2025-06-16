@@ -1,0 +1,2061 @@
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:23: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:205: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * mse_updated + (1 - alpha) * mse_pred
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter.py:26: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+slurmstepd: error: *** JOB 18209202 ON holy8a14301 CANCELLED AT 2025-06-08T18:08:56 DUE TO TIME LIMIT ***

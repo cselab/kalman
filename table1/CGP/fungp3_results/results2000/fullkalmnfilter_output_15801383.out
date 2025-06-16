@@ -1,0 +1,4189 @@
+Sanity check loss: 1.0204186151133352 distance from kalman filter :  0.0
+Generation 00000 - Island 0 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict2.0881241496017084_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0881.png
+Average MSE to Oracle       : 2.088124
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 2.0881241496017084 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  3 -> 6 [color = blue]
+  7 [label = "minus"]
+  2 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  10 [label = "matmul"]
+  5 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  15 [label = o0]
+  10 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  4 -> 17
+  18 [label = o3]
+  6 -> 18
+}
+
+Generation 00000 - Island 1 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict1045.3356539480285_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1045.3357.png
+Average MSE to Oracle       : 1045.335654
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1045.3356539480285 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  3 -> 6 [color = red]
+  3 -> 6 [color = blue]
+  8 [label = "matmul"]
+  6 -> 8 [color = red]
+  0 -> 8 [color = blue]
+  12 [label = "matmul"]
+  4 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  4 -> 13 [color = red]
+  8 -> 13 [color = blue]
+  14 [label = "add"]
+  12 -> 14 [color = red]
+  2 -> 14 [color = blue]
+  15 [label = o0]
+  13 -> 15
+  16 [label = o1]
+  14 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  1 -> 18
+}
+
+Generation 00000 - Island 2 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict2.09366885611471_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0937.png
+Average MSE to Oracle       : 2.093669
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 2.09366885611471 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  2 -> 6
+  14 [label = "matmul"]
+  4 -> 14 [color = red]
+  3 -> 14 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  6 -> 16
+  17 [label = o2]
+  14 -> 17
+  18 [label = o3]
+  5 -> 18
+}
+
+Generation 00000 - Island 3 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict2.0881241496017084_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0881.png
+Average MSE to Oracle       : 2.088124
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 2.0881241496017084 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "matmul"]
+  5 -> 7 [color = red]
+  4 -> 7 [color = blue]
+  8 [label = "minus"]
+  5 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  15 [label = o0]
+  7 -> 15
+  16 [label = o1]
+  8 -> 16
+  17 [label = o2]
+  4 -> 17
+  18 [label = o3]
+  5 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [2, 0]
+Resetting Island 1 using best from Island 2
+Resetting Island 3 using best from Island 0
+Generation 00050 - Island 0 Best found in this generation: 2.085165335751715
+Trajectory plot saved to: plots/predict2.086270641549924_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0863.png
+Average MSE to Oracle       : 2.086271
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 2.086270641549924 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "matmul"]
+  2 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  9 [label = "add"]
+  0 -> 9 [color = red]
+  7 -> 9 [color = blue]
+  10 [label = "matmul"]
+  5 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  12 [label = "add"]
+  9 -> 12 [color = red]
+  1 -> 12 [color = blue]
+  15 [label = o0]
+  10 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  0 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00050 - Island 1 Best found in this generation: 2.0868753537734497
+Trajectory plot saved to: plots/predict2.068174156560317_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0682.png
+Average MSE to Oracle       : 2.068174
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 2.068174156560317 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  2 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "transpose"]
+  6 -> 7
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  7 -> 8 [color = blue]
+  9 [label = "transpose"]
+  5 -> 9
+  11 [label = "matmul"]
+  9 -> 11 [color = red]
+  4 -> 11 [color = blue]
+  13 [label = "minus"]
+  0 -> 13 [color = red]
+  11 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  8 -> 18
+}
+
+Generation 00050 - Island 2 Best found in this generation: 1.7544981169383043
+Trajectory plot saved to: plots/predict2.0701197118007633_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0701.png
+Average MSE to Oracle       : 2.070120
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 2.0701197118007633 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  2 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "transpose"]
+  6 -> 7
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "transpose"]
+  5 -> 9
+  11 [label = "matmul"]
+  9 -> 11 [color = red]
+  4 -> 11 [color = blue]
+  13 [label = "minus"]
+  0 -> 13 [color = red]
+  11 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  8 -> 18
+}
+
+Generation 00050 - Island 3 Best found in this generation: 2.068174156560317
+Trajectory plot saved to: plots/predict2.085165335751715_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_2.0852.png
+Average MSE to Oracle       : 2.085165
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 2.085165335751715 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "matmul"]
+  2 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  9 [label = "add"]
+  0 -> 9 [color = red]
+  5 -> 9 [color = blue]
+  10 [label = "matmul"]
+  5 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  12 [label = "add"]
+  9 -> 12 [color = red]
+  1 -> 12 [color = blue]
+  15 [label = o0]
+  10 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  0 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00100 - Island 0 Best found in this generation: 1.7536844058985495
+Trajectory plot saved to: plots/predict1.3114177671283502_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.3114.png
+Average MSE to Oracle       : 1.311418
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.3114177671283502 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  5 -> 6
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  6 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00100 - Island 1 Best found in this generation: 1.1283647918723603
+Trajectory plot saved to: plots/predict1.5221065382207795_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.5221.png
+Average MSE to Oracle       : 1.522107
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.5221065382207795 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  5 -> 6
+  7 [label = "add"]
+  3 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "matmul"]
+  9 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  7 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00100 - Island 2 Best found in this generation: 1.7536844058985495
+Trajectory plot saved to: plots/predict1.7536844058985495_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.7537.png
+Average MSE to Oracle       : 1.753684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.7536844058985495 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  3 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "transpose"]
+  6 -> 7
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  13 [label = "minus"]
+  0 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  3 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  8 -> 18
+}
+
+Generation 00100 - Island 3 Best found in this generation: 1.7536844058985495
+Trajectory plot saved to: plots/predict1.7536844058985495_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.7537.png
+Average MSE to Oracle       : 1.753684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.7536844058985495 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  3 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "transpose"]
+  6 -> 7
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  13 [label = "minus"]
+  0 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  3 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  8 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00150 - Island 0 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.080571990879701_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0806.png
+Average MSE to Oracle       : 1.080572
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.080571990879701 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  8 [label = "add"]
+  1 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  1 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00150 - Island 1 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.0819055878892327_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0819.png
+Average MSE to Oracle       : 1.081906
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0819055878892327 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  6 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  1 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00150 - Island 2 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.080571990879701_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0806.png
+Average MSE to Oracle       : 1.080572
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.080571990879701 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  8 [label = "add"]
+  1 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  1 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00150 - Island 3 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict1.080571990879701_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0806.png
+Average MSE to Oracle       : 1.080572
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.080571990879701 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  1 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  1 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 0]
+Resetting Island 2 using best from Island 1
+Resetting Island 3 using best from Island 0
+Generation 00200 - Island 0 Best found in this generation: 1.0535048255156685
+Trajectory plot saved to: plots/predict1.0535048255156685_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0535.png
+Average MSE to Oracle       : 1.053505
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0535048255156685 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  8 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00200 - Island 1 Best found in this generation: 1.0535048255156685
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00200 - Island 2 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00200 - Island 3 Best found in this generation: 1.1310488837453037
+Trajectory plot saved to: plots/predict1.0535048255156685_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0535.png
+Average MSE to Oracle       : 1.053505
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0535048255156685 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  8 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00250 - Island 0 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00250 - Island 1 Best found in this generation: 1.9202251997400506
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00250 - Island 2 Best found in this generation: 1.0535048255156685
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00250 - Island 3 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [2, 0]
+Resetting Island 1 using best from Island 2
+Resetting Island 3 using best from Island 0
+Generation 00300 - Island 0 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00300 - Island 1 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0434694519680205_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0435.png
+Average MSE to Oracle       : 1.043469
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0434694519680205 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00300 - Island 2 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict1.0434694519680205_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0435.png
+Average MSE to Oracle       : 1.043469
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0434694519680205 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00300 - Island 3 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0446386213703007_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0446.png
+Average MSE to Oracle       : 1.044639
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0446386213703007 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "add"]
+  6 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  12 [label = "add"]
+  7 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00350 - Island 0 Best found in this generation: 1.0434694519680205
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00350 - Island 1 Best found in this generation: 1.0333968017553066
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00350 - Island 2 Best found in this generation: 1.0744450017313047
+Trajectory plot saved to: plots/predict1.0434694519680205_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0435.png
+Average MSE to Oracle       : 1.043469
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0434694519680205 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00350 - Island 3 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0434694519680205_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0435.png
+Average MSE to Oracle       : 1.043469
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0434694519680205 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  5 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "matmul"]
+  1 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  8 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00400 - Island 0 Best found in this generation: 1.0333968017553066
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00400 - Island 1 Best found in this generation: 1.0535048255156685
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00400 - Island 2 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00400 - Island 3 Best found in this generation: 1.1039906180369945
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00450 - Island 0 Best found in this generation: 1.0333968017553066
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00450 - Island 1 Best found in this generation: 1.0388616532078545
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00450 - Island 2 Best found in this generation: 1.0434694519680205
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00450 - Island 3 Best found in this generation: 1.0585111255838644
+Trajectory plot saved to: plots/predict1.0333968017553066_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0334.png
+Average MSE to Oracle       : 1.033397
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0333968017553066 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  2 -> 7 [color = blue]
+  8 [label = "matmul"]
+  7 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 2]
+Resetting Island 1 using best from Island 0
+Resetting Island 3 using best from Island 2
+Generation 00500 - Island 0 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00500 - Island 1 Best found in this generation: 1.0333968017553066
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00500 - Island 2 Best found in this generation: 1.1283647918723603
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00500 - Island 3 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00550 - Island 0 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00550 - Island 1 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00550 - Island 2 Best found in this generation: 1.0519282734277609
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00550 - Island 3 Best found in this generation: 1.1870348342702628
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00600 - Island 0 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00600 - Island 1 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00600 - Island 2 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00600 - Island 3 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00650 - Island 0 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00650 - Island 1 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00650 - Island 2 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00650 - Island 3 Best found in this generation: 1.2550894251253444
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 0]
+Resetting Island 2 using best from Island 1
+Resetting Island 3 using best from Island 0
+Generation 00700 - Island 0 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00700 - Island 1 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00700 - Island 2 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00700 - Island 3 Best found in this generation: 1.1003366529829914
+Trajectory plot saved to: plots/predict1.0289560872557526_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0290.png
+Average MSE to Oracle       : 1.028956
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.0289560872557526 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  7 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  1 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 2]
+Resetting Island 0 using best from Island 1
+Resetting Island 3 using best from Island 2
+Generation 00750 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00750 - Island 1 Best found in this generation: 1.2747371676567005
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00750 - Island 2 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00750 - Island 3 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00800 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00800 - Island 1 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00800 - Island 2 Best found in this generation: 1.0289560872557526
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00800 - Island 3 Best found in this generation: 1.1768017422432928
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00850 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00850 - Island 1 Best found in this generation: 1.0446386213703007
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00850 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00850 - Island 3 Best found in this generation: 1.1283647918723603
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00900 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00900 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00900 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00900 - Island 3 Best found in this generation: 2.0881241496017084
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00950 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00950 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00950 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 00950 - Island 3 Best found in this generation: 2.0878794298096257
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01000 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01000 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01000 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01000 - Island 3 Best found in this generation: 1.5790039645094462
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01050 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01050 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01050 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01050 - Island 3 Best found in this generation: 1.2134755427525596
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01100 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01100 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01100 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01100 - Island 3 Best found in this generation: 1.080571990879701
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 01150 - Island 0 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 0 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01150 - Island 1 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 1 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01150 - Island 2 Best found in this generation: 1.025683775944499
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 2 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  11 [label = "add"]
+  8 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = "add"]
+  11 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
+Generation 01150 - Island 3 Best found in this generation: 1.2134755427525377
+Trajectory plot saved to: plots/predict1.025683775944499_vs_kalman.png
+Filtered loss plot saved to: losses/loss_over_time_kalman_loss_1.0257.png
+Average MSE to Oracle       : 1.025684
+Average MSE to Kalman Filter: 5.242949
+Average MSE (xp vs x_true)  : 2.088124
+Island 3 BEST SO FAR: 1.025683775944499 DISTANCE FROM KALMAN FILTER : 5.242948562385254 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  1 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  8 [label = "transpose"]
+  1 -> 8
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "add"]
+  8 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  12 [label = "add"]
+  10 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = "minus"]
+  9 -> 13 [color = red]
+  4 -> 13 [color = blue]
+  15 [label = o0]
+  4 -> 15
+  16 [label = o1]
+  5 -> 16
+  17 [label = o2]
+  13 -> 17
+  18 [label = o3]
+  12 -> 18
+}
+
