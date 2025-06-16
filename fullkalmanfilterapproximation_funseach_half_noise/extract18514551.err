@@ -1,0 +1,342 @@
+/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation_funseach_half_noise/extract.py:78: RuntimeWarning: overflow encountered in square
+  squared_errors.append(np.sum((x_true - x_est_apx)**2))
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:9: RuntimeWarning: invalid value encountered in matmul
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:10: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: invalid value encountered in sqrt
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: invalid value encountered in sqrt
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: invalid value encountered in sqrt
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:8: RuntimeWarning: overflow encountered in square
+<string>:10: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:9: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:11: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:6: RuntimeWarning: overflow encountered in square
+<string>:11: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:7: RuntimeWarning: overflow encountered in square
+<string>:12: RuntimeWarning: invalid value encountered in matmul
+<string>:13: RuntimeWarning: invalid value encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul
+<string>:12: RuntimeWarning: overflow encountered in matmul
+<string>:13: RuntimeWarning: overflow encountered in matmul

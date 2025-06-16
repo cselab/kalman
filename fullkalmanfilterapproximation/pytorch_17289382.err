@@ -1,0 +1,4 @@
+srun: got SIGCONT
+slurmstepd: error: *** STEP 17289382.0 ON holygpu8a16502 CANCELLED AT 2025-05-28T18:21:32 ***
+slurmstepd: error: *** JOB 17289382 ON holygpu8a16502 CANCELLED AT 2025-05-28T18:21:32 ***
+srun: forcing job termination

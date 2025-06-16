@@ -1,0 +1,19 @@
+digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  5 [label = "matmul"]
+  2 -> 5 [color = red]
+  1 -> 5 [color = blue]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  8 [label = "add"]
+  3 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  9 [label = o0]
+  6 -> 9
+  10 [label = o1]
+  8 -> 10
+}

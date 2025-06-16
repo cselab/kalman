@@ -1,0 +1,70 @@
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:28<00:28, 28.06s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:28<00:28, 28.07s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:28<00:28, 28.07s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:28<00:28, 28.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 24.79s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 25.28s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 24.79s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 25.28s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 24.81s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 25.30s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 24.81s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 25.30s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:112: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:115: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:111: RuntimeWarning: invalid value encountered in matmul
+  K = (P @ H.T) @ np.linalg.inv(S)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:112: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:115: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:111: RuntimeWarning: invalid value encountered in matmul
+  K = (P @ H.T) @ np.linalg.inv(S)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:112: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:112: RuntimeWarning: overflow encountered in add
+  xx = xp + (K @ y)
+<string>:11: RuntimeWarning: invalid value encountered in subtract
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:115: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+<string>:4: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py:111: RuntimeWarning: invalid value encountered in matmul
+  K = (P @ H.T) @ np.linalg.inv(S)
+<string>:5: RuntimeWarning: invalid value encountered in matmul
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 13355496 ON holygpu8a16201 CANCELLED AT 2025-05-01T11:33:31 ***
+srun: forcing job termination
+slurmstepd: error: *** STEP 13355496.0 ON holygpu8a16201 CANCELLED AT 2025-05-01T11:33:31 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

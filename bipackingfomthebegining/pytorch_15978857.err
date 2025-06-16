@@ -1,0 +1,4 @@
+  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 41
+    for step in range(iterations): 
+IndentationError: unexpected indent
+srun: error: holygpu8a16202: task 0: Exited with exit code 1

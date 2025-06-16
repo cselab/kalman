@@ -1,0 +1,1020 @@
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.88s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.38s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.39s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.40s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.55s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.82s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.83s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.48s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.81s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.82s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.93s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:5: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:4: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:4: RuntimeWarning: overflow encountered in add
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:2: RuntimeWarning: overflow encountered in add
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.38s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.44s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.58s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.77s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.91s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.43s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.51s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.58s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.70s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.80s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.81s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.81s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.96s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.43s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.69s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.43s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.43s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.78s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.79s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.96s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.40s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.82s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.83s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.41s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.34s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.38s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.40s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.69s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.75s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.81s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.82s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.96s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:4: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:2: RuntimeWarning: overflow encountered in add
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.46s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.59s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.44s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.80s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.80s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.94s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.36s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.43s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.49s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.77s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.83s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.92s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.61s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.44s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.80s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.80s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.96s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.87s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/memory.py:169: RuntimeWarning: divide by zero encountered in scalar divide
+  inv_scores = [1.0 / score for score in scores]
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/memory.py:157: RuntimeWarning: invalid value encountered in subtract
+  e_x = np.exp((x - np.max(x)) / temperature)
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 42, in inference_worker
+    prompt = mem.sample_batch(20)
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/memory.py", line 209, in sample_batch
+    batch.append(self.create_prompt())
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/memory.py", line 79, in create_prompt
+    samples = self.sample_softmax_inv(num_samples=20)
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/memory.py", line 175, in sample_softmax_inv
+    indices = np.random.choice(len(actual_entries), size=num_samples, replace=True, p=probs)
+  File "numpy/random/mtrand.pyx", line 994, in numpy.random.mtrand.RandomState.choice
+ValueError: probabilities contain NaN
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 146, in <module>
+    mp.set_start_method("spawn", force=True)
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 97, in main
+    with Pool(processes=args.num_threads) as pool:
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: probabilities contain NaN
+srun: error: holygpu8a16203: task 0: Exited with exit code 1

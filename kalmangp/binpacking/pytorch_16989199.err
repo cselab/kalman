@@ -1,0 +1,14 @@
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.62s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 16989199.0 ON holygpu8a16601 CANCELLED AT 2025-05-25T20:18:52 ***
+slurmstepd: error: *** JOB 16989199 ON holygpu8a16601 CANCELLED AT 2025-05-25T20:18:52 ***
+srun: forcing job termination

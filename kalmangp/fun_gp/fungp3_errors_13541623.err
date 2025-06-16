@@ -1,0 +1,1683 @@
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/fun_gp/fungp3.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+slurmstepd: error: *** JOB 13541623 ON holy8a14105 CANCELLED AT 2025-05-05T15:34:43 DUE TO TIME LIMIT ***

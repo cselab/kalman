@@ -1,0 +1,6 @@
+<string>:6: RuntimeWarning: overflow encountered in exp
+<string>:6: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation_funseach_delayed_observations/extract.py:89: RuntimeWarning: overflow encountered in square
+  pred_errors.append(np.sum((x_true - xp) ** 2))
+/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation_funseach_delayed_observations/extract.py:90: RuntimeWarning: overflow encountered in square
+  squared_errors.append(np.sum((x_true - x_est_apx) ** 2))

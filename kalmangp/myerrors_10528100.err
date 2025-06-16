@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py", line 257, in <module>
+    pathlib.Path("Images5/split2.forward"+str(generated_examples_counter)+".gv").write_text(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/pathlib.py", line 1285, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/pathlib.py", line 1252, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/pathlib.py", line 1120, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Images5/split2.forward0.gv'

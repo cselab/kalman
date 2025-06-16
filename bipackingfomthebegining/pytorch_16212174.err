@@ -1,0 +1,30 @@
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:20<01:02, 20.71s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:39<00:39, 19.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:58<00:19, 19.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:05<00:00, 14.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:05<00:00, 16.39s/it]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 39, in inference_worker
+    sys.stdout.write(f"[Process {thread_id}] started on GPU {gpu_id}, running {iterations} iterations...")
+NameError: name 'sys' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 166, in <module>
+    main()
+  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 117, in main
+    results = pool.map(inference_worker, args_list)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+NameError: name 'sys' is not defined
+srun: error: holygpu8a16103: task 0: Exited with exit code 1

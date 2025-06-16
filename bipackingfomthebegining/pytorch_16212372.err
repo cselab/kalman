@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 10, in <module>
+    import ys
+ModuleNotFoundError: No module named 'ys'
+srun: error: holygpu8a18104: task 0: Exited with exit code 1

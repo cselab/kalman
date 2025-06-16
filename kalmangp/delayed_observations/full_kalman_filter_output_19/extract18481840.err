@@ -1,0 +1,6 @@
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter_output_19/extract.py:13: RuntimeWarning: overflow encountered in matmul
+  def matmul(inp, args): return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter_output_19/extract.py:13: RuntimeWarning: invalid value encountered in matmul
+  def matmul(inp, args): return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/kalmangp/delayed_observations/full_kalman_filter_output_19/extract.py:206: RuntimeWarning: invalid value encountered in scalar multiply
+  return alpha * np.mean(squared_errors) + (1 - alpha) * np.mean(pred_errors)

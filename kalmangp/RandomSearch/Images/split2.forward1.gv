@@ -1,0 +1,16 @@
+digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = "add"]
+  2 -> 4 [color = red]
+  1 -> 4 [color = blue]
+  5 [label = "add"]
+  1 -> 5 [color = red]
+  4 -> 5 [color = blue]
+  9 [label = o0]
+  0 -> 9
+  10 [label = o1]
+  5 -> 10
+}

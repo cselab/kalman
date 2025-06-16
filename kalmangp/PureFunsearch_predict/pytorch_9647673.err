@@ -1,0 +1,285 @@
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:07<01:37,  7.50s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:07<01:37,  7.50s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:07<01:37,  7.51s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:07<01:37,  7.52s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:10<00:55,  4.60s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:10<00:56,  4.69s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:10<00:56,  4.71s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:10<00:57,  4.77s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:12<00:40,  3.70s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:12<00:40,  3.70s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:12<00:40,  3.72s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:12<00:40,  3.71s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:15<00:34,  3.40s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:15<00:34,  3.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:15<00:34,  3.42s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:15<00:34,  3.44s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:18<00:27,  3.02s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:18<00:27,  3.07s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:18<00:27,  3.07s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:18<00:27,  3.08s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:20<00:22,  2.79s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:20<00:22,  2.85s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:20<00:22,  2.85s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:20<00:22,  2.86s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:22<00:18,  2.65s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:23<00:18,  2.70s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:23<00:18,  2.71s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:23<00:19,  2.72s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:25<00:15,  2.56s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:25<00:15,  2.61s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:25<00:15,  2.62s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:25<00:15,  2.62s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:27<00:12,  2.50s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:27<00:12,  2.55s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:27<00:12,  2.56s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:27<00:12,  2.56s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:29<00:09,  2.46s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:30<00:10,  2.51s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:30<00:10,  2.52s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:30<00:10,  2.52s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:32<00:07,  2.43s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:32<00:07,  2.46s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:32<00:07,  2.49s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:32<00:07,  2.50s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:34<00:04,  2.41s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:35<00:04,  2.43s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:35<00:04,  2.48s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:35<00:04,  2.49s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:36<00:02,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:37<00:02,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:37<00:02,  2.46s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:37<00:02,  2.48s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.01s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.72s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.75s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.76s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.08s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:38<00:00,  2.78s/it]
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+<string>:3: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+<string>:2: RuntimeWarning: overflow encountered in matmul
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+<string>:2: RuntimeWarning: overflow encountered in matmul
+<string>:2: RuntimeWarning: overflow encountered in matmul
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.47s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.48s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.48s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:34,  2.67s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.45s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.46s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:05<00:30,  2.50s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:05<00:31,  2.60s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:26,  2.42s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:26,  2.44s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.53s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.40s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.41s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:10<00:25,  2.50s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.40s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.40s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.44s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.49s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.39s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.39s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.43s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:15<00:19,  2.48s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.39s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.43s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:17,  2.47s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.39s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.39s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.43s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.46s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.38s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.39s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.43s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:22<00:12,  2.46s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:23<00:09,  2.38s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:23<00:09,  2.38s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.43s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.46s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.38s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.43s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:27<00:07,  2.47s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.38s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.38s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.43s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.47s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.37s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.37s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.43s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  1.99s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.30s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  1.99s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.30s/it]
+Loading checkpoint shards:  93%|█████████▎| 13/14 [00:32<00:02,  2.47s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.04s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.34s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:33<00:00,  2.07s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:33<00:00,  2.39s/it]
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in matmul
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:31,  2.45s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.47s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.47s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:33,  2.61s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.47s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.48s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.48s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:05<00:30,  2.52s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:26,  2.44s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:26,  2.45s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:26,  2.45s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.47s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.42s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.42s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.43s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.44s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.41s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.41s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.42s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.41s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.41s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.41s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.42s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:16<00:16,  2.39s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.39s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.40s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.39s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.38s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.41s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.39s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.41s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.40s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.39s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:28<00:04,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.41s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.40s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.01s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:112: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.47s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.47s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.48s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:33,  2.61s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.48s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.49s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:30,  2.50s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:05<00:30,  2.53s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.43s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.43s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.45s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.45s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.46s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.42s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.43s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.43s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.45s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.40s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.42s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.42s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:17,  2.44s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.41s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.44s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.40s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.41s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.41s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:22<00:12,  2.44s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.39s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.39s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.44s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.40s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.44s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.39s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.39s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.45s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.39s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.39s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.39s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.44s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.01s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.35s/it]
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:125: RuntimeWarning: overflow encountered in matmul
+  if diff @ diff.T < 0:
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:127: RuntimeWarning: overflow encountered in matmul
+  mse_true_trajectory += (diff @ diff.T) / 1000.0
+<string>:2: RuntimeWarning: overflow encountered in add
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/evaluate.py:109: RuntimeWarning: invalid value encountered in matmul
+  y = z - (H @ xp)
+<string>:2: RuntimeWarning: invalid value encountered in matmul
+<string>:2: RuntimeWarning: overflow encountered in matmul
+<string>:2: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/14 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.49s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.51s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:32,  2.51s/it]Loading checkpoint shards:   7%|▋         | 1/14 [00:02<00:34,  2.67s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.50s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.50s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:04<00:29,  2.50s/it]Loading checkpoint shards:  14%|█▍        | 2/14 [00:05<00:30,  2.55s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.46s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.47s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.48s/it]Loading checkpoint shards:  21%|██▏       | 3/14 [00:07<00:27,  2.47s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.45s/it]Loading checkpoint shards:  29%|██▊       | 4/14 [00:09<00:24,  2.43s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.45s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.44s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:21,  2.43s/it]Loading checkpoint shards:  36%|███▌      | 5/14 [00:12<00:22,  2.45s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.43s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.44s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.44s/it]Loading checkpoint shards:  43%|████▎     | 6/14 [00:14<00:19,  2.45s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.41s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:16,  2.43s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:17,  2.43s/it]Loading checkpoint shards:  50%|█████     | 7/14 [00:17<00:17,  2.45s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.40s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.41s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.41s/it]Loading checkpoint shards:  57%|█████▋    | 8/14 [00:19<00:14,  2.44s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:11,  2.40s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.40s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:21<00:12,  2.40s/it]Loading checkpoint shards:  64%|██████▍   | 9/14 [00:22<00:12,  2.44s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.40s/it]Loading checkpoint shards:  71%|███████▏  | 10/14 [00:24<00:09,  2.43s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.39s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.40s/it]Loading checkpoint shards:  79%|███████▊  | 11/14 [00:26<00:07,  2.43s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.40s/it]Loading checkpoint shards:  86%|████████▌ | 12/14 [00:29<00:04,  2.43s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.39s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.39s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.40s/it]Loading checkpoint shards:  93%|█████████▎| 13/14 [00:31<00:02,  2.44s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.32s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.01s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.33s/it]
+Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 14/14 [00:32<00:00,  2.35s/it]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 50, in inference_worker
+    outputs = model.generate(**inputs, max_length=5024)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/generation/utils.py", line 2223, in generate
+    result = self._sample(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/generation/utils.py", line 3214, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 856, in forward
+    outputs = self.model(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 579, in forward
+    layer_outputs = decoder_layer(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 260, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 192, in forward
+    attn_output, attn_weights = attention_interface(
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/integrations/sdpa_attention.py", line 31, in sdpa_attention_forward
+    value = repeat_kv(value, module.num_key_value_groups)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/integrations/sdpa_attention.py", line 15, in repeat_kv
+    return hidden_states.reshape(batch, num_key_value_heads * n_rep, slen, head_dim)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.73 GiB. GPU 2 has a total capacity of 79.21 GiB of which 1.52 GiB is free. Including non-PyTorch memory, this process has 77.67 GiB memory in use. Of the allocated memory 64.03 GiB is allocated by PyTorch, and 12.98 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 142, in <module>
+    
+  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch/funsearch.py", line 93, in main
+    (i, memories[i], model_name, cache_dir, i % num_gpus, args.iterations)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.73 GiB. GPU 2 has a total capacity of 79.21 GiB of which 1.52 GiB is free. Including non-PyTorch memory, this process has 77.67 GiB memory in use. Of the allocated memory 64.03 GiB is allocated by PyTorch, and 12.98 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/resource_tracker.py:229: UserWarning: resource_tracker: '/mp-ud6poxnb': [Errno 2] No such file or directory
+  warnings.warn('resource_tracker: %r: %s' % (name, e))
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/resource_tracker.py:229: UserWarning: resource_tracker: '/mp-zrm2k3w2': [Errno 2] No such file or directory
+  warnings.warn('resource_tracker: %r: %s' % (name, e))
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/resource_tracker.py:229: UserWarning: resource_tracker: '/mp-nvrarrhl': [Errno 2] No such file or directory
+  warnings.warn('resource_tracker: %r: %s' % (name, e))
+srun: error: holygpu8a16204: task 0: Exited with exit code 1
