@@ -1216,3 +1216,5 @@
   return inp[0] - inp[1]
 /n/home10/vsaketos/wavegp/kalmangp/all_in_one/full_kalman_filter.py:20: RuntimeWarning: overflow encountered in subtract
   return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)

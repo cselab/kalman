@@ -1,0 +1,7422 @@
+MSE: 1.1180493160255696
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+MSE: 1.1180493160255696
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process 0] in save_batch
+[Process 0] total_matches: 234
+[Process 0] before evaluate_graphs
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e - d
+    i = f + 1
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = e + b
+    i = d - f
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ 2
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.eye_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e * f
+    i = d + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - f
+    i = d + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e + f
+    i = d * a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - f
+    i = d + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e + f
+    i = d * a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - f
+    i = d + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c * np.cos(d)
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sum(b)
+    h = e * c
+    i = d + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = f - c
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - f
+    i = d * c
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = e + d
+    i = f - b
+    j = np.max(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * c
+    i = d + f
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = e + d
+    i = f - b
+    j = np.max(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e - d
+    i = c + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.eye_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b.T
+    h = e - a.T
+    i = d + f.T
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - a @ d
+    i = f + g
+    j = np.eye(a.shape[0])
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b.T
+    h = e - a.T
+    i = d + f.T
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.eye_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(b)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - f
+    i = d + a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5 + b
+    h = e - c
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5 + b
+    h = e - d
+    i = f + c
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - f
+    i = d + a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5 + b * c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c - d
+    i = e * f
+    j = a + c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c - d
+    i = e * f
+    j = a + c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = a @ b
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.zeros_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d * g
+    j = np.eye_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a @ b
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.ones_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.zeros_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d * g
+    j = np.eye_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a @ b
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.ones_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.zeros_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, h, i, j, k, np.zeros_like(a)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = np.exp(c) - d
+    i = e * f
+    j = a @ b.T
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - c
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = f * c
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = e - b
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f * a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = e - b
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f * a
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.eye_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, h, i, j, k, e
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a * e
+    k = b + c
+    return g, h, i, j, k, d
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = b * d
+    k = c + e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d / e
+    i = f - a
+    j = b + d
+    k = c * e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e * f
+    i = a * e
+    j = b + c
+    k = d / e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * (b + c)
+    h = d - e
+    i = f + a
+    j = b * d
+    k = c + e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e * f
+    i = a * e
+    j = b + c
+    k = d / e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * (b + c)
+    h = d - e
+    i = f + a
+    j = b * d
+    k = c + e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e * f
+    i = a * e
+    j = b + c
+    k = d / e
+    return g, h, i, j, k, f
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e / (a + 1)
+    i = d + f * 3
+    j = np.zeros_like(c)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e + d
+    i = f - a
+    j = np.dot(a, b)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.mean(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.max(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.min(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c + f
+    j = np.sum(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.prod(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c + f
+    j = np.std(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.var(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c + f
+    j = np.median(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.mean(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = f + g
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = f + g
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = f + g
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = np.dot(c, d)
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c * d + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = b + c
+    k = d * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e + f
+    i = a + b
+    j = c * d
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d + e
+    i = f - a
+    j = b * c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a - b
+    k = c * d + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + a
+    j = b + c
+    k = d * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d + e
+    i = f - a
+    j = b * c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, h, i, j, k, np.zeros_like(a)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d * e
+    i = f - a
+    j = np.sum(a, axis=0)
+    k = b + c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(b)
+    i = d + f * np.log(c)
+    j = a * b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = np.dot(a, b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a * c
+    k = b + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = a * d
+    k = b + c
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a + d
+    j = b * c
+    k = e - f
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e * f
+    i = a * d + b
+    j = c + d
+    k = e - f
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * (b + c)
+    h = d - e
+    i = f + g
+    j = a + d
+    k = b + c
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d + e * f
+    i = a - d
+    j = b + c
+    k = e - f
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a + d
+    j = b * c
+    k = e - f
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e * f
+    i = a * d + b
+    j = c + d
+    k = e - f
+    return (g, c, h, i, j, k)
+score: inf
+[Process 0] after evaluate_graphs
+[Process 0] step=0, generation took 99.04s 
+[Process 0] best score so far: None, content:
+None 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process 0] in save_batch
+[Process 0] total_matches: 234
+[Process 0] before evaluate_graphs
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = a * b
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + d
+    i = f - c
+    j = np.mean(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e - f
+    i = d * 2
+    j = np.max(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = e + c
+    i = d - f
+    j = np.min(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = f * 2
+    j = np.sum(a)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 4
+    h = e + c
+    i = d - f
+    j = np.mean(b)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e - d
+    i = f * 3
+    j = np.max(b)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 5
+    h = e + c
+    i = d - f
+    j = np.min(b)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.sum(b)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 6
+    h = e + c
+    i = d - f
+    j = np.mean(c)
+    k = g + h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e / f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e / f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e / f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d * f
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - a
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d + a
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - c
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d * f
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - c
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = e * np.cos(c)
+    i = d + np.log(f + 1)
+    j = np.sqrt(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.mean(a, axis=0)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * g
+    j = np.max(a, axis=1)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.min(a, axis=0)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * g
+    j = np.mean(a, axis=1)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.max(a, axis=0)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * g
+    j = np.min(a, axis=1)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.mean(a, axis=0)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * g
+    j = np.max(a, axis=0)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.min(a, axis=1)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * g
+    j = np.mean(a, axis=1)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e - d
+    i = c + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = e - a
+    i = d + f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 4
+    h = e - d
+    i = c + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 5
+    h = e - d
+    i = c + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 4
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 6
+    h = e - d
+    i = c + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 5
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 7
+    h = e - d
+    i = c + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 6
+    h = e - a
+    i = d + f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * a
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = e + b
+    i = d - f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e * d
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - d
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c + b
+    h = e + d
+    i = f - a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e * d + f
+    i = a - d
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - d + f
+    i = a + d
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = np.dot(c, d)
+    i = e - f
+    j = np.mean(a)
+    k = np.std(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - a
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d * f
+    j = a @ b
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - g
+    j = np.zeros_like(c)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e * f
+    i = d / a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * e
+    h = b + f
+    i = d - c
+    j = np.ones_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.zeros_like(b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - g
+    j = np.eye_like(c)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e * f
+    i = d / a
+    j = np.ones_like(b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * e
+    h = b + f
+    i = d - c
+    j = np.zeros_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.eye_like(b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - g
+    j = np.ones_like(c)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * c
+    i = d - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sum(b)
+    h = e * np.mean(a)
+    i = d / np.std(f)
+    j = a @ b
+    k = c + np.log(d)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.zeros_like(g)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sum(b)
+    h = e * c
+    i = d / f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a)
+    h = b + c
+    i = d * e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.max(a)
+    h = b * c
+    i = d + e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.ones_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a, axis=0)
+    h = b + c
+    i = d * e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.max(a)
+    h = b * c
+    i = d + e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.ones_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a)
+    h = b + c
+    i = d * e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = b + c
+    i = d - e
+    j = f * g
+    k = h + i
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = b + c
+    i = d - e
+    j = f * g
+    k = h + i
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = b + c
+    i = d - e
+    j = f * g
+    k = h + i
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = b + c
+    i = d - e
+    j = f * g
+    k = h + i
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c + d
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = b + c
+    i = d - e
+    j = f * g
+    k = h + i
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(b)
+    i = d + f * np.log(a + 1)
+    j = np.max(c)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - d
+    i = f + np.sqrt(a)
+    j = np.mean(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.exp(a)
+    h = b * np.log(e)
+    i = d + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = f * np.sqrt(a)
+    j = np.std(c)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = f - np.log(a)
+    j = np.sum(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.cos(a)
+    h = e - d * np.sin(b)
+    i = f + np.sqrt(a)
+    j = np.max(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = f - np.log(a)
+    j = np.mean(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(b)
+    i = d + f * np.log(a + 1)
+    j = np.std(c)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - d
+    i = f + np.sqrt(a)
+    j = np.sum(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.cos(a)
+    h = e - d * np.sin(b)
+    i = f + np.log(a + 1)
+    j = np.max(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + g
+    j = a @ b
+    k = c + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + a
+    j = np.dot(b, c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.zeros_like(b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d / e
+    i = f - a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = d * e - f
+    i = a / b + c
+    j = np.ones_like(d)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e * f
+    i = a / b + d
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + a
+    j = np.ones_like(b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a - b
+    j = c * d
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e + f
+    i = a * d
+    j = b + c
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a - b
+    j = c * d
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e + f
+    i = a * d
+    j = b + c
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a - b
+    j = c * d
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e + f
+    i = a * d
+    j = b + c
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d + e - f
+    i = a - b
+    j = c * d
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f * a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f * a
+    j = np.eye_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.ones_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = np.eye_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f * a
+    j = np.ones_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = a @ b
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = e - d
+    i = f * a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e / f
+    i = d + e
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - f
+    i = d * a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = f * a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e / f
+    i = d + e
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = e - d
+    i = f * a
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+[Process 0] after evaluate_graphs
+[Process 0] step=1, generation took 103.10s 
+[Process 0] best score so far: None, content:
+None 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process 0] in save_batch
+[Process 0] total_matches: 270
+[Process 0] before evaluate_graphs
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = f + g
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = g + h
+    k = i * j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = g + h
+    k = i * j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = g * h
+    k = i + j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = f + g
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b * d
+    i = e - f
+    j = g + h
+    k = i * j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = g + h
+    k = i * j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sum(b)
+    h = e * np.mean(c)
+    i = d + np.sqrt(f)
+    j = np.exp(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c / d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b * d
+    i = e - f
+    j = a * b
+    k = c + d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = a + b
+    k = c * d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * c
+    k = b + d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c + d
+    i = e * f
+    j = a + c
+    k = b - d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c - d
+    i = e + f
+    j = a + c
+    k = b * d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b - d
+    i = e * f
+    j = a * b
+    k = c + d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = a + b
+    k = c * d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * c
+    k = b * d
+    return g, h, i, j, k, i
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + g
+    j = np.ones_like(a)
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.eye_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + g
+    j = np.ones_like(a)
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.eye_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a * b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + d
+    i = c - f
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.sin(g) * 2
+    k = g / (h + 1)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = d - c
+    j = a * b
+    k = e + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e / f
+    i = d + c
+    j = a * e
+    k = b + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e - f
+    i = d * c
+    j = a + e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a / b
+    h = e + f
+    i = d - c
+    j = a * d
+    k = b + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f / c
+    j = a * e
+    k = b + f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e / d
+    i = f - c
+    j = a + e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d * c
+    j = a * e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c + b
+    h = e / d
+    i = f - c
+    j = a + e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d * c
+    j = a * e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c + b
+    h = e / d
+    i = f - c
+    j = a + e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = e * np.cos(c)
+    i = d + np.log(f + 1e-8)
+    j = a * b
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = a + b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g * h
+    return (g, c, h, i, j, k)
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e / a
+    i = d - f
+    j = np.max(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e * f
+    i = d + c
+    j = np.mean(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e - f
+    i = d + g
+    j = np.sqrt(a)
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.log(a)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + d
+    i = c - f
+    j = np.sin(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e * f
+    i = d + c
+    j = np.cos(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - d
+    i = c * f
+    j = np.exp(a)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e / a
+    i = d - f
+    j = np.max(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = e * f
+    i = d + c
+    j = np.mean(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(c)
+    h = e - d * np.cos(f)
+    i = (a + e) / (b + f)
+    j = np.sqrt(a * b + c * d)
+    k = g + h * i - j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = d - a
+    j = c + g
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e - d
+    i = f + a
+    j = b * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + f
+    i = d - a
+    j = c + g
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + f
+    i = d - a
+    j = c + g
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b - c
+    h = e - d
+    i = f + a
+    j = b * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + f
+    i = d - a
+    j = c + g
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + f
+    i = d - a
+    j = c + g
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f * g
+    j = np.eye_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = np.ones_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f * g
+    j = np.eye_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = np.ones_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = a - b
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a + c
+    k = b * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a - c
+    k = b * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a + c
+    k = b * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a - c
+    k = b * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a * c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c * d
+    i = e + f
+    j = a + c
+    k = b * e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d * f
+    j = a + e
+    k = b - f
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + d
+    i = b - c
+    j = f * 3
+    k = a + e
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = d - e
+    i = f * 2
+    j = a - b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3
+    h = e + f
+    i = d - b
+    j = c * 2
+    k = a + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + e
+    h = b - c
+    i = d * 3
+    j = f + e
+    k = a - b
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2 + b
+    h = e - d
+    i = c + f
+    j = a + e
+    k = b - c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + e
+    h = d - c
+    i = f * 2
+    j = a - e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 3 + b
+    h = e - d
+    i = c + f
+    j = a + e
+    k = b - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + e
+    h = d - c
+    i = f * 2
+    j = a - e
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2 + b
+    h = e - d
+    i = c + f
+    j = a + e
+    k = b - c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = np.zeros_like(g)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e * f
+    j = np.ones_like(g)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f + g
+    j = np.eye_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = np.zeros_like(g)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e * f
+    j = np.ones_like(g)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = d - e
+    i = f + g
+    j = np.eye_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = np.zeros_like(g)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e * f
+    j = np.ones_like(g)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e - c * np.cos(d)
+    i = d + f * np.log(e + 1)
+    j = np.exp(a) + b
+    k = g * h + i * j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(b)
+    i = d + f * np.log(c + 1)
+    j = np.maximum(a, c)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = a * b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b - d
+    i = e + f
+    j = a * b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + c
+    h = b - d
+    i = e + f
+    j = a * b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a * c
+    k = b + d
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = f * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * d
+    h = b + e
+    i = c - f
+    j = a + b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * e
+    i = d - f
+    j = a * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = f * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * d
+    h = b + e
+    i = c - f
+    j = a + b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * e
+    i = d - f
+    j = a * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - a
+    j = f * c
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = np.max(a)
+    k = np.min(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c / d
+    i = e * f
+    j = np.mean(a)
+    k = np.mean(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = np.sum(a)
+    k = np.sum(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.sqrt(a)
+    k = np.sqrt(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a / b
+    h = c * d
+    i = e + f
+    j = np.log(a)
+    k = np.log(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = d - e
+    i = f * g
+    j = np.mean(a)
+    k = np.mean(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = d + e
+    i = f - g
+    j = np.max(a)
+    k = np.max(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a / b + c
+    h = d - e
+    i = f * g
+    j = np.min(a)
+    k = np.min(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * c
+    h = b + d
+    i = e - f
+    j = np.sum(a)
+    k = np.sum(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d / e
+    i = f - g
+    j = np.mean(a)
+    k = np.mean(b)
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e * f
+    i = d - a
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - d
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = e - d
+    i = f * a
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + f
+    i = d - a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5 + b
+    h = e + f
+    i = d - a
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = e * f
+    i = d - a
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - d
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * g
+    j = a @ b
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + g
+    j = np.zeros_like(c)
+    k = h * i
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = g * h
+    k = i + j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c + d
+    i = e - f
+    j = g * h
+    k = i + j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = h * i
+    k = j + c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + g
+    j = h * i
+    k = j + c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = g * h
+    k = i + j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c + d
+    i = e - f
+    j = g * h
+    k = i + j
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + g
+    j = h * i
+    k = j + c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f + g
+    j = h * i
+    k = j + c
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.eye_like(a)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(a)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - c
+    i = d + f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.zeros_like(a)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - a
+    i = d + f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.eye_like(a)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.ones_like(a)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * c
+    i = d + f
+    j = a * b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+[Process 0] after evaluate_graphs
+[Process 0] step=2, generation took 102.68s 
+[Process 0] best score so far: None, content:
+None 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized

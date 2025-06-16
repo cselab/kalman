@@ -1,0 +1,953 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 374[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 506.97s 
+[Process 0] best score so far: 6.5306122448979655, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(np.abs(np.sin(np.pi * item / bins)))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 354[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 503.16s 
+[Process 0] best score so far: 6.5306122448979655, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(np.abs(np.sin(np.pi * item / bins)))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 278[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 425.18s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 371[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 503.02s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 328[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 501.61s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 380[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 501.14s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 381[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 501.40s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 410[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 501.56s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 348[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 502.81s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 368[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 500.21s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 6.122448979591836
+
+[Main] Sorted memory_infos (score, thread_idx):
+  6.122448979591836, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 6.122448979591836
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 1 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 481[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 501.00s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 351[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 499.25s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 393[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 499.23s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 442[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 500.57s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 364[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 499.92s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 402[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 499.97s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 449[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 501.24s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 404[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 502.09s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 339[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 501.67s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 369[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 501.37s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 6.122448979591836
+
+[Main] Sorted memory_infos (score, thread_idx):
+  6.122448979591836, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 6.122448979591836
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 2 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 347[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 502.74s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 365[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 500.44s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 397[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 501.27s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 374[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 500.97s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 460[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 502.02s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 420[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 499.51s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 360[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 494.65s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 337[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 499.59s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 351[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 495.67s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 401[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 499.14s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 6.122448979591836
+
+[Main] Sorted memory_infos (score, thread_idx):
+  6.122448979591836, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 6.122448979591836
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 3 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 364[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 497.17s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 347[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 492.03s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 358[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 495.65s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 335[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 496.33s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 384[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 491.81s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 383[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 492.81s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 346[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 492.23s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 315[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 492.60s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 371[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 492.62s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 321[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 477.29s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 6.020408163265312
+
+[Main] Sorted memory_infos (score, thread_idx):
+  6.020408163265312, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 6.020408163265312
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 4 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 390[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 485.28s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 315[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 488.00s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 439[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 484.63s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 310[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 481.19s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 370[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 478.94s 
+[Process 0] best score so far: 6.020408163265312, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / (bins + 1))))
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 256[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 486.86s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.log(1 + np.sin(np.pi * item / bins)) + np.exp(item - bins) * item**5
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 298[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 489.13s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.log(1 + np.sin(np.pi * item / bins)) + np.exp(item - bins) * item**5
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch ⚠️ Subprocess timed out.
+[Process 0]  total_matches : 302[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 477.27s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.log(1 + np.sin(np.pi * item / bins)) + np.exp(item - bins) * item**5
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 284[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 479.25s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.log(1 + np.sin(np.pi * item / bins)) + np.exp(item - bins) * item**5
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 298[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 482.33s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.log(1 + np.sin(np.pi * item / bins)) + np.exp(item - bins) * item**5
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.816326530612248
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.816326530612248, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 5.816326530612248
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 5 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 325[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 480.67s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * item + np.log(bins + 1) * (item ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.log(bins + 1) * (item ** 2) * np.exp(item - bins)
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 282[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 479.15s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * item + np.log(bins + 1) * (item ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.log(bins + 1) * (item ** 2) * np.exp(item - bins)
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 246[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 472.34s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * item + np.log(bins + 1) * (item ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.log(bins + 1) * (item ** 2) * np.exp(item - bins)
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 239[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 473.99s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * item + np.log(bins + 1) * (item ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.log(bins + 1) * (item ** 2) * np.exp(item - bins)
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 236[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 480.20s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 262[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 450.67s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 265[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 466.94s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 295[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 471.16s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 264[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 467.74s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 263[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 465.08s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.816326530612248
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.816326530612248, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 5.816326530612248
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 6 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 280[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 462.19s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 256[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 469.76s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 276[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 467.79s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 273[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 469.90s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 303[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 459.59s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 296[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 463.07s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 290[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 451.86s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 210[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 468.11s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 269[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 445.99s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 228[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 464.48s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.816326530612248
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.816326530612248, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 5.816326530612248
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 7 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 226[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 458.42s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 248[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 435.26s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) ** 2 * np.exp(item - bins) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.log(item + 1)
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 275[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 466.79s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 261[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 463.20s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 243[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 442.88s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 241[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 451.08s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 307[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 461.00s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 306[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 467.72s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 291[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 463.60s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 271[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 456.89s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.816326530612248
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.816326530612248, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 5.816326530612248
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 8 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 226[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 467.22s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 277[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 467.81s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 244[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 465.06s 
+[Process 0] best score so far: 5.816326530612248, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 245[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=3, generation took 450.57s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 288[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=4, generation took 445.63s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 285[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=5, generation took 475.41s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 242[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=6, generation took 471.84s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 252[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=7, generation took 462.89s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized
+[Process 0] step=8, Generation done
+[Process 0] step=8, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 265[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=8, generation took 458.22s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+[Process 0] step=9, sampling done
+[Process 0] step=9, text tokenized
+[Process 0] step=9, Generation done
+[Process 0] step=9, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 226[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=9, generation took 433.09s 
+[Process 0] best score so far: 5.714285714285708, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + np.mean(bins)) * np.exp(item - bins) + np.log2(np.sin(np.pi * (item / (bins + 1)))) + np.log2(np.sin(np.pi * (item / bins))) + np.log2(item) + (item ** 3 + np.mean(bins) ** 2) * np.exp(item - bins) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4
+ 
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.714285714285708
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.714285714285708, thread 0
+
+[Main] Worst half (to be reinitialized):  Thread 0 with score 5.714285714285708
+
+[Main] Donor candidates (top half):
+
+[Main] Donor candidates (top half):[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 9 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized

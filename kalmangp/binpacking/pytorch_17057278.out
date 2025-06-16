@@ -1,0 +1,74 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 100 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process 0]  in save_batch [Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0] before parsing
+[Unexpected Error] ValueError: Function definition not found.
+[Process 0]  total_matches : [][Process 0] step=0, generation took 503.55s 
+[Process 0] best score so far: None, content:
+None 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized

@@ -1,0 +1,222 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, generation took 288.19s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    b = b * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=1, generation took 283.02s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=2, generation took 282.70s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=3, generation took 282.49s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=4, generation took 273.26s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3 - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i4 @ (i6 @ c * 3)).T * 3
+    d = d * 3
+    e = c
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=5, generation took 275.09s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=6, generation took 282.67s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=7, generation took 283.00s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=8, generation took 275.13s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=9, generation took 274.61s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3
+    b = b - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i6 @ (i4.T @ c * 3)) * 3
+    d = d * 3
+    e = c.T
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 0.562872212970604
+
+[Main] Sorted memory_infos (score, thread_idx):
+  0.562872212970604, thread 0
+
+[Main] Worst half (to be reinitialized):
+  Thread 0 with score 0.562872212970604
+
+[Main] Donor candidates (top half):
+[Main] Not enough donor candidates; skipping reinitialization.
+
+==== Outer Iteration 1 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, generation took 285.75s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3 - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i4 @ (i6.T @ c * 3)) * 3
+    d = d * 3
+    e = c
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+
+[Process 0] step=1, generation took 284.75s
+[Process 0] best score so far: 0.562872212970604, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = (i3 - i6) * 3 - i3
+    c = a @ b
+    c = c - a @ i6
+    d = (i4 @ (i6 @ c * 3)).T * 3
+    d = d * 3
+    e = c
+    f = e + i5
+    g = i2 + (i4 @ i6)
+    h = g @ i6
+    i = h + i6
+    return (f, i, d - f, i - h)
+

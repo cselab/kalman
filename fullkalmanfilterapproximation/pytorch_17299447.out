@@ -1,0 +1,1750 @@
+MSE: 1.1180493160255696
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+MSE: 1.1180493160255696
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process 0] in save_batch
+[Process 0] total_matches: 352
+[Process 0] before evaluate_graphs
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.ones_like(P)
+    x = x + 0.1 * y
+    return xp, P, y, S, K, x
+score: 1384.082007866455
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.5 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.7477020858525265
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ P
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.sqrt(P) / np.sqrt(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.log(P) / np.log(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.exp(P) / np.exp(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.maximum(P, S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.minimum(P, S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.mean(P) / np.mean(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: 1.9269280169532292
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.sum(P) / np.sum(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: 1.9269280169532292
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.std(P) / np.std(S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: 1.5397676078488722
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.dot(P, S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x + F @ x
+    y = z - x
+    S = Q @ R
+    K = np.linalg.inv(P) @ R
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 2.0742094832589832
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F.T @ x
+    y = z - xp
+    S = R.T + Q.T
+    K = (P.T @ R.T) @ np.linalg.inv(S)
+    x = x + K.T @ y
+    return xp, P, y, S, K, x
+score: 25912.393366412358
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x @ F.T
+    y = z - x
+    S = Q @ R @ Q.T
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x @ F.T
+    y = z - x
+    S = R @ Q @ R.T
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x @ F.T
+    y = z - xp
+    S = Q @ F @ R
+    K = (P @ F.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x @ F
+    y = z - x
+    S = Q @ R
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F.T @ x @ F
+    y = z - xp
+    S = R @ Q @ R.T
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x @ F.T
+    y = z - xp
+    S = Q @ F @ R
+    K = (P @ F.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x @ F.T
+    y = z - x
+    S = R @ Q @ R.T
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F.T @ x @ F
+    y = z - xp
+    S = Q @ R @ Q.T
+    K = (P @ R.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.sqrt(P) * np.eye(x.shape[0])
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 2.0742094832589832
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1/(S + 1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.4595989117255344
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K[0,0] = 1/(S[0,0]+1e-5)
+    x = xp + K[0] * y
+    return xp, P, y, S, K, x
+score: 25.13151571240889
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.ones_like(P)
+    K = K * 0.1 / (S + 1e-5)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 11.732857594001596
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(1/(S + 1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.4595989117255344
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(0.5/(S + 1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.3633455801486443
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(1/(S + 1e-5)) * 0.5
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.3633455801486443
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(1/(S + 1e-5)) * 0.2
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 7.515949043386916
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(1/(S + 1e-5)) * 0.3
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.3238202144499054
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K = np.diag(1/(S + 1e-5)) * 0.4
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.858561088266936
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.zeros_like(P)
+    x = x + 0.5 * y
+    return xp, P, y, S, K, x
+score: 23.07480154096123
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 26928.581085851627
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.eye(x.shape[0])
+    x = x + 0.2 * y
+    return xp, P, y, S, K, x
+score: 322.37838490563706
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.6 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.4498342719625361
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.zeros_like(P)
+    x = x + 0.3 * y
+    return xp, P, y, S, K, x
+score: 115.98044568823049
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.4 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.693473970039221
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R
+    K = np.eye(x.shape[0])
+    x = x + 0.4 * y
+    return xp, P, y, S, K, x
+score: 49.761069585519536
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.7 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.4180204553217677
+Error Output: /tmp/tmpw51_blf1.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.5 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpm866h3wq.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpm7qqtq03.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.25 * np.eye(len(x)) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpeze6_ny0.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.1 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpaqwquhsl.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp94qfc0_f.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.3 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp2oi8xjup.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.4 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpbgtcd3vk.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.6 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp6o31d15c.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.7 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp5xpelj1o.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.8 * np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpx9mqidr5.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(P) @ y.T
+    x = xp + K.T @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpe1azebhv.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ y.T).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpgyu5wmln.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(y)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpljf8yo62.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (y @ P).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpc4ata659.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (y.T @ P).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp53dvrsbe.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P.T @ y.T).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpsa3aupte.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (y @ P).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpcblfe421.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (y.T @ P).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp1jevv0ci.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ y.T).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmp6jzz7l7h.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (y @ P).T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.25 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 10.584428811391701
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.75 * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.4607079056758363
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1/(1+np.sum(S, axis=0)))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.exp(-S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.317606019705011
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = np.log(Q + R)
+    K = np.exp(-S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.eye(x.shape[0])/(1+np.sum(S))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 26.34667126209642
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = np.sqrt(Q + R)
+    K = np.diag(1/(1+np.sum(S)))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = np.log(Q + R)
+    K = np.exp(-S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = F @ P @ F.T + Q
+    K = np.linalg.inv(S) @ F @ P.T
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 76.19908933401722
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = F @ P @ F.T + Q
+    K = P @ F.T @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 43.22364928530982
+Error Output: /tmp/tmpo_uv2_02.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.sin(x)
+    y = z - xp
+    S = Q + R + np.cos(x)
+    K = np.diag(np.ones_like(x)) @ P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+<string>:2: RuntimeWarning: overflow encountered in exp
+<string>:5: RuntimeWarning: invalid value encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.exp(x)
+    y = z - xp
+    S = Q + R + np.log(x)
+    K = P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpgpa39tm8.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.tanh(x)
+    y = z - xp
+    S = Q + R + np.tanh(x)
+    K = np.linalg.inv(S) @ P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmprtnzmt9s.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.maximum(x, 0.5 * x)
+    y = z - xp
+    S = Q + R + np.maximum(x, 0.5 * x)
+    K = P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.minimum(x, 2 * x)
+    y = z - xp
+    S = Q + R + np.minimum(x, 2 * x)
+    K = np.linalg.inv(S) @ P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:2: RuntimeWarning: overflow encountered in exp
+<string>:4: RuntimeWarning: overflow encountered in exp
+<string>:5: RuntimeWarning: invalid value encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.log(1 + np.exp(x))
+    y = z - xp
+    S = Q + R + np.log(1 + np.exp(x))
+    K = P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.sqrt(x)
+    y = z - xp
+    S = Q + R + np.sqrt(x)
+    K = np.linalg.inv(S) @ P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmphfdz3eca.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.sin(x) + np.cos(x)
+    y = z - xp
+    S = Q + R + np.sin(x) + np.cos(x)
+    K = P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:2: RuntimeWarning: divide by zero encountered in log
+<string>:4: RuntimeWarning: divide by zero encountered in log
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.exp(x) + np.log(x)
+    y = z - xp
+    S = Q + R + np.exp(x) + np.log(x)
+    K = np.linalg.inv(S) @ P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpnasa6otu.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x + np.tanh(x) + np.sin(x)
+    y = z - xp
+    S = Q + R + np.tanh(x) + np.sin(x)
+    K = P @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = F @ P @ F.T + Q
+    K = np.linalg.solve(S, F @ P.T) @ R
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.609260338108376e+39
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.sqrt(np.diag(P)) * np.sqrt(R) / (S + 1e-9)
+    x = xp + K[:, None] * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = F @ P @ F.T + Q
+    K = (F @ P @ F.T @ R) / (S + 1e-9)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.939844041780705
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = F @ P @ F.T + Q
+    K = np.linalg.inv(S) @ F @ P.T @ R
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.60926033810836e+39
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(np.sqrt(np.diag(P)) * np.sqrt(R)) / (S + 1e-9)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.2475951544947874e+172
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.sqrt(np.diag(P)) * np.sqrt(R) / (S + 1e-9)
+    x = xp + K[:, None] * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = 0.5 * (F.T @ P) / (S + 1e-8)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 4.556095193099783
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F.T @ P) / (S + 1e-8)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 6.039971353595665e+33
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x + F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) @ np.linalg.inv(S)
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 1.4419082821883932e+51
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) @ np.linalg.inv(S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.645687650014322
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(P + F @ Q @ F.T) @ F @ P.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 8.469155964512219e+24
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.sqrt(np.diag(P)) * np.sqrt(np.diag(S)) / S
+    x = xp + K.reshape(-1, 1) * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) @ np.linalg.inv(F @ P @ F.T + Q)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.162158974196706
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F @ P @ F.T + Q).inverse() @ F @ P @ F.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T + Q @ F.T) @ np.linalg.inv(F @ P @ F.T + Q)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 7.913614780583986
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F @ P @ F.T + Q).inverse() @ F @ P
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F @ P @ F.T + Q).inverse() @ F @ P
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmpzoe__ctq.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) @ S
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.0770088507265458e+222
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1/(np.diag(S)+1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.5298465069874718
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.ones_like(P) * 0.1
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 13.369128961989826
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1/(np.sqrt(np.diag(S)) + 1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.5866512627242244
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.0742094832589832
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.ones_like(P) * 0.5
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.5265257531122025
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1/(np.diag(S) + 1e-5))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1.5298465069874718
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ F @ P.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.948818573321364
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F(x)
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) * jacobian(x)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    particles = sample(P, size=N)
+    xp = F @ particles
+    y = z - xp
+    S = Q + R
+    K = np.mean(y)
+    x = xp + K
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    sigma_points = generate_sigma_points(x, P)
+    xp = F(sigma_points)
+    y = z - xp
+    S = Q + R
+    K = np.cov(sigma_points, rowvar=False)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    A = np.zeros((N, N))
+    b = np.zeros(N)
+    for i in range(N):
+        A[i, i] = 1
+        b[i] = x
+    xp = solve(A, b)
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ F @ P.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    log_posterior = log_prior(x) + log_likelihood(z, x)
+    x = np.argmax(log_posterior)
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ F @ P.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    mixtures = sample_gaussian_mixture(P, size=N)
+    xp = F @ mixtures
+    y = z - xp
+    S = Q + R
+    K = np.mean(y)
+    x = xp + K
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:5: RuntimeWarning: invalid value encountered in divide
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q * R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F + x
+    y = z - xp
+    S = Q + R + y
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.2815286524487574e+79
+Error Output: <string>:5: RuntimeWarning: invalid value encountered in divide
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q * R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F + x
+    y = z - xp
+    S = Q + R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:5: RuntimeWarning: invalid value encountered in divide
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F + x
+    y = z - xp
+    S = Q * R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: <string>:5: RuntimeWarning: invalid value encountered in divide
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q * R
+    K = (P @ S) / (S @ P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Error Output: /tmp/tmprgv62n_0.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R + np.eye(x.shape[0]) * 0.1
+    K = np.linalg.inv(S) @ y
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.zeros_like(P)
+    K[:,0] = 1
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.459859068422875
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.exp(-y) * np.eye(x.shape[0])
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 1686528.2878635747
+Error Output: /tmp/tmpba5hb6_t.py:39: RuntimeWarning: overflow encountered in square
+  squared_error += np.sum(diff ** 2)
+<string>:6: RuntimeWarning: overflow encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.polyval([1, -0.5], y)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '(2.0742094832589832+0j)' (could not convert string to float: '(2.0742094832589832+0j)')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.fft.fft(y)
+    x = xp + np.fft.ifft(K)
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.ones_like(P)
+    for i in range(10):
+        x = x + 0.1 * (y)
+    return xp, P, y, S, K, x
+score: 26.18126382891414
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.wavelet_transform(y)
+    x = xp + np.wavelet_transform(K, inverse=True)
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.random.pca(y)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '(19.39754788904259+0j)' (could not convert string to float: '(19.39754788904259+0j)')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.fft.fft(y)
+    K = np.where(np.abs(K) > 10, K, 0)
+    x = xp + np.fft.ifft(K)
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.svd(y)
+    x = xp + np.sum(K)
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = np.sqrt(P) / (P + S)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) / (F @ P @ F.T + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 4.419143162460339
+Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+<string>:5: RuntimeWarning: invalid value encountered in divide
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = np.log(P) / (np.log(P) + np.log(S))
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F @ P) / (F @ P @ F.T + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.3998727374247864
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) / (F @ P @ F.T + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F.T @ P) / (F.T @ P @ F + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.9339602258041304
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) / (F @ P @ F.T + R)
+    x = xp + K * y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (F @ P @ F.T) / (F @ P @ F.T + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 142.26832342040478
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = (P @ F.T) / (F @ P @ F.T + R)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.random.randn(*P.shape) * 0.1
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 84004922.70536008
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(1 / np.diag(S + np.eye(S.shape[0])))
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.8401205698275067
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ R.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+Error Output: <string>:5: RuntimeWarning: divide by zero encountered in reciprocal
+<string>:5: RuntimeWarning: invalid value encountered in matmul
+
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.diag(np.diag(S)) ** -1 @ R.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = (S.T @ np.linalg.inv(S)) @ R.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.0742094832589832
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S @ S.T) @ S @ R.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(R @ S.T) @ R @ R.T
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.ones_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.2815286524487574e+79
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = np.linalg.inv(Q) + np.linalg.inv(R)
+    K = np.linalg.inv(S) @ y
+    x = xp + K
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = np.eye_like(Q)
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = np.eye_like(Q)
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = np.eye_like(Q)
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = np.eye_like(Q)
+    K = np.eye_like(P)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q @ R
+    K = P @ np.linalg.inv(S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R + Q
+    K = P @ S
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 6.064598748534971e+36
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q @ R @ Q.T
+    K = P @ S
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 11.318072310706487
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R + Q
+    K = np.diag(np.diag(P)) @ S
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 6.064598748534971e+36
+Parse error: '' (could not convert string to float: '')
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F * x
+    y = z - xp
+    S = Q + R
+    K = P @ np.linalg.inv(S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: inf
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R @ Q
+    K = P @ S
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 21208.14696836876
+function:
+def predict(x, F, P, Q, z, R):
+    xp = x
+    y = z - x
+    S = R + Q
+    K = P @ S.T
+    x = x + K @ y
+    return xp, P, y, S, K, x
+score: 6.064598748534971e+36
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = P @ np.linalg.inv(S)
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(P @ S) @ P
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 2.7074140696353863
+function:
+def predict(x, F, P, Q, z, R):
+    xp = F @ x
+    y = z - xp
+    S = Q + R
+    K = np.linalg.inv(S) @ F @ P
+    x = xp + K @ y
+    return xp, P, y, S, K, x
+score: 3.948818573321364

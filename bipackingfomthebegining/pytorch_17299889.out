@@ -1,0 +1,1668 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 333[Process 0] before evaluate_graphsfunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins) + np.sin(np.pi * (item / bins))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) 
+score::
+6.122448979591836function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return np.where(bins >= item, 1, 0)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return np.abs(bins - item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return bins + item - 2 * np.min(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return np.max(bins) - bins
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return bins - np.min(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.122448979591836function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2 + bins ** 2) * np.exp(item - bins) + np.cos(np.pi * (item / bins))
+score::
+64.48979591836734function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+76.93877551020408function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item - bins) + np.sin(np.pi * (item / bins))
+score::
+9.285714285714281function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.var(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+7.653061224489796function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sqrt(bins)) * np.exp(item - bins) + np.cos(np.pi * (item / bins))
+score::
+74.69387755102039function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.dot(bins, [1])) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.exp(item - bins) + np.sin(np.pi * (item / bins))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.exp(item - bins) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+76.63265306122449function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) + np.sin(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) * (item + bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+8.775510204081627function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(item + bins)) + (np.sqrt(item) * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+17.755102040816332function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item + bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item - bins) + np.cos(np.pi * item / bins)
+score::
+134.28571428571428function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) + np.sin(np.pi * (item - bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * np.exp(item + bins) + np.cos(np.pi * item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.exp(bins)) + (np.log(item) * np.sin(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / np.exp(bins)) + (np.log(item) * np.cos(bins))
+score::
+90.71428571428572function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.sin(np.pi * item / bins) + np.exp(item - bins)
+score::
+115.10204081632654function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.cos(bins)) + (np.exp(item) * np.sin(bins))
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    # For each bin in bins, compute a priority
+    # So, for each element in bins, we have a function of item and that element.
+    # So, all operations must be element-wise, or scalar.
+
+Therefore, the code must apply the same function to each element of bins, using the item.
+
+So, the function can't use any functions that aggregate across bins, like sum, unless it's applied element-wise.
+
+Wait, but if you do something like np.sum(bins, axis=0), that would be a scalar if bins is 1D. So, that would lead to all bins having the same priority, which is not useful.
+
+Therefore, the function must compute for each bin a unique value based on the item and that bin's value.
+
+So, the function must perform operations that are element-wise, or use the item in a way that affects each bin's priority.
+
+So, the allowed operations are:
+
+- Arithmetic operations: +, -, *, /, etc.
+
+- Trigonometric functions: sin, cos, tan, etc.
+
+- Exponential functions: exp, log, log10, etc.
+
+- Hyperbolic functions: sinh, cosh, tanh, etc.
+
+- Other functions: sqrt, square, etc.
+
+But all operations must be applied element-wise, or in a way that the result is an array of the same size as bins.
+
+So, for each implementation, the code must compute an array where each element is a function of item and the corresponding bin.
+
+Now, the task is to generate 10 unique implementations of this function, each using a unique combination of allowed operations.
+
+Each implementation must be a correct function that returns an array of the same size as bins, where each element is a priority score for that bin based on the item.
+
+So, I need to come up with 10 different mathematical expressions that take item and each bin's value and compute a priority.
+
+Each function should be unique in terms of the combination of operations used.
+
+So, I can think of various mathematical functions that can be applied.
+
+For example:
+
+1. item + bin: Simple addition.
+
+2. (item / bin): Ratio.
+
+3. (item * bin): Product.
+
+4. (item - bin): Difference.
+
+5. (bin - item): Another difference.
+
+6. item * exp(bin): Exponential function.
+
+7. item * sin(bin): Sine function.
+
+8. item / (bin + 1): Division with offset.
+
+9. sqrt(item + bin): Square root.
+
+10. log(item + bin): Logarithm.
+
+But these are just simple functions. To make them unique, I can combine multiple operations.
+
+For example:
+
+- (item + bin) * exp(item - bin)
+
+- item * sin(np.pi * bin / item)
+
+- (item / (bin + 1)) * exp(item - bin)
+
+- sqrt(item + bin) * cos(np.pi * bin / item)
+
+- (item + bin) * log(item + bin)
+
+- (item * bin) * exp(item - bin)
+
+- (item / bin) + sin(item - bin)
+
+- item * (bin ** 2) / (bin + 1)
+
+- log(1 + item + bin)
+
+- (item + bin) * (1 / (1 + exp(-item + bin)))
+
+And so on.
+
+Each of these would produce a unique combination of operations.
+
+I can create 10 such functions, each using a different combination of operations.
+
+I need to make sure that each function is valid, i.e., it doesn't cause any errors, like division by zero.
+
+But since bins are numpy arrays, and item is a float, the functions should handle element-wise operations correctly.
+
+So, I can proceed to write 10 such functions, each with a different combination.
+
+Now, I'll list out 10 different implementations:
+
+1. item + bin * exp(item - bin)
+2. (item / bin) * sin(np.pi * item / bin)
+3. (item + bin) * exp(item - bin)
+4. item * (bin ** 2) / (bin + 1)
+5. log(1 + item + bin)
+6. (item * bin) * exp(item - bin)
+7. (item / (bin + 1)) * exp(item - bin)
+8. sqrt(item + bin) * cos(np.pi * item / bin)
+9. (item + bin) * (1 / (1 + exp(-item + bin)))
+10. item * sin(np.pi * bin / item) + bin * cos(np.pi * bin / item)
+
+Wait, but some of these might not be valid because of division by zero or other issues. But for the purpose of generating heuristics, it's acceptable as long as the code runs without errors.
+
+But in practice, bins could have zero values, leading to division by zero. However, since this is a heuristic function, it's acceptable as long as the code doesn't crash.
+
+Now, I'll write each function as a separate implementation.
+
+Each function will take item and bins, and return an array where each element is the result of the function applied to item and the corresponding bin.
+
+So, for each implementation, I'll write the code accordingly.
+
+Now, I'll proceed to write the 10 unique functions.
+</think>
+
+Here are 10 unique implementations of the `priority` function, each using a distinct combination of mathematical operations:
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item + bins * np.exp(item - bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.sin(np.pi * item / bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * (bins ** 2) / (bins + 1)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + item + bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (bins + 1)) * np.exp(item - bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) * np.cos(np.pi * item / bins)
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (1 / (1 + np.exp(-item + bins)))
+```
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.sin(np.pi * bins / item) + bins * np.cos(np.pi * bins / item)
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item + bins) + np.tanh(item * np.cos(np.pi * bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) * np.exp(item * np.sin(np.pi * bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.cos(np.pi * item / bins) + np.exp(item * bins)
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(np.pi * item) * np.exp(item + bins) + np.cos(np.pi * bins) * item
+score::
+26.93877551020409function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tanh(item) * np.arcsin(bins) + np.exp(item * np.cos(np.pi * bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item) * np.exp(bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item > bins) * np.exp(item - bins) + (item < bins) * np.sin(np.pi * (item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + 1) * np.exp(bins) + np.arctan(item * np.cos(np.pi * bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) * np.exp(item * np.sin(np.pi * bins)) + np.tanh(item * np.cos(np.pi * bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(2 * np.pi * item / bins)) 
+score::
+26.53061224489796function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.cos(np.pi * item / bins)
+score::
+71.83673469387756function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+8.16326530612245function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.exp(item - bins) + np.cos(np.pi * item / bins)
+score::
+72.75510204081634function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+9.285714285714281function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+6.428571428571425function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+7.448979591836732function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.exp(item - bins) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+78.16326530612244function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item - bins) + np.sinh(np.pi * item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) 
+score::
+8.775510204081627function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.log(bins + 1) + np.sin(item - bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) ** 2 + np.exp(item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) * np.log(item + bins + 1)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (1 + np.exp(-item + bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.log(bins + item) + np.cos(np.pi * (item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+42.65306122448981function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.sin(np.pi * (item / bins))
+score::
+49.89795918367347function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) ** 2 * np.exp(-item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item * bins) * np.cos(np.pi * (item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item * bins) + np.log(1 + np.sin(np.pi * (item - bins)))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins - item) * np.exp(bins / item) + np.tan(np.pi * (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(bins - item) + np.sin(np.pi * (bins - item))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item / bins) + np.cos(np.pi * (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item + bins) + np.log(1 + np.tan(np.pi * (item - bins)))
+score::
+86.93877551020407function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item * bins) + np.sin(np.pi * (item + bins))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins - item) * np.exp(item * bins) + np.cos(np.pi * (item - bins))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item / bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+score::
+54.18367346938775function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+60.204081632653065function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.tan(np.pi * item / bins))
+score::
+14.591836734693874function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.arcsin(item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.exp(item - bins) + np.log(1 + np.arccos(item / bins))
+score::
+69.28571428571429function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.max(bins)) * np.exp(item - bins) + np.log(1 + np.arctan(item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.exp(item - bins) + np.log(1 + np.sqrt(item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.min(bins)) * np.exp(item - bins) + np.log(1 + np.log(item / bins))
+score::
+18.877551020408163function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.log(bins)) * np.exp(item - bins) + np.log(1 + np.exp(item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) * np.cos(np.pi * (bins / item))
+score::
+8.673469387755102function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * bins + np.sin(bins) * np.cos(item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item + bins + np.sum(bins) * np.exp(item)
+score::
+11.326530612244893function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.sin(np.pi * (item / bins))
+score::
+8.16326530612245function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+8.16326530612245function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.exp(np.max(bins) - item) + np.cos(np.pi * (item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.min(bins)) * np.exp(item + bins) + np.sin(np.pi * (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.mean(bins) + item) * np.exp(item - bins) + np.log(1 + item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item) + np.cos(np.pi * (item / bins))
+score::
+9.999999999999998function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.max(bins)) * np.exp(item - bins) + np.sin(item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item + bins) + np.cos(np.pi * (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.exp(item - bins) + np.log(1 + item + bins)
+score::
+70.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.sum(bins) * item) * np.exp(bins) + np.sin(np.pi * (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) 
+score::
+6.8367346938775535function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item) + np.log(1 + np.sin(np.pi * item))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+32.85714285714285function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * (np.exp(bins) - 1) + np.log(item + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * (bins ** 2) * np.exp(item) + np.sin(np.pi * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item) + np.log(1 + np.sin(np.pi * (item / bins)))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * np.exp(item) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.sin(np.pi * np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.where(item > np.mean(bins), np.sum(bins) * np.exp(item - bins), np.log(item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(item) * np.cos(np.mean(bins)) + np.exp(item - np.max(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.sum(bins)) * np.exp(item - np.max(bins)) + np.sin(np.pi * np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.tan(np.pi * np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.sqrt(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.cos(np.pi * np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins.sum()) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins.sum()))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+8.775510204081627function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item + bins) + np.log(1 + np.sin(np.pi * (item / bins)))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * np.exp(item * bins) + np.cos(np.pi * (item / bins))
+score::
+7.653061224489796function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item + bins) + np.log(1 + np.cos(np.pi * (item - bins)))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item - bins) + np.cos(np.pi * (item / bins))
+score::
+65.81632653061224function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * np.exp(item + bins) + np.log(1 + np.sin(np.pi * (item + bins)))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.exp(item * bins) + np.cos(np.pi * (item - bins))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item * bins) + np.log(1 + np.cos(np.pi * (item / bins)))
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.sum(bins)) * np.exp(item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.sum(bins)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+9.387755102040819function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.mean(bins)) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+11.530612244897956function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item - np.mean(bins)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.max(bins)) + np.log(1 + np.tan(np.pi * item / bins))
+score::
+12.6530612244898function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item) + np.log(1 + np.sqrt(item / bins))
+score::
+7.653061224489796function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.mean(bins)) + np.log(1 + np.tanh(item / bins))
+score::
+7.5510204081632715function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item) + np.log(1 + np.sinh(item / bins))
+score::
+7.5510204081632715function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.max(bins)) + np.log(1 + np.cosh(item / bins))
+score::
+7.448979591836732function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.min(bins)) * np.exp(item) + np.sin(np.pi * (item / bins))
+score::
+11.73469387755102function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item + np.sum(bins)) + np.log(1 + np.sqrt(item / bins))
+score::
+7.653061224489796function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) + np.sin(item - bins)
+score::
+10.714285714285714function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.exp(item - bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * np.cos(np.pi * (item / bins))
+score::
+10.714285714285714function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.tan(item - bins)
+score::
+15.714285714285719function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + item) * (bins - item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) + np.exp(item - bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) + np.sin(item - bins)
+score::
+100.30612244897961function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (item - bins) * np.exp(item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(bins + 1)) + (bins - item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) + np.sin(np.pi * (item - bins))
+score::
+13.979591836734699function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) + np.sin(np.pi * (item - bins))
+score::
+101.73469387755101function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.max(bins)) * np.cos(np.pi * (item + bins)) + np.log(1 + np.sin(item / bins))
+score::
+9.387755102040819function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * np.log(1 + np.exp(item + np.mean(bins))) + np.cos(np.pi * (item - bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.min(bins)) * np.sin(np.pi * (item + bins)) + np.exp(item - np.mean(bins))
+score::
+25.204081632653065function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.cos(np.pi * (item + np.sum(bins))) + np.log(1 + np.sin(item / bins))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(1 + np.exp(item - np.max(bins))) + np.sin(np.pi * (item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.sin(np.pi * (item + bins)) + np.exp(item - np.mean(bins))
+score::
+25.204081632653065function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.max(bins)) * np.exp(item + np.mean(bins)) + np.log(1 + np.sin(np.pi * (item / bins)))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - np.mean(bins)) + np.log(1 + np.sin(np.pi * item / bins)) 
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return bins
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.abs(1.0 - (item + bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    remaining = 1.0 - bins
+    mask = remaining >= item
+    return np.where(mask, remaining, 0.0)
+```
+
+#### Function 4: Most Full Bin Heuristic
+This heuristic gives higher priority to bins that are more full.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return 1.0 - bins
+```
+
+#### Function 5: Least Full Bin Heuristic
+This heuristic gives higher priority to bins that are less full.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return bins
+```
+
+#### Function 6: Variance Heuristic
+This heuristic bases priority on the variance of the bin usages.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.var(bins)
+```
+
+#### Function 7: Standard Deviation Heuristic
+This heuristic uses the standard deviation of bin usages to determine priority.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.std(bins)
+```
+
+#### Function 8: Sum of Remaining Spaces Heuristic
+This heuristic considers the sum of remaining spaces across all bins.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sum(1.0 - bins)
+```
+
+#### Function 9: Item Size Similarity Heuristic
+This heuristic prioritizes bins where the item size matches the remaining space.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.abs(item - (1.0 - bins))
+```
+
+#### Function 10: Combined Heuristic
+This heuristic combines remaining space and item similarity with mathematical operations.
+
+```python
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    remaining = 1.0 - bins
+    fit = np.abs(item - remaining)
+    return remaining + np.exp(-fit)
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + item + bins) * np.exp(item - bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.std(bins)) / (bins + 1e-8)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - np.mean(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (bins + 1e-8)) * np.sin(np.pi * item / (bins + 1e-8))
+score::
+19.897959183673468function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.abs(item - bins) * np.exp(item / (bins + 1e-8))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - np.max(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - np.min(bins)) * np.exp(item / (bins + 1e-8))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(1 + item + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(1 + item + bins + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+42.65306122448981function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.abs(item - bins)) + np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item + bins) * np.exp(item - bins) + np.sin(np.pi * item / bins)
+score::
+13.877551020408157function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log10(1 + item + bins) * np.exp(item - bins) + np.cos(np.pi * item / bins)
+score::
+105.81632653061223function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(item - bins) + np.log2(1 + np.sin(np.pi * item / bins))
+score::
+9.285714285714281function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) * np.log(1 + np.abs(item - bins)) + np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + item + bins) * np.sin(np.pi * (item / bins)) + np.cos(np.pi * (item / bins))
+score::
+66.6326530612245function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(1 + np.exp(item - bins)) + np.sin(np.pi * item / bins)
+score::
+9.08163265306123function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log10(1 + item + bins) * np.exp(item - bins) + np.log2(1 + np.sin(np.pi * item / bins))
+score::
+27.3469387755102[Process 0] after evaluate_graphs[Process 0] step=0, generation took 504.15s 
+[Process 0] best score so far: 6.122448979591836, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) 
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 401[Process 0] before evaluate_graphsfunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) + (bins / item) * np.exp(item - bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(item + bins) * np.cos(item - bins)
+score::
+9.591836734693883function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(np.abs(item - bins)) * np.sqrt(item + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.mean(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * bins
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * bins + (item - bins)**2
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item / bins) + np.log(item + bins)
+score::
+8.673469387755102function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.abs(item - bins) * np.cos(item + bins)
+score::
+24.18367346938776function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins)**2 / (np.abs(item - bins))**2
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.std(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.max(bins) + np.log(item + np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * (item + bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) - np.exp(item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item) * (item - np.min(bins)) + np.log(1 + bins)
+score::
+13.469387755102044function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * bins + np.sqrt(item + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.mean(bins) + (item - bins)**2
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins + item + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (item - bins + 1e-8)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) / (item + bins + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (item * bins + 1e-8)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins - item) / (item + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (item + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) / (item + 1e-8)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (item + bins + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) / (item + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1e-8)) / (bins + item + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (bins - item + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + item)) / (item + bins + 1e-8)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (np.log(bins + 1) + np.sin(bins))) / (np.sqrt(item) + 1) + np.exp(bins) * np.cos(item)
+score::
+23.265306122448976function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sin(bins)) + (np.log(item) * np.cos(bins)) 
+score::
+26.22448979591837function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sin(bins)) + (np.log(item) * np.cos(bins))
+score::
+26.22448979591837function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins ** 2)) / (np.log(item + 1) + 1) + np.sin(bins * item) * np.cos(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(bins)) + (np.cos(bins) * np.sin(item))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sqrt(bins)) + (np.log(item) * np.exp(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.tan(bins)) + (np.log(item) * np.cos(bins))
+score::
+26.428571428571434function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(bins + 1)) + (np.exp(item) * np.sin(bins))
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - np.mean(bins)) * np.exp(np.sqrt(np.max(bins) - np.min(bins))) + np.log(1 + item) * np.sin(np.pi * item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.max(bins)) * np.cos(np.pi * (item - np.mean(bins))) + np.sqrt(item) * np.sin(np.pi * np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (item + np.mean(bins))) * np.exp(np.sqrt(np.max(bins) - np.min(bins))) + np.log(1 + item) * np.cos(np.pi * item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(np.pi * item / np.mean(bins)) * np.cos(np.pi * item / np.max(bins)) + np.log(item + np.min(bins)) * np.exp(item - np.mean(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - np.min(bins)) * np.exp(np.sqrt(np.max(bins))) + np.log(1 + item) * np.cos(np.pi * (item - np.mean(bins)))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.max(bins)) * np.exp(np.sqrt(np.mean(bins) - np.min(bins))) + np.sin(np.pi * item / bins) * np.cos(np.pi * item / bins)
+score::
+54.59183673469388function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.exp(bins - item) + np.sin(np.unique(bins - item))
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * (item - np.max(bins)) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - np.mean(bins)) * (item + np.std(bins)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.sin(np.pi * item / bins)) + (item + np.mean(bins)) * (item - np.max(bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+7.448979591836732function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * (item - np.mean(bins)) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + item) * (item + np.sum(bins)) + np.mean(bins) * np.pi
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item) * (np.sum(bins) / (item + 1)) + np.exp(np.mean(bins) - item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tan(np.pi * item / (item + np.mean(bins))) * np.sum(bins) + np.log(1 + item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.sum(bins) / item) * np.exp(item - np.mean(bins)) + np.sin(np.pi * item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.cos(np.pi * item / bins) + np.exp(np.sum(bins) / item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tanh(item) * (np.sum(bins) / (item + 1)) + np.log(1 + np.mean(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.std(bins)) * (item + np.sum(bins)) + np.exp(np.mean(bins) - item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(np.pi * item / (item + np.mean(bins))) * np.sum(bins) + np.log(1 + np.exp(item))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.exp(bins)) + (np.log(item) * np.sin(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.log(bins) + np.sin(item) * np.cos(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return [expression]
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.exp(bins)) + (np.log(item) * np.sin(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.log(bins) + np.sin(item) * np.cos(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 - bins) * np.exp(item) + np.sin(bins) * np.cos(item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 - bins + item) * np.exp(item) + np.sin(bins) * np.cos(item)
+score::
+8.877551020408166function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.exp(bins)) + (np.log(item) * np.sin(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.log(bins) + np.sin(item) * np.cos(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item) * np.log(bins + 1) + np.exp(np.sin(bins))
+score::
+120.40816326530613function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (1 - bins)) + np.log(bins + item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.exp(item) + np.sin(bins) * np.cos(item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(bins + 1)) + (np.exp(bins) * np.sin(item))
+score::
+29.48979591836735function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(1 - bins) * np.exp(item) + np.log(item) * np.sin(bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(bins) + np.log(1 - bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    # Example: Place the item in the bin with the least remaining space
+    remaining = bins[:, 0].max() - bins[:, 0]  # Assuming bins are 2D with [size, remaining]
+    return remaining
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + 1) * np.sum(bins) + np.sin(item * bins)
+score::
+13.77551020408163function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.log(bins + item)) + (np.sum(bins) * np.sin(bins))
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.122448979591836function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item))
+score::
+7.346938775510208function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.ndarray / item))
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item + bins) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+8.775510204081627function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.8367346938775535function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.122448979591836function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item))
+score::
+7.346938775510208function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.ndarray / item))
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+7.040816326530617function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) * np.log(1 + np.sin(np.pi * bins / item))
+score::
+6.5306122448979655function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) * (np.log(1 + np.sin(np.pi * bins / item)))
+score::
+6.5306122448979655function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+        return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.8367346938775535function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.sum(bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+6.8367346938775535function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins))
+score::
+7.040816326530617function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item)) + np.log(1 + np.sin(np.pi * item / bins)) + np.log(1 + np.sin(np.pi * bins / item))
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) * np.log(1 + np.sin(np.pi * bins / item))
+score::
+6.5306122448979655function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (item + bins)) * np.exp(item - bins) + np.log(1 + np.sin(np.pi * item / bins)) * (np.log(1 + np.sin(np.pi * bins / item)))
+score::
+6.5306122448979655function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.cos(item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log10(item + np.mean(bins)) * np.exp2(item - bins) + np.tan(item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log2(item + np.max(bins)) + np.exp(item * np.min(bins)) - np.sin(item / bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item) + np.log(1 + np.sin(np.pi * item))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) ** 2 + np.exp(item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (item * bins + 1) + np.log(item) * np.sin(bins)
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2) * bins + np.log(item + bins) * np.sin(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) / (item * bins + 1) + np.exp(item) * np.sin(bins)
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) + np.log(item) * (item ** 2) + np.exp(bins) * np.sin(bins)
+score::
+9.183673469387756function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) + np.log(item + bins) * np.sin(bins)
+score::
+19.795918367346946function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (np.log(item + bins) / (item + bins + 1)) + np.exp(item) * np.sin(bins)
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2) * np.log(item + bins) + np.exp(bins) * np.sin(bins)
+score::
+9.183673469387756function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2) * bins + np.log(item) * np.sin(bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) + np.log(item + bins) * np.exp(item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) / (item * bins + 1)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item) + np.log(1 + np.sin(np.pi * item))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) ** 2 + np.exp(item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * np.log(item + bins) / (item + bins + 1) + np.exp(item) * np.sin(bins)
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.exp(item) - np.sin(item * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tanh(bins) * (item + np.mean(bins)) + np.exp(item) * np.sin(bins)
+score::
+25.0function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.exp(item) - np.sin(item * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.exp(item) - np.sin(item * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins - np.mean(bins))) * np.log(1 + bins) + np.sqrt(bins) * np.cos(item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.exp(item) - np.sin(item * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.tanh(bins) + np.exp(item * (bins - 1))) + np.sin(np.pi * bins) * np.cos(2 * np.pi * item)
+score::
+9.387755102040819function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-item) * np.log(1 + np.sum(bins)) + np.sin(np.pi * (bins - item))
+score::
+19.081632653061227function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.log(1 + bins) + np.exp(item) ) * np.cos(2 * np.pi * bins) + np.sin(np.pi * item)
+score::
+13.673469387755107function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + bins) * np.sin(np.pi * bins) + np.exp(item) * np.cos(np.pi * item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tanh(item) * (np.sum(bins) + np.exp(bins)) + np.log(1 + np.sin(np.pi * bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-item) * (np.sum(bins) + np.log(1 + bins)) + np.sin(np.pi * bins)
+score::
+20.408163265306122function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.log(1 + bins) + np.exp(item)) * np.sin(np.pi * bins) + np.cos(2 * np.pi * item)
+score::
+13.26530612244898function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    fit = np.where(bins >= item, 1, 0)
+    # Prefer bins that can fit the item
+    return fit * (bins - item) + (1 - fit) * (np.inf)
+
+This function returns the remaining capacity for bins that can fit the item, and infinity for those that cannot. This way, when selecting the bin with the highest priority, the function will first choose bins that can fit the item, and among those, the ones with the smallest remaining capacity.
+
+Another example is the 'best fit' heuristic:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    fit = bins >= item
+    remaining = bins - item
+    # Prefer bins with the smallest remaining space
+    return np.where(fit, remaining, np.inf)
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.log1p(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.floor(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.ceil(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.round(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.abs(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.exp(item - np.max(bins)) + np.sum(np.min(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.log(bins + item) + np.cos(np.pi * (item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.log(bins + item) + np.cos(np.pi * (item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * (np.max(bins) / (np.min(bins) + item)) + np.tan(np.pi * (item / np.mean(bins)))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (np.sum(bins) + 1)) * np.exp(np.pi * (item - np.max(bins)))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.cos(np.pi * (item / np.sum(bins))) + np.log(item + np.mean(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (np.sum(bins) + 1)) / (1 + np.exp(item - np.mean(bins))) + np.sin(np.pi * item)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * np.log(bins + 1) + np.arctan(item / np.mean(bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.sin(np.pi * (item / (np.mean(bins) + 1))) + np.log(bins + item)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (np.max(bins) - np.min(bins))) / (item + np.mean(bins)) + np.cos(np.pi * (item + np.sum(bins)))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.mean(bins)) * np.sin(np.pi * (item + np.sum(bins))) + item * np.exp(-np.mean(bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item * (bins ** 2) * np.exp(item) + np.sin(np.pi * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(np.sum(bins) / item) + np.log(np.prod(bins) + item * bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.exp(np.mean(bins) + np.std(bins)) + np.sin(np.pi * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + bins) * np.exp(np.mean(bins) + np.std(bins)) + np.sin(np.pi * bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2) * np.mean(bins) * np.exp(item) + np.sin(np.pi * bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(item + np.sum(bins)) * np.exp(np.mean(bins) + np.std(bins)) + np.cos(np.pi * bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item + np.std(bins)) + np.log(1 + np.sin(np.pi * item))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item ** 2) * np.mean(bins) * np.exp(np.sum(bins) / item) + np.sin(np.pi * bins)
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(np.sum(bins) / item) + np.log(1 + np.sin(np.pi * bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(np.std(bins)) + np.log(1 + np.sin(np.pi * bins))
+score::
+7.755102040816321function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.cos(np.pi * item / (np.max(bins) + 1e-8)) + np.exp(item) * np.mean(bins)
+score::
+11.530612244897956function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    priorities = []
+    for b in bins:
+        priorities.append(some_function(item, b))
+    return np.array(priorities)
+
+### Example of Valid Code:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(item) + np.cos(bins) * np.exp(item - np.max(bins))
+
+### Task:
+Create 10 unique functions following the rules.
+</think>
+
+### Implementation 1:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.cos(np.pi * item / (np.max(bins) + 1e-8)) + np.exp(item) * np.mean(bins)
+
+### Implementation 2:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(item) * np.cos(np.mean(bins)) + np.exp(item - np.max(bins))
+
+### Implementation 3:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item > bins) * np.exp(item - bins) + (item < bins) * np.sin(np.pi * (item / bins))
+
+### Implementation 4:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + 1e-8) * np.sin(item) + np.exp(item) * np.mean(bins)
+
+### Implementation 5:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(np.pi * item / np.max(bins)) * np.cos(np.mean(bins)) + np.exp(item - np.min(bins))
+
+### Implementation 6:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.cos(np.pi * item / np.max(bins)) + np.exp(item) * np.mean(bins)
+
+### Implementation 7:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item > bins) * np.exp(item - bins) + (item < bins) * np.sin(np.pi * (item / bins))
+
+### Implementation 8:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(item) * np.cos(np.mean(bins)) + np.exp(item - np.max(bins))
+
+### Implementation 9:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(bins + item) * np.cos(np.pi * item / np.max(bins)) + np.exp(item) * np.mean(bins)
+score::
+inffunction:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * bins) * np.exp(item) + np.log(1 + np.cos(np.pi * item / bins))
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item / bins) + np.sin(np.pi * item / bins)
+score::
+7.142857142857142function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (bins + 1)) * np.exp(-item) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.max(bins)) * np.exp(-item) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.min(bins)) * np.exp(item) + np.sin(np.pi * item / bins)
+score::
+10.204081632653061function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item) + np.sin(np.pi * item / bins)
+score::
+10.816326530612239function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.max(bins)) * np.exp(-item) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(-item) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.min(bins)) * np.exp(item) + np.cos(np.pi * item / bins)
+score::
+10.816326530612239function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item) + np.cos(np.pi * item / bins)
+score::
+10.51020408163265function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.std(bins)) * np.exp(item) + np.sin(np.pi * item / bins)
+score::
+10.816326530612239function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.max(bins)) * np.exp(-item) + np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.min(bins)) * np.exp(-item) + np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(-item) + np.sin(np.pi * item / bins)
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.abs(item - bins)) + np.cos(np.pi * item / bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-np.abs(item - bins)) * (np.log(1 + np.abs(item - bins)) + np.sin(np.pi * (item / bins)) + np.cos(np.pi * (item / bins)))
+score::
+8.571428571428577function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.log(1 + np.abs(item - bins)) + np.exp(np.mean(bins) * np.sin(np.pi * item / bins))
+score::
+43.26530612244899function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-np.abs(item - bins)) + np.cos(np.pi * item / bins) * np.log(1 + bins)
+score::
+144.89795918367346function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sin(np.pi * item / bins) + np.cos(np.pi * item / bins) * np.log(1 + np.abs(item - bins))
+score::
+132.24489795918367function:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-np.abs(item - bins)) * (np.log(1 + bins) + np.sin(np.pi * (item / bins)) + np.cos(np.pi * (item / bins)))
+score::
+7.142857142857142

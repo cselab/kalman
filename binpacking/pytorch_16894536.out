@@ -1,0 +1,47 @@
+Detected 4 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 100 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized
+[Process 0] step=3, Generation done
+[Process 0] step=3, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=4, sampling done
+[Process 0] step=4, text tokenized
+[Process 0] step=4, Generation done
+[Process 0] step=4, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=5, sampling done
+[Process 0] step=5, text tokenized
+[Process 0] step=5, Generation done
+[Process 0] step=5, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=6, sampling done
+[Process 0] step=6, text tokenized
+[Process 0] step=6, Generation done
+[Process 0] step=6, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=7, sampling done
+[Process 0] step=7, text tokenized
+[Process 0] step=7, Generation done
+[Process 0] step=7, text decoded
+[Process 0] Unexpected exception during generation:
+[Process 0] step=8, sampling done
+[Process 0] step=8, text tokenized

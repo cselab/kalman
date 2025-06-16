@@ -1,0 +1,2369 @@
+Detected 4 GPU(s). We will spawn 4 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 2] step=0, generation took 637.78s
+[Process 2] best score so far: 6.049124670243207, content:
+def fun(i1, i2, i3, i4):
+    temp1 = i1.T
+    temp2 = i2 + i3 @ i4
+    o1 = temp1
+    o2 = temp2
+    return o1, o2
+
+[Process 1] step=0, generation took 636.48s
+[Process 1] best score so far: 6.049124317814344, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1
+    o2 = i2 + (i3 @ i4).T
+    return o1, o2
+
+[Process 0] step=0, generation took 636.36s
+[Process 0] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 3] step=0, generation took 639.85s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1,i2,i3,i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 1] step=1, generation took 643.53s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 2] step=1, generation took 644.36s
+[Process 2] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 0] step=1, generation took 645.43s
+[Process 0] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 3] step=1, generation took 649.77s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 0] step=2, generation took 644.69s
+[Process 0] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 1] step=2, generation took 644.02s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 2] step=2, generation took 643.94s
+[Process 2] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 3] step=2, generation took 646.52s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 0] step=3, generation took 644.57s
+[Process 0] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 1] step=3, generation took 643.50s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 2] step=3, generation took 645.14s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 3] step=3, generation took 650.13s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 0] step=4, generation took 644.30s
+[Process 0] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 2] step=4, generation took 643.51s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=4, generation took 646.39s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 3] step=4, generation took 646.65s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4
+    return o1, o2
+
+[Process 0] step=5, generation took 644.71s
+[Process 0] best score so far: 1.5819418275754091, content:
+def fun(i1,i2,i3,i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 + i4.T
+    return o1, o2
+
+[Process 2] step=5, generation took 644.57s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=5, generation took 645.56s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 3] step=5, generation took 650.78s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = (i1 @ i2.T).T
+    o2 = i3.T + i4
+    return o1, o2
+
+[Process 0] step=6, generation took 644.59s
+[Process 0] best score so far: 1.5819418275754091, content:
+def fun(i1,i2,i3,i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 + i4.T
+    return o1, o2
+
+[Process 2] step=6, generation took 644.22s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 3] step=6, generation took 647.20s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = (i1 @ i2.T).T
+    o2 = i3.T + i4
+    return o1, o2
+
+[Process 1] step=6, generation took 644.35s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 2] step=7, generation took 643.94s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 0] step=7, generation took 644.50s
+[Process 0] best score so far: 0.9291707730245343, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i2.T
+    return o1, o2
+
+[Process 3] step=7, generation took 646.67s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = (i1 @ i2.T).T
+    o2 = i3.T + i4
+    return o1, o2
+
+[Process 1] step=7, generation took 647.12s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 2] step=8, generation took 644.24s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 0] step=8, generation took 644.04s
+[Process 0] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 3] step=8, generation took 651.79s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = (i1 @ i2.T).T
+    o2 = i3.T + i4
+    return o1, o2
+
+[Process 1] step=8, generation took 643.97s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+[Process 0] step=9, generation took 632.78s
+[Process 0] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 2] step=9, generation took 643.96s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 3] step=9, generation took 650.11s
+[Process 3] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = (i1 @ i2.T).T
+    o2 = i3.T + i4
+    return o1, o2
+
+[Process 1] step=9, generation took 643.64s
+[Process 1] best score so far: 1.9086611481626494, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3 + i4.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 0.07881966295922241
+  Thread 1: best score 1.9086611481626494
+  Thread 2: best score 1.88875726821663
+  Thread 3: best score 1.9086611481626494
+
+[Main] Sorted memory_infos (score, thread_idx):
+  0.07881966295922241, thread 0
+  1.88875726821663, thread 2
+  1.9086611481626494, thread 1
+  1.9086611481626494, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 1 with score 1.9086611481626494
+  Thread 3 with score 1.9086611481626494
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 0.07881966295922241
+  Thread 2 with score 1.88875726821663
+[Main] Reinitializing memory for thread 1 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 2.
+
+==== Outer Iteration 1 ====
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 3] step=0, generation took 633.80s
+[Process 3] best score so far: 1.1392384917449652, content:
+def fun(i1, i3, i4, i2):
+    o1 = i1 @ i3.T
+    o2 = i2 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=0, generation took 637.07s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4.T
+    return o1, o2
+
+[Process 0] step=0, generation took 644.75s
+[Process 0] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 2] step=0, generation took 646.20s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=1, generation took 648.39s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4.T
+    return o1, o2
+
+[Process 3] step=1, generation took 645.93s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 0] step=1, generation took 644.40s
+[Process 0] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 2] step=1, generation took 643.81s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=2, generation took 649.04s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 3] step=2, generation took 640.68s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 0] step=2, generation took 644.93s
+[Process 0] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T + i4.T
+       return o1, o2
+
+[Process 2] step=2, generation took 644.02s
+[Process 2] best score so far: 1.88875726821663, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i4 @ i3.T + i4.T
+    return o1, o2
+
+[Process 1] step=3, generation took 645.29s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4.T
+    return o1, o2
+
+[Process 3] step=3, generation took 635.91s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 0] step=3, generation took 644.64s
+[Process 0] best score so far: 0.069682796062243, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4 @ i2.T
+    return o1, o2
+
+[Process 2] step=3, generation took 643.97s
+[Process 2] best score so far: 1.1357833109928364, content:
+def fun(i1, i2, i3, i4):
+    temp = i3.T + i4.T + i3.T
+    o1 = i2 @ i1.T
+    o2 = temp
+    return o1, o2
+
+[Process 0] step=4, generation took 634.97s
+[Process 0] best score so far: 0.069682796062243, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4 @ i2.T
+    return o1, o2
+
+[Process 3] step=4, generation took 635.68s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 1] step=4, generation took 643.81s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i4
+    return o1, o2
+
+[Process 2] step=4, generation took 645.88s
+[Process 2] best score so far: 1.1357833109928364, content:
+def fun(i1, i2, i3, i4):
+    temp = i3.T + i4.T
+    o1 = i2 @ i1.T
+    o2 = temp + i3.T
+    return o1, o2
+
+[Process 0] step=5, generation took 635.20s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 3] step=5, generation took 637.69s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i3, i4, i2):
+    o1 = i1 @ i3.T
+    o2 = i4.T + i4.T
+    return o1, o2
+
+[Process 1] step=5, generation took 643.56s
+[Process 1] best score so far: 0.07881966295922241, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i4
+    o1 = o1.T
+    return o1, o2
+
+[Process 2] step=5, generation took 644.45s
+[Process 2] best score so far: 1.1357833109928364, content:
+def fun(i1, i2, i3, i4):
+    temp = i3.T + i4.T
+    o1 = i2 @ i1.T
+    o2 = temp + i3.T
+    return o1, o2
+
+[Process 0] step=6, generation took 634.41s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3.T + i4.T)
+    return o1, o2
+
+[Process 3] step=6, generation took 634.46s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i3, i4, i2):
+    o1 = i1 @ i3.T
+    o2 = i4.T + i4.T
+    return o1, o2
+
+[Process 1] step=6, generation took 642.64s
+[Process 1] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 2] step=6, generation took 644.74s
+[Process 2] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 3] step=7, generation took 631.96s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i3, i4, i2):
+    o1 = i1 @ i3.T
+    o2 = i4.T + i4.T
+    return o1, o2
+
+[Process 1] step=7, generation took 635.69s
+[Process 1] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=7, generation took 645.71s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=7, generation took 643.28s
+[Process 2] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 3] step=8, generation took 634.09s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i3, i4, i2):
+    o1 = i1 @ i3.T
+    o2 = i4.T + i4.T
+    return o1, o2
+
+[Process 1] step=8, generation took 635.78s
+[Process 1] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=8, generation took 643.39s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=8, generation took 645.05s
+[Process 2] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+[Process 3] step=9, generation took 637.66s
+[Process 3] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i3.T + i3.T
+    return o1, o2
+
+[Process 1] step=9, generation took 646.41s
+[Process 1] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=9, generation took 643.31s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=9, generation took 644.14s
+[Process 2] best score so far: 1.0386181272081172, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 + i3.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 0.053760311131437304
+  Thread 1: best score 0.053760311131437304
+  Thread 2: best score 1.0386181272081172
+  Thread 3: best score 1.0386181272081172
+
+[Main] Sorted memory_infos (score, thread_idx):
+  0.053760311131437304, thread 0
+  0.053760311131437304, thread 1
+  1.0386181272081172, thread 2
+  1.0386181272081172, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 2 with score 1.0386181272081172
+  Thread 3 with score 1.0386181272081172
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 0.053760311131437304
+  Thread 1 with score 0.053760311131437304
+[Main] Reinitializing memory for thread 2 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 1.
+
+==== Outer Iteration 2 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 2] step=0, generation took 630.67s
+[Process 2] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 3] step=0, generation took 635.59s
+[Process 3] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=0, generation took 642.69s
+[Process 1] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=0, generation took 641.10s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=1, generation took 642.20s
+[Process 2] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 1] step=1, generation took 641.72s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 3] step=1, generation took 647.94s
+[Process 3] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=1, generation took 640.86s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=2, generation took 641.81s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=2, generation took 643.56s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4
+    return o1, o2
+
+[Process 3] step=2, generation took 648.31s
+[Process 3] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=2, generation took 639.95s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o3 = i2 @ i3.T
+    o4 = i2 @ i4.T
+    o2 = o3 + o4
+    return o1, o2
+
+[Process 2] step=3, generation took 641.03s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=3, generation took 642.13s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4
+    return o1, o2
+
+[Process 3] step=3, generation took 646.94s
+[Process 3] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=3, generation took 640.00s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3.T + i4)
+    return o1, o2
+
+[Process 2] step=4, generation took 643.61s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=4, generation took 644.83s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4
+    return o1, o2
+
+[Process 0] step=4, generation took 639.83s
+[Process 0] best score so far: 0.053760311131437304, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3.T + i4)
+    return o1, o2
+
+[Process 3] step=4, generation took 649.51s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 2] step=5, generation took 641.06s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=5, generation took 641.20s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4
+    return o1, o2
+
+[Process 0] step=5, generation took 640.70s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    return o1, o2
+
+[Process 3] step=5, generation took 649.53s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 2] step=6, generation took 640.94s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=6, generation took 644.97s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T + i3 @ i4.T + i2 @ i4
+    return o1, o2
+
+[Process 0] step=6, generation took 630.96s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1 @ i3.T) + (i2 @ i4.T)
+    return o1, o2
+
+[Process 3] step=6, generation took 645.18s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 1] step=7, generation took 641.27s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T + i3 @ i4.T + i2 @ i4
+    return o1, o2
+
+[Process 2] step=7, generation took 642.66s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=7, generation took 637.52s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1 @ i3.T) + (i2 @ i4.T)
+    return o1, o2
+
+[Process 3] step=7, generation took 643.60s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 1] step=8, generation took 641.36s
+[Process 1] best score so far: 0.053292107966916594, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T + i3 @ i4.T + i2 @ i4
+    return o1, o2
+
+[Process 2] step=8, generation took 639.99s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=8, generation took 632.76s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i2 + i3) @ i4.T + i2 @ i3.T
+    return o1, o2
+
+[Process 3] step=8, generation took 648.43s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+[Process 2] step=9, generation took 640.84s
+[Process 2] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=9, generation took 635.26s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i2 + i3) @ i4.T + i2 @ i3.T
+    return o1, o2
+
+[Process 1] step=9, generation took 642.06s
+[Process 1] best score so far: 0.05318821561250288, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T + i3.T @ i4.T
+    return o1, o2
+
+[Process 3] step=9, generation took 642.32s
+[Process 3] best score so far: 0.053292107966916594, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1.T @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i4.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 0.04060272267022977
+  Thread 1: best score 0.05318821561250288
+  Thread 2: best score 0.04060272267022979
+  Thread 3: best score 0.053292107966916594
+
+[Main] Sorted memory_infos (score, thread_idx):
+  0.04060272267022977, thread 0
+  0.04060272267022979, thread 2
+  0.05318821561250288, thread 1
+  0.053292107966916594, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 1 with score 0.05318821561250288
+  Thread 3 with score 0.053292107966916594
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 0.04060272267022977
+  Thread 2 with score 0.04060272267022979
+[Main] Reinitializing memory for thread 1 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 2.
+
+==== Outer Iteration 3 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] step=0, generation took 628.33s
+[Process 1] best score so far: 0.016194038871293944, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o2 = o2 @ i2.T
+    return o1, o2
+
+[Process 3] step=0, generation took 629.64s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=0, generation took 635.50s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i2 + i3) @ i4.T + i2 @ i3.T
+    return o1, o2
+
+[Process 2] step=0, generation took 636.63s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=1, generation took 630.04s
+[Process 1] best score so far: 0.016194038871293944, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T) @ i2.T
+    return o1, o2
+
+[Process 3] step=1, generation took 629.11s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=1, generation took 634.35s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i2 + i3) @ i4.T + i2 @ i3.T
+    return o1, o2
+
+[Process 2] step=1, generation took 637.51s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=2, generation took 629.17s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=2, generation took 641.40s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    return o1, o2
+
+[Process 0] step=2, generation took 632.94s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=2, generation took 640.29s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=3, generation took 638.82s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ i3.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=3, generation took 632.92s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 0] step=3, generation took 636.38s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=3, generation took 642.78s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=4, generation took 640.15s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1
+    o2 = i3 @ i4.T + i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=4, generation took 641.38s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 0] step=4, generation took 634.18s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=4, generation took 634.27s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=5, generation took 643.79s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i4.T + i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=5, generation took 638.77s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 0] step=5, generation took 636.88s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=5, generation took 639.58s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=6, generation took 641.96s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i3 @ i4.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=6, generation took 640.23s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 0] step=6, generation took 636.44s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=6, generation took 645.26s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 3] step=7, generation took 641.83s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i3 @ i4.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=7, generation took 640.12s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 0] step=7, generation took 636.40s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=7, generation took 639.72s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=8, generation took 640.06s
+[Process 1] best score so far: 0.009231695291487279, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4).T @ i2.T
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 3] step=8, generation took 642.20s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i3 @ i4.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=8, generation took 635.15s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=8, generation took 640.69s
+[Process 2] best score so far: 0.040414967199988515, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 1] step=9, generation took 640.25s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 3] step=9, generation took 638.70s
+[Process 3] best score so far: 0.04060272267022979, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i3 @ i4.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=9, generation took 636.63s
+[Process 0] best score so far: 0.04060272267022977, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 + i3) @ (i4.T + i3.T)
+    o3 = (i1.T @ i3.T) + (i2 @ i4)
+    return o1, o2
+
+[Process 2] step=9, generation took 640.81s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 0.04060272267022977
+  Thread 1: best score 0.009231695291487258
+  Thread 2: best score 0.0404149671999885
+  Thread 3: best score 0.04060272267022979
+
+[Main] Sorted memory_infos (score, thread_idx):
+  0.009231695291487258, thread 1
+  0.0404149671999885, thread 2
+  0.04060272267022977, thread 0
+  0.04060272267022979, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 0 with score 0.04060272267022977
+  Thread 3 with score 0.04060272267022979
+
+[Main] Donor candidates (top half):
+  Thread 1 with score 0.009231695291487258
+  Thread 2 with score 0.0404149671999885
+[Main] Reinitializing memory for thread 0 with best element from thread 1.
+[Main] Reinitializing memory for thread 3 with best element from thread 2.
+
+==== Outer Iteration 4 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] step=0, generation took 632.36s
+[Process 3] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    o3 = i2 @ i3.T
+    return o1, o2
+
+[Process 0] step=0, generation took 632.00s
+[Process 0] best score so far: 0.009231695291487086, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i2 @ i4 @ i2.T
+    return o1, o2
+
+[Process 1] step=0, generation took 641.98s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 2] step=0, generation took 636.24s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 3] step=1, generation took 640.17s
+[Process 3] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    o3 = i1 @ i3.T
+    return o1, o2
+
+[Process 0] step=1, generation took 641.14s
+[Process 0] best score so far: 0.009231695291487086, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i2 @ i4 @ i2.T
+    return o1, o2
+
+[Process 1] step=1, generation took 642.82s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 2] step=1, generation took 639.21s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 3] step=2, generation took 639.46s
+[Process 3] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    o3 = i2 @ i3.T
+    return o1, o2
+
+[Process 0] step=2, generation took 641.15s
+[Process 0] best score so far: 0.006664894236769217, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i2 @ i4
+    return o1, o2
+
+[Process 1] step=2, generation took 643.28s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ (i3 + i4.T) @ i2.T
+    return o1, o2
+
+[Process 2] step=2, generation took 637.53s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 3] step=3, generation took 636.87s
+[Process 3] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    o3 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 0] step=3, generation took 631.43s
+[Process 0] best score so far: 0.006664894236769217, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i2 @ i4
+    return o1, o2
+
+[Process 2] step=3, generation took 639.43s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=3, generation took 646.67s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ (i3 + i4.T) @ i2.T
+    return o1, o2
+
+[Process 3] step=4, generation took 643.20s
+[Process 3] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    o3 = i2 @ i3.T
+    return o1, o2
+
+[Process 0] step=4, generation took 631.28s
+[Process 0] best score so far: 2.6446012440727257e-06, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i4 @ i2
+    return o1, o2
+
+[Process 1] step=4, generation took 641.53s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ (i3 + i4.T) @ i2.T
+    return o1, o2
+
+[Process 2] step=4, generation took 638.13s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 3] step=5, generation took 636.92s
+[Process 3] best score so far: 0.03178299163828239, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i4 @ i4.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=5, generation took 630.95s
+[Process 0] best score so far: 2.6446012440727257e-06, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i4 @ i2
+    return o1, o2
+
+[Process 2] step=5, generation took 632.32s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=5, generation took 645.21s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i2 @ i1.T
+    o2 = i2 @ (i3 + i4.T) @ i2.T
+    return o1, o2
+
+[Process 3] step=6, generation took 626.62s
+[Process 3] best score so far: 0.03178299163828239, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i4 @ i4.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=6, generation took 630.99s
+[Process 0] best score so far: 2.6263776474153463e-06, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4 @ i2
+    return o1, o2
+
+[Process 2] step=6, generation took 638.37s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=6, generation took 642.29s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 3] step=7, generation took 626.42s
+[Process 3] best score so far: 0.03178299163828239, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i4 @ i4.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=7, generation took 630.74s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 2] step=7, generation took 632.40s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=7, generation took 642.90s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 3] step=8, generation took 626.58s
+[Process 3] best score so far: 0.03178299163828239, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i4 @ i4.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=8, generation took 631.47s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i3 @ i4.T
+    return o1, o2
+
+[Process 2] step=8, generation took 638.80s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=8, generation took 642.86s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 3] step=9, generation took 626.60s
+[Process 3] best score so far: 0.03178299163828239, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i4 @ i4.T + i3 @ i4.T + i2 @ i4.T + i3 @ i3.T
+    return o1, o2
+
+[Process 0] step=9, generation took 640.57s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 2] step=9, generation took 638.95s
+[Process 2] best score so far: 0.0404149671999885, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i3 @ i3.T + i2 @ i3.T + i2 @ i4.T
+    return o1, o2
+
+[Process 1] step=9, generation took 642.87s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 2.7294872781983373e-28
+  Thread 1: best score 0.009231695291487258
+  Thread 2: best score 0.0404149671999885
+  Thread 3: best score 0.03178299163828239
+
+[Main] Sorted memory_infos (score, thread_idx):
+  2.7294872781983373e-28, thread 0
+  0.009231695291487258, thread 1
+  0.03178299163828239, thread 3
+  0.0404149671999885, thread 2
+
+[Main] Worst half (to be reinitialized):
+  Thread 3 with score 0.03178299163828239
+  Thread 2 with score 0.0404149671999885
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 2.7294872781983373e-28
+  Thread 1 with score 0.009231695291487258
+[Main] Reinitializing memory for thread 3 with best element from thread 0.
+[Main] Reinitializing memory for thread 2 with best element from thread 1.
+
+==== Outer Iteration 5 ====
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 2] step=0, generation took 633.34s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 3] step=0, generation took 632.24s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 0] step=0, generation took 643.39s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 1] step=0, generation took 642.47s
+[Process 1] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 2] step=1, generation took 644.52s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 3] step=1, generation took 642.77s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 0] step=1, generation took 643.06s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 1] step=1, generation took 642.29s
+[Process 1] best score so far: 0.0029373726370974175, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 2] step=2, generation took 647.94s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=2, generation took 634.87s
+[Process 1] best score so far: 0.0029373726370974175, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 0] step=2, generation took 643.12s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 3] step=2, generation took 648.59s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=3, generation took 644.36s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ (i3 + i4)) @ i2.T
+    return o1, o2
+
+[Process 1] step=3, generation took 634.56s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=3, generation took 643.02s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i2.T
+    return o1, o2
+
+[Process 3] step=3, generation took 648.37s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=4, generation took 644.27s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=4, generation took 645.56s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=4, generation took 640.65s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=4, generation took 648.21s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=5, generation took 644.00s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=5, generation took 643.95s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=5, generation took 640.33s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=5, generation took 648.25s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=6, generation took 644.34s
+[Process 2] best score so far: 0.009231695291487258, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ (i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=6, generation took 647.73s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=6, generation took 640.64s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=6, generation took 648.37s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=7, generation took 644.35s
+[Process 2] best score so far: 0.0029373726370974175, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=7, generation took 643.09s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=7, generation took 640.29s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=7, generation took 647.38s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=8, generation took 632.71s
+[Process 2] best score so far: 0.0029373726370974175, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3 + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=8, generation took 643.73s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4.T) @ i2.T
+    return o1, o2
+
+[Process 0] step=8, generation took 641.30s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=8, generation took 648.67s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=9, generation took 632.62s
+[Process 2] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = (i2 @ i3.T + i4) @ i2.T
+    return o1, o2
+
+[Process 1] step=9, generation took 646.79s
+[Process 1] best score so far: 0.002050854682434112, content:
+def fun(i1, i2, i3, i4):
+      o1 = i1 @ i2.T
+      o2 = (i2 @ i3.T + i4) @ i2.T
+      return o1, o2
+
+[Process 0] step=9, generation took 640.31s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=9, generation took 643.58s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 2.7294872781983373e-28
+  Thread 1: best score 0.002050854682434112
+  Thread 2: best score 0.002050854682434112
+  Thread 3: best score 2.7294872781983373e-28
+
+[Main] Sorted memory_infos (score, thread_idx):
+  2.7294872781983373e-28, thread 0
+  2.7294872781983373e-28, thread 3
+  0.002050854682434112, thread 1
+  0.002050854682434112, thread 2
+
+[Main] Worst half (to be reinitialized):
+  Thread 1 with score 0.002050854682434112
+  Thread 2 with score 0.002050854682434112
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 2.7294872781983373e-28
+  Thread 3 with score 2.7294872781983373e-28
+[Main] Reinitializing memory for thread 1 with best element from thread 0.
+[Main] Reinitializing memory for thread 2 with best element from thread 3.
+
+==== Outer Iteration 6 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 1] step=0, generation took 631.74s
+[Process 1] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 2] step=0, generation took 631.46s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 3] step=0, generation took 648.46s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 0] step=0, generation took 641.10s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 1] step=1, generation took 643.07s
+[Process 1] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    return o1, o2
+
+[Process 2] step=1, generation took 642.23s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 3] step=1, generation took 648.53s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 0] step=1, generation took 640.56s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 1] step=2, generation took 645.35s
+[Process 1] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 3] step=2, generation took 644.65s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 0] step=2, generation took 640.45s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 2] step=2, generation took 645.44s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    return o1, o2
+
+[Process 1] step=3, generation took 643.85s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 3] step=3, generation took 644.99s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 2] step=3, generation took 641.40s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 0] step=3, generation took 640.76s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 1] step=4, generation took 632.81s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 2] step=4, generation took 641.53s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 3] step=4, generation took 644.51s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i1 @ i4.T
+    return o1, o2
+
+[Process 0] step=4, generation took 640.86s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T @ i2.T
+    return o1, o2
+
+[Process 1] step=5, generation took 632.91s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 2] step=5, generation took 641.56s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 0] step=5, generation took 640.94s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 3] step=5, generation took 643.62s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun_006(i1, i2, i3, i4):
+    o1 = i1 + i2 @ i3.T
+    o2 = i4 @ i3
+    return o1, o2
+
+[Process 1] step=6, generation took 646.23s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 2] step=6, generation took 641.39s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 0] step=6, generation took 640.33s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 3] step=6, generation took 648.91s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun_006(i1, i2, i3, i4):
+    o1 = i1 + i2 @ i3.T
+    o2 = i4 @ i3
+    return o1, o2
+
+[Process 1] step=7, generation took 642.77s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 2] step=7, generation took 645.44s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 0] step=7, generation took 640.43s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 3] step=7, generation took 646.86s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun_006(i1, i2, i3, i4):
+    o1 = i1 + i2 @ i3.T
+    o2 = i4 @ i3
+    return o1, o2
+
+[Process 1] step=8, generation took 645.56s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 2] step=8, generation took 641.62s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 0] step=8, generation took 640.41s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 3] step=8, generation took 644.07s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun_006(i1, i2, i3, i4):
+    o1 = i1 + i2 @ i3.T
+    o2 = i4 @ i3
+    return o1, o2
+
+[Process 1] step=9, generation took 642.25s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 0] step=9, generation took 640.39s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 2] step=9, generation took 641.41s
+[Process 2] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+       o1 = i1 @ i2.T
+       o2 = i2 @ i3.T @ i2.T + i4
+       return o1, o2
+
+[Process 3] step=9, generation took 648.88s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun_006(i1, i2, i3, i4):
+    o1 = i1 + i2 @ i3.T
+    o2 = i4 @ i3
+    return o1, o2
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 2.7294872781983373e-28
+  Thread 1: best score 9.321500930834222e-35
+  Thread 2: best score 2.7294872781983373e-28
+  Thread 3: best score 2.7294872781983373e-28
+
+[Main] Sorted memory_infos (score, thread_idx):
+  9.321500930834222e-35, thread 1
+  2.7294872781983373e-28, thread 0
+  2.7294872781983373e-28, thread 2
+  2.7294872781983373e-28, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 2 with score 2.7294872781983373e-28
+  Thread 3 with score 2.7294872781983373e-28
+
+[Main] Donor candidates (top half):
+  Thread 1 with score 9.321500930834222e-35
+  Thread 0 with score 2.7294872781983373e-28
+[Main] Reinitializing memory for thread 2 with best element from thread 1.
+[Main] Reinitializing memory for thread 3 with best element from thread 0.
+
+==== Outer Iteration 7 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] step=0, generation took 626.76s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 2] step=0, generation took 632.82s
+[Process 2] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 0] step=0, generation took 638.29s
+[Process 0] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    o3 = i2 @ i3.T
+    o4 = i4 @ i3.T
+    return o1, o2
+
+[Process 1] step=0, generation took 640.68s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 3] step=1, generation took 637.44s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4
+    return o1, o2
+
+[Process 2] step=1, generation took 632.07s
+[Process 2] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 1] step=1, generation took 640.98s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 0] step=1, generation took 637.20s
+[Process 0] best score so far: 0.0, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3 @ i2.T + i4.T
+    return o1, o2
+
+[Process 3] step=2, generation took 641.65s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i2, i3, i4, i1):
+    o1 = i2 @ i3.T
+    o2 = i3 @ i4.T @ i3.T + i1.T
+    return o1, o2
+
+[Process 2] step=2, generation took 641.84s
+[Process 2] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    o1 = o1.T
+    return o1, o2
+
+[Process 1] step=2, generation took 642.91s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+
+[Process 3] step=3, generation took 644.16s
+[Process 3] best score so far: 2.7294872781983373e-28, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    return o1, o2
+
+[Process 2] step=3, generation took 641.71s
+[Process 2] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i2, i3, i4):
+    o1 = i1 @ i2.T
+    o2 = i2 @ i3.T @ i2.T + i4.T
+    o2 = o2.T
+    o1 = o1.T
+    return o1, o2
+
+[Process 1] step=3, generation took 640.34s
+[Process 1] best score so far: 9.321500930834222e-35, content:
+def fun(i1, i3, i2, i4):
+    o1 = i1 @ i3.T
+    o2 = i3 @ i2.T @ i3.T + i4.T
+    o2 = o2.T
+    return o1, o2
+

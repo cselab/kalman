@@ -1,0 +1,19 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 286[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 510.06s 
+[Process 0] best score so far: 6.5306122448979655, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) * np.exp(item - bins) + np.log(np.abs(np.sin(np.pi * item / bins)))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 273[Process 0] before evaluate_graphs

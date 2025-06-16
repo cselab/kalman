@@ -1,0 +1,8 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, generation took 299.47s
+[Process 0] best score so far: None, content:
+None

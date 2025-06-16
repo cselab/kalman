@@ -1,0 +1,1412 @@
+MSE: 1.1180493160255696
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+MSE: 1.1180493160255696
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 349[Process 0] before evaluate_graphsfunction:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + np.sin(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.sin(x)
+function:
+    xp = F @ x + np.exp(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.exp(x)
+function:
+    xp = F @ x + np.sqrt(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.sqrt(x)
+function:
+    xp = F @ x + np.tanh(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.tanh(x)
+function:
+    xp = F @ x + np.sin(x) * np.cos(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.sin(x) * np.cos(x)
+function:
+    xp = F @ x + np.exp(x) * np.log(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.exp(x) * np.log(x)
+function:
+    xp = F @ x + np.sqrt(x) * np.log(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.sqrt(x) * np.log(x)
+function:
+    xp = F @ x + np.tanh(x) * np.log(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.tanh(x) * np.log(x)
+function:
+    xp = F @ x + np.sin(x) * np.tanh(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.sin(x) * np.tanh(x)
+function:
+    xp = F @ x + np.exp(x) * np.tanh(x)
+[Memory] Error evaluating function:
+    xp = F @ x + np.exp(x) * np.tanh(x)
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = np.tanh(F.dot(x))
+[Memory] Error evaluating function:
+    xp = np.tanh(F.dot(x))
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = np.relu(F.dot(x))
+[Memory] Error evaluating function:
+    xp = np.relu(F.dot(x))
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = F.dot(x)
+[Memory] Error evaluating function:
+    xp = F.dot(x)
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x + F @ x
+[Memory] Error evaluating function:
+    xp = x + F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x + F @ x
+[Memory] Error evaluating function:
+    xp = x + F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x + F @ x
+[Memory] Error evaluating function:
+    xp = x + F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q @ np.random.randn()
+[Memory] Error evaluating function:
+    xp = F @ x + Q @ np.random.randn()
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x + F @ x
+[Memory] Error evaluating function:
+    xp = x + F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = np.sin(F @ x)
+[Memory] Error evaluating function:
+    xp = np.sin(F @ x)
+function:
+    xp = np.polyval(F, x)
+[Memory] Error evaluating function:
+    xp = np.polyval(F, x)
+function:
+    xp = np.exp(F @ x)
+[Memory] Error evaluating function:
+    xp = np.exp(F @ x)
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = LSTM_model.predict(x)
+[Memory] Error evaluating function:
+    xp = LSTM_model.predict(x)
+function:
+    xp = kernel_regression(F, x)
+[Memory] Error evaluating function:
+    xp = kernel_regression(F, x)
+function:
+    xp = gradient_boosting_model.predict(x)
+[Memory] Error evaluating function:
+    xp = gradient_boosting_model.predict(x)
+function:
+    xp = autoencoder.predict(F @ x)
+[Memory] Error evaluating function:
+    xp = autoencoder.predict(F @ x)
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x * F
+[Memory] Error evaluating function:
+    xp = x * F
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = x + F * P
+[Memory] Error evaluating function:
+    xp = x + F * P
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x * F
+[Memory] Error evaluating function:
+    xp = x * F
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = x + F * P
+[Memory] Error evaluating function:
+    xp = x + F * P
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x * F
+[Memory] Error evaluating function:
+    xp = x * F
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F * x
+[Memory] Error evaluating function:
+    xp = F * x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x + Q
+[Memory] Error evaluating function:
+    xp = F @ x + Q
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = x
+[Memory] Error evaluating function:
+    xp = x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+function:
+    xp = F @ x
+[Memory] Error evaluating function:
+    xp = F @ x
+[Process 0] after evaluate_graphs[Process 0] step=0, generation took 134.95s 
+[Process 0] best score so far: None, content:
+None 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized

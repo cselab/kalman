@@ -1,0 +1,36 @@
+Detected 4 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 291[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=0, generation took 503.61s 
+[Process 0] best score so far: 6.734693877551015, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.sin(np.pi * (item + bins))
+ 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
+[Process 0] step=1, Generation done
+[Process 0] step=1, text decoded
+[Process {thread_id}]  in save_batch ⚠️ Subprocess regex error: SyntaxError: Non-UTF-8 code starting with '\xce' in file /tmp/tmp_pqua1ev.py on line 4, but no encoding declared; see https://python.org/dev/peps/pep-0263/ for details
+
+[Process 0]  total_matches : 328[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=1, generation took 497.54s 
+[Process 0] best score so far: 6.734693877551015, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.sin(np.pi * (item + bins))
+ 
+[Process 0] step=2, sampling done
+[Process 0] step=2, text tokenized
+[Process 0] step=2, Generation done
+[Process 0] step=2, text decoded
+[Process {thread_id}]  in save_batch [Process 0]  total_matches : 333[Process 0] before evaluate_graphs[Process 0] after evaluate_graphs[Process 0] step=2, generation took 499.36s 
+[Process 0] best score so far: 6.734693877551015, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.sum(bins)) * np.exp(item - bins) + np.sin(np.pi * (item + bins))
+ 
+[Process 0] step=3, sampling done
+[Process 0] step=3, text tokenized

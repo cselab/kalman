@@ -1,0 +1,151 @@
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (b @ a) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  2590.761022898482
+[Process 0] step=0, generation took 282.59s
+[Process 0] best score so far: 2590.761022898482, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (b @ a) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = c.T
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  9753.223627735582
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1.T + i5
+    b = i3 - i6
+    c = a @ b
+    d = (b @ a) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  2590.761022898482
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (a.T @ b.T) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  2590.761022898482
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 - i5
+    b = i3 + i6
+    c = a @ b
+    d = (b @ a) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  5.994952534052348
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (b.T @ a.T) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  5.352290201501388
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i3 - i6
+    b = i1 + i5
+    c = a @ b
+    d = (b @ a) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  3012.548848026119
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 @ i6
+    c = a @ b
+    d = b @ a - c
+    e = d + i5
+    f = i2 @ i4
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  8694.425237732274
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (a @ b) - c  # which is c - c = 0, but this is a scalar if c is (1,1)
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  5.352290201501388
+[Process 0] step=1, generation took 284.64s
+[Process 0] best score so far: 5.352290201501388, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 - i6
+    c = a @ b
+    d = (b.T @ a.T) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 + i5
+    b = i3 + i6
+    c = a @ b
+    d = (a @ b) - c
+    e = d + i5
+    f = i2 + (i4 @ i6)
+    g = f @ i6
+    h = g + i6
+    return (e, g, d, h)
+
+loss :  5.352290201501388

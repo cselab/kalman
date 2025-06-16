@@ -1,0 +1,1372 @@
+Detected 4 GPU(s). We will spawn 4 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] step=0, generation took 161.40s
+[Process 1] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item)
+
+[Process 2] step=0, generation took 281.44s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item / bins
+
+[Process 3] step=0, generation took 284.43s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+  return -(bins - item)
+
+[Process 0] step=0, generation took 283.14s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 1] step=1, generation took 176.58s
+[Process 1] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item)
+
+[Process 2] step=1, generation took 280.90s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item / bins
+
+[Process 3] step=1, generation took 284.02s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 0] step=1, generation took 281.67s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 1] step=2, generation took 283.34s
+[Process 1] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 2] step=2, generation took 174.39s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return item - bins
+
+[Process 3] step=2, generation took 227.46s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 0] step=2, generation took 275.19s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 1] step=3, generation took 283.60s
+[Process 1] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return bins * (1 - item)
+
+[Process 2] step=3, generation took 281.42s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins * (item - np.mean(bins))) + np.log(bins)
+
+[Process 3] step=3, generation took 283.99s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item)
+
+[Process 0] step=3, generation took 281.86s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (1 + bins)) / bins
+
+[Process 1] step=4, generation took 281.89s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=4, generation took 112.04s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) / (1 + bins)
+
+[Process 2] step=4, generation took 280.80s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins * (item - np.mean(bins))) + np.log(bins)
+
+[Process 3] step=4, generation took 282.64s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 0] step=5, generation took 127.81s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / bins) * 100
+
+[Process 1] step=5, generation took 283.67s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 2] step=5, generation took 279.40s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins * (item - np.mean(bins))) + np.log(bins)
+
+[Process 3] step=5, generation took 282.98s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+[Process 0] step=6, generation took 281.68s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * (item + bins) / (item + 1)
+
+[Process 1] step=6, generation took 283.25s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 2] step=6, generation took 279.39s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins * (item - np.mean(bins))) + np.log(bins)
+
+[Process 0] step=7, generation took 209.64s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / bins
+
+[Process 3] step=6, generation took 282.22s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (bins + 1)) * (item + bins)
+
+[Process 1] step=7, generation took 211.55s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 2] step=7, generation took 238.13s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (1 - bins)) / (bins + item)
+
+[Process 0] step=8, generation took 282.07s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(-bins) * item
+
+[Process 3] step=7, generation took 283.22s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item / (bins + 1)) * (item + bins)
+
+[Process 1] step=8, generation took 282.94s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 2] step=8, generation took 169.30s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (1 - bins)) / (bins + item)
+
+[Process 0] step=9, generation took 280.81s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * (item + bins)
+
+[Process 2] step=9, generation took 172.71s
+[Process 2] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * (1 - bins)) / (bins + item)
+
+[Process 3] step=8, generation took 283.15s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (bins ** 2)
+
+[Process 1] step=9, generation took 283.25s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 3] step=9, generation took 176.20s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return -(bins - item)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.464889953585867
+  Thread 1: best score 5.405000748615066
+  Thread 2: best score 5.464889953585867
+  Thread 3: best score 5.464889953585867
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.405000748615066, thread 1
+  5.464889953585867, thread 0
+  5.464889953585867, thread 2
+  5.464889953585867, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 2 with score 5.464889953585867
+  Thread 3 with score 5.464889953585867
+
+[Main] Donor candidates (top half):
+  Thread 1 with score 5.405000748615066
+  Thread 0 with score 5.464889953585867
+[Main] Reinitializing memory for thread 2 with best element from thread 1.
+[Main] Reinitializing memory for thread 3 with best element from thread 0.
+
+==== Outer Iteration 1 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] step=0, generation took 507.02s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt(item) / np.sqrt(bins) * np.exp(item - bins)
+
+[Process 2] step=0, generation took 504.95s
+[Process 2] best score so far: 5.345111543644265, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.tan(bins) / np.sqrt(bins)
+
+[Process 1] step=0, generation took 506.16s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=0, generation took 507.55s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / bins
+
+[Process 3] step=1, generation took 472.14s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (bins.max() - bins) / (bins.max() + item)
+
+[Process 1] step=1, generation took 505.34s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=1, generation took 506.44s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) * (item + bins) / (item + 1)
+
+[Process 2] step=1, generation took 506.58s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 3] step=2, generation took 507.96s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (bins.max() - bins) / (bins.max() + item)
+
+[Process 2] step=2, generation took 504.22s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=2, generation took 506.07s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=2, generation took 506.36s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item * np.mean(bins)) / (1 + np.sqrt(bins))
+
+[Process 3] step=3, generation took 469.71s
+[Process 3] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+       return (bins.max() - bins) / (bins.max() + item)
+
+[Process 2] step=3, generation took 505.69s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=3, generation took 505.49s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=3, generation took 506.33s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 3] step=4, generation took 471.79s
+[Process 3] best score so far: 5.449917652343162, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins)**3 / (item - bins)**2
+
+[Process 2] step=4, generation took 505.75s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=4, generation took 505.45s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=4, generation took 504.26s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 3] step=5, generation took 469.19s
+[Process 3] best score so far: 5.449917652343162, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins)**3 / (item - bins)**2
+
+[Process 2] step=5, generation took 506.29s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=5, generation took 505.56s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=5, generation took 504.69s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 3] step=6, generation took 507.09s
+[Process 3] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) / (item + bins) ** 2
+
+[Process 2] step=6, generation took 505.93s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 0] step=6, generation took 505.93s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 1] step=6, generation took 506.32s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 3] step=7, generation took 470.05s
+[Process 3] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) / (item + bins) ** 2
+
+[Process 2] step=7, generation took 501.02s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=7, generation took 506.48s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 0] step=7, generation took 505.58s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 3] step=8, generation took 507.55s
+[Process 3] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item - bins) / (item + bins) ** 2
+
+[Process 2] step=8, generation took 505.80s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 0] step=8, generation took 504.25s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 1] step=8, generation took 505.50s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+[Process 3] step=9, generation took 507.14s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=9, generation took 504.64s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 0] step=9, generation took 505.06s
+[Process 0] best score so far: 5.464889953585867, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (1 / (bins + item)) * item
+
+[Process 1] step=9, generation took 504.84s
+[Process 1] best score so far: 5.405000748615066, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins + item) / (bins - item) + np.sin(bins)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 5.464889953585867
+  Thread 1: best score 5.405000748615066
+  Thread 2: best score 5.330139242401561
+  Thread 3: best score 5.390028447372361
+
+[Main] Sorted memory_infos (score, thread_idx):
+  5.330139242401561, thread 2
+  5.390028447372361, thread 3
+  5.405000748615066, thread 1
+  5.464889953585867, thread 0
+
+[Main] Worst half (to be reinitialized):
+  Thread 1 with score 5.405000748615066
+  Thread 0 with score 5.464889953585867
+
+[Main] Donor candidates (top half):
+  Thread 2 with score 5.330139242401561
+  Thread 3 with score 5.390028447372361
+[Main] Reinitializing memory for thread 1 with best element from thread 2.
+[Main] Reinitializing memory for thread 0 with best element from thread 3.
+
+==== Outer Iteration 2 ====
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 1] step=0, generation took 504.23s
+[Process 1] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item) + np.log(bins)
+
+[Process 0] step=0, generation took 504.55s
+[Process 0] best score so far: 4.865997903877826, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) * np.mean(bins) + np.sin(item - bins)
+
+[Process 2] step=0, generation took 506.67s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 3] step=0, generation took 507.37s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 1] step=1, generation took 507.59s
+[Process 1] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item) + np.log(bins)
+
+[Process 0] step=1, generation took 505.94s
+[Process 0] best score so far: 4.865997903877826, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) * np.mean(bins) + np.sin(item - bins)
+
+[Process 2] step=1, generation took 506.22s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 3] step=1, generation took 470.44s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 1] step=2, generation took 507.16s
+[Process 1] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item) + np.log(bins)
+
+[Process 0] step=2, generation took 435.87s
+[Process 0] best score so far: 4.865997903877826, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item - bins) * np.mean(bins) + np.sin(item - bins)
+
+[Process 3] step=2, generation took 472.23s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=2, generation took 505.89s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 0] step=3, generation took 436.21s
+[Process 0] best score so far: 4.716274891450816, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (bins.max() - bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=3, generation took 506.80s
+[Process 1] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item) + np.log(bins)
+
+[Process 3] step=3, generation took 508.16s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=3, generation took 505.27s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=4, generation took 506.08s
+[Process 1] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item) + np.log(bins)
+
+[Process 0] step=4, generation took 503.79s
+[Process 0] best score so far: 4.716274891450816, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) * (bins.max() - bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=4, generation took 507.02s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=4, generation took 505.38s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=5, generation took 505.53s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=5, generation took 505.93s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=5, generation took 508.04s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=5, generation took 505.23s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=6, generation took 506.77s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=6, generation took 504.46s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=6, generation took 508.15s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=6, generation took 506.16s
+[Process 2] best score so far: 5.330139242401561, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.sqrt((bins + item) / (bins - item)) + np.sin(bins) * np.cos(item)
+
+[Process 1] step=7, generation took 505.85s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=7, generation took 502.31s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=7, generation took 507.75s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=7, generation took 506.02s
+[Process 2] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (bins + 1) + np.log(item + bins) * 0.5
+
+[Process 1] step=8, generation took 505.73s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=8, generation took 504.27s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=8, generation took 507.58s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 1] step=9, generation took 507.02s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=8, generation took 505.40s
+[Process 2] best score so far: 5.315166941158856, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + bins) / (bins + 1) + np.log(item + bins) * 0.5
+
+[Process 0] step=9, generation took 503.97s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=9, generation took 469.16s
+[Process 3] best score so far: 5.390028447372361, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (bins.max() + bins) / (item - bins) * np.sin(item - bins)
+
+[Process 2] step=9, generation took 506.17s
+[Process 2] best score so far: 5.2852223386734645, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.tanh(item - bins) + np.mean(bins)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 4.581524180266511
+  Thread 1: best score 5.210360832459959
+  Thread 2: best score 5.2852223386734645
+  Thread 3: best score 5.390028447372361
+
+[Main] Sorted memory_infos (score, thread_idx):
+  4.581524180266511, thread 0
+  5.210360832459959, thread 1
+  5.2852223386734645, thread 2
+  5.390028447372361, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 2 with score 5.2852223386734645
+  Thread 3 with score 5.390028447372361
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 4.581524180266511
+  Thread 1 with score 5.210360832459959
+[Main] Reinitializing memory for thread 2 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 1.
+
+==== Outer Iteration 3 ====
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 3] step=0, generation took 507.47s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=0, generation took 504.06s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.max(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 0] step=0, generation took 503.30s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=0, generation took 506.15s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=1, generation took 506.18s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.max(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=1, generation took 509.50s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 1] step=1, generation took 505.34s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=1, generation took 503.48s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=2, generation took 508.69s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=2, generation took 505.37s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 0] step=2, generation took 501.79s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=2, generation took 505.19s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=3, generation took 505.35s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=3, generation took 507.90s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=3, generation took 504.47s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=3, generation took 506.63s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=4, generation took 505.43s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=4, generation took 507.99s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=4, generation took 499.68s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=4, generation took 503.01s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=5, generation took 506.03s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=5, generation took 507.43s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=5, generation took 504.12s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=5, generation took 504.37s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 3] step=6, generation took 507.67s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=6, generation took 501.55s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=6, generation took 505.57s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 3] step=7, generation took 507.63s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=7, generation took 500.21s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=6, generation took 505.73s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=7, generation took 504.21s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 3] step=8, generation took 506.86s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 0] step=8, generation took 502.42s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=7, generation took 504.74s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=8, generation took 505.66s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 3] step=9, generation took 506.70s
+[Process 3] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=8, generation took 463.37s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 0] step=9, generation took 503.23s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=9, generation took 504.73s
+[Process 1] best score so far: 5.210360832459959, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(bins * (item - bins))
+
+[Process 2] step=9, generation took 504.94s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 4.581524180266511
+  Thread 1: best score 5.210360832459959
+  Thread 2: best score 4.581524180266511
+  Thread 3: best score 5.210360832459959
+
+[Main] Sorted memory_infos (score, thread_idx):
+  4.581524180266511, thread 0
+  4.581524180266511, thread 2
+  5.210360832459959, thread 1
+  5.210360832459959, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 1 with score 5.210360832459959
+  Thread 3 with score 5.210360832459959
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 4.581524180266511
+  Thread 2 with score 4.581524180266511
+[Main] Reinitializing memory for thread 1 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 2.
+
+==== Outer Iteration 4 ====
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 1] step=0, generation took 505.22s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 3] step=0, generation took 502.90s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 2] step=0, generation took 505.58s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 0] step=0, generation took 502.90s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=1, generation took 507.32s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 3] step=1, generation took 505.22s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 0] step=1, generation took 501.75s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=1, generation took 505.56s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=2, generation took 469.44s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 1] step=2, generation took 437.88s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=2, generation took 500.75s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=2, generation took 505.66s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=3, generation took 469.78s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 1] step=3, generation took 437.32s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=3, generation took 503.48s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=3, generation took 504.80s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=4, generation took 503.68s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 1] step=4, generation took 506.28s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=4, generation took 500.22s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 2] step=4, generation took 504.66s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=5, generation took 503.76s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 1] step=5, generation took 506.66s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=5, generation took 502.93s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=6, generation took 503.82s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 0] step=5, generation took 500.52s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=6, generation took 507.03s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=6, generation took 503.62s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=7, generation took 471.14s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 0] step=6, generation took 503.25s
+[Process 0] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 1] step=7, generation took 505.39s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=7, generation took 463.00s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=8, generation took 469.36s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 0] step=7, generation took 500.46s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 1] step=8, generation took 506.71s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=8, generation took 505.00s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 3] step=9, generation took 503.13s
+[Process 3] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.log(np.exp(item - bins) + 1) + np.cos(item + bins)
+
+[Process 0] step=8, generation took 502.13s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 1] step=9, generation took 506.03s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=9, generation took 504.86s
+[Process 2] best score so far: 4.581524180266511, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.mean(bins) * np.exp(item - bins) + np.cos(item + bins)
+
+[Process 0] step=9, generation took 502.01s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 4.4467734690822045
+  Thread 1: best score 4.566551879023805
+  Thread 2: best score 4.581524180266511
+  Thread 3: best score 4.581524180266511
+
+[Main] Sorted memory_infos (score, thread_idx):
+  4.4467734690822045, thread 0
+  4.566551879023805, thread 1
+  4.581524180266511, thread 2
+  4.581524180266511, thread 3
+
+[Main] Worst half (to be reinitialized):
+  Thread 2 with score 4.581524180266511
+  Thread 3 with score 4.581524180266511
+
+[Main] Donor candidates (top half):
+  Thread 0 with score 4.4467734690822045
+  Thread 1 with score 4.566551879023805
+[Main] Reinitializing memory for thread 2 with best element from thread 0.
+[Main] Reinitializing memory for thread 3 with best element from thread 1.
+
+==== Outer Iteration 5 ====
+[Process 1] started on GPU 1, running 10 iterations...
+[Process 3] started on GPU 3, running 10 iterations...
+[Process 2] started on GPU 2, running 10 iterations...
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 3] step=0, generation took 502.08s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=0, generation took 502.69s
+[Process 2] best score so far: 4.326995059140586, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=0, generation took 506.93s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=0, generation took 503.67s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=1, generation took 502.21s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=1, generation took 504.04s
+[Process 2] best score so far: 4.326995059140586, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=1, generation took 506.16s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=1, generation took 501.70s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=2, generation took 504.99s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=2, generation took 505.93s
+[Process 2] best score so far: 4.326995059140586, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=2, generation took 506.90s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=2, generation took 501.31s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=3, generation took 504.60s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=3, generation took 505.20s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=3, generation took 506.88s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=3, generation took 504.42s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=4, generation took 505.09s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=4, generation took 506.71s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=4, generation took 506.76s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=4, generation took 501.62s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=5, generation took 504.36s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=5, generation took 505.82s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=5, generation took 505.79s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=5, generation took 502.47s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=6, generation took 502.32s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=6, generation took 505.54s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=6, generation took 506.38s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=6, generation took 504.01s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=7, generation took 501.69s
+[Process 3] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 2] step=7, generation took 504.17s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=7, generation took 505.53s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=7, generation took 502.05s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=8, generation took 504.52s
+[Process 3] best score so far: 4.192244347956281, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item / bins) + np.sin(np.pi * bins / item)
+
+[Process 2] step=8, generation took 506.33s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=8, generation took 507.29s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=8, generation took 503.03s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+[Process 3] step=9, generation took 505.18s
+[Process 3] best score so far: 4.192244347956281, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return np.exp(item / bins) + np.sin(np.pi * bins / item)
+
+[Process 2] step=9, generation took 505.00s
+[Process 2] best score so far: 4.282078155412491, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.cos(item + bins) * np.log10(bins + 1)
+
+[Process 1] step=9, generation took 505.71s
+[Process 1] best score so far: 4.566551879023805, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (np.max(bins) * np.exp(item - bins)) + np.cos(item + bins) * 4
+
+[Process 0] step=9, generation took 502.03s
+[Process 0] best score so far: 4.4467734690822045, content:
+def priority(item: float, bins: np.ndarray) -> np.ndarray:
+    return (item + np.mean(bins)) * np.exp(item - bins) - np.sin(item + bins) * np.log(bins + 1)
+
+
+[Main] Collecting best scores from each thread's memory:
+  Thread 0: best score 4.4467734690822045
+  Thread 1: best score 4.566551879023805
+  Thread 2: best score 4.282078155412491
+  Thread 3: best score 4.192244347956281
+
+[Main] Sorted memory_infos (score, thread_idx):
+  4.192244347956281, thread 3
+  4.282078155412491, thread 2
+  4.4467734690822045, thread 0
+  4.566551879023805, thread 1
+
+[Main] Worst half (to be reinitialized):
+  Thread 0 with score 4.4467734690822045
+  Thread 1 with score 4.566551879023805
+
+[Main] Donor candidates (top half):
+  Thread 3 with score 4.192244347956281
+  Thread 2 with score 4.282078155412491
+[Main] Reinitializing memory for thread 0 with best element from thread 3.
+[Main] Reinitializing memory for thread 1 with best element from thread 2.
+
+==== Outer Iteration 6 ====

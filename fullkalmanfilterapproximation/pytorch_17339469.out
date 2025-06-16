@@ -1,0 +1,2570 @@
+MSE: 1.1180493160255696
+Detected 1 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+MSE: 1.1180493160255696
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, sampling done
+[Process 0] step=0, text tokenized
+[Process 0] step=0, Generation done
+[Process 0] step=0, text decoded
+[Process 0] in save_batch
+[Process 0] total_matches: 343
+[Process 0] before evaluate_graphs
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: 265948408.9189396
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: 2.0742094832589832
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(b)
+    i = d / (f + 1e-8)
+    j = np.log(c + 1)
+    k = g * h + i * j
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e * f - a
+    i = d + e
+    j = np.zeros_like(a)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sin(a) + b
+    h = e - np.cos(f)
+    i = d + c
+    j = np.eye(a.shape[0])
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = e + f
+    i = d - a
+    j = np.full_like(a, 1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a) + b
+    h = e - np.std(f)
+    i = d + c
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d + c
+    j = np.eye(a.shape[0])
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5 + b
+    h = e - f
+    i = d + c
+    j = np.full_like(a, 1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + c
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - f
+    i = d + c
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = e + f
+    i = d - a
+    j = np.full_like(a, 1)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d + c
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sin(a) + np.cos(b)
+    h = e * d
+    i = c - a
+    j = np.mean(b, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = c - d
+    j = np.mean(g, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * e
+    h = b + f
+    i = c - d
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - f
+    i = c * d
+    j = np.mean(a, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = c - d
+    j = np.mean(g, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * e
+    h = b + f
+    i = c - d
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - f
+    i = c * d
+    j = np.mean(a, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b @ c
+    h = e + d
+    i = f * a
+    j = np.eye_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f * a
+    j = np.eye_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b - c
+    h = e + d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f * a
+    j = np.ones_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f * a
+    j = np.ones_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b - c
+    h = e + d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f * a
+    j = np.eye_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c / d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a @ b
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e - a
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: 265948408.9189396
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - f
+    i = d + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sum(b)
+    h = e - c
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e + g
+    i = d - f
+    j = np.ones_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: 2.074209483258987
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c * d + e
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + b + c
+    k = d * e
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d - e
+    i = f * a
+    j = b + c
+    k = d + e + f
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e * f
+    i = a + d
+    j = np.sin(b)
+    k = c * d
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:2: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.log(b)
+    h = e - d
+    i = c * f
+    j = np.exp(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = e + f
+    i = a + d
+    j = np.sqrt(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = c * f
+    j = np.log(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d + c
+    j = np.sin(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = e + f
+    i = a + d
+    j = np.exp(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = c * f
+    j = np.sqrt(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - f
+    i = d + c
+    j = np.log(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c
+    h = e + f
+    i = a + d
+    j = np.exp(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = c * f
+    j = np.sin(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a)
+    h = np.max(b)
+    i = np.min(c)
+    j = np.std(d)
+    k = np.sum(e)
+    return g, c, h, i, j, k
+score: 26972.769609599145
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.log(d + 1)
+    i = c + f
+    j = np.mean(a, axis=0)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - d
+    i = f * c
+    j = np.max(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e * f
+    i = d - a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d * f
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.log(b + 1)
+    h = e - d
+    i = c + f
+    j = np.max(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = c - d
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e * f
+    i = c - d
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + f
+    i = c - d
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a
+    j = np.dot(a, b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = np.sum(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.sqrt(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = np.log(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.exp(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.sum(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = np.sqrt(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.log(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b) * a
+    h = e * np.cos(a)
+    i = d + f * 2
+    j = np.log(a + 1)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - a * 0.5
+    i = d + f * 3
+    j = np.sqrt(a + 1)
+    k = g + h * i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e * np.cos(a)
+    i = d + f * 2
+    j = np.log(a + 1)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - a * 0.5
+    i = d + f * 3
+    j = np.sqrt(a + 1)
+    k = g + h * i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b) * a
+    h = e * np.cos(a)
+    i = d + f * 2
+    j = np.log(a + 1)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - a * 0.5
+    i = d + f * 3
+    j = np.sqrt(a + 1)
+    k = g + h * i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e * np.cos(a)
+    i = d + f * 2
+    j = np.log(a + 1)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - a * 0.5
+    i = d + f * 3
+    j = np.sqrt(a + 1)
+    k = g + h * i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b) * a
+    h = e * np.cos(a)
+    i = d + f * 2
+    j = np.log(a + 1)
+    k = g * h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - a * 0.5
+    i = d + f * 3
+    j = np.sqrt(a + 1)
+    k = g + h * i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = e - d
+    i = f + c
+    j = np.ones_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - c
+    i = d + f
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + c
+    i = d - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sum(a)
+    h = b * c
+    i = d - e
+    j = a @ b
+    k = f + g
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a)
+    h = b + c
+    i = d * e
+    j = np.zeros_like(f)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.eye(len(a))
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.max(a)
+    h = b - c
+    i = d + e
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a, axis=0)
+    h = b + c
+    i = d - e
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = b + c
+    i = d - e
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sum(a)
+    h = b - c
+    i = d + e
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = np.eye(len(a))
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.mean(a)
+    h = b + c
+    i = d - e
+    j = np.ones_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, a)
+    h = e - np.mean(a, axis=0)
+    i = d * f
+    j = np.linalg.inv(c + d)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e + np.sum(a)
+    i = d / f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = e - np.cos(a)
+    i = d + f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.log(b + 1)
+    h = e + np.sum(a)
+    i = d / f
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - np.mean(d)
+    i = f * a
+    j = np.linalg.inv(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e + np.sum(c)
+    i = d - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - np.mean(d)
+    i = d * f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.log(b + 1)
+    h = e + np.sum(c)
+    i = d / f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.dot(b, c)
+    h = e - np.mean(d)
+    i = d + f
+    j = np.linalg.inv(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e + np.sum(c)
+    i = d - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c * e
+    i = d / f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - f
+    i = a + d
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.dot(a, b)
+    h = c + d
+    i = e * f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e / f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c * e
+    i = d / f
+    j = a - b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - f
+    i = a + d
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.dot(a, b)
+    h = c + d
+    i = e * f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e / f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.dot(a, b)
+    h = c - d
+    i = e + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c / d
+    i = e - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.ones_like(a)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = c + d
+    i = e - f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.dot(a, b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.max(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = c - d
+    i = e + f
+    j = np.min(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = b + c
+    i = d - e
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.sum(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c + d
+    i = e * f
+    j = np.sqrt(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c - d
+    i = e + f
+    j = np.log(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e / f
+    j = np.exp(a)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a - b
+    h = c + d
+    i = e * f
+    j = np.mean(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c - d
+    i = e + f
+    j = np.max(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e - np.dot(a, b)
+    i = d * f
+    j = np.max(a, axis=0)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.exp(a) * b
+    h = e - a * d
+    i = f + np.log(c)
+    j = np.mean(a, axis=1)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e - np.dot(d, f)
+    i = a + b
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sqrt(a) * b
+    h = e - c * d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d * f
+    i = a * b
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:2: RuntimeWarning: divide by zero encountered in log
+<string>:2: RuntimeWarning: invalid value encountered in multiply
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.log(a) * b
+    h = e - c + d
+    i = f * a
+    j = np.max(a, axis=1)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c + d
+    h = e - f
+    i = np.dot(a, b)
+    j = np.mean(c, axis=0)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.exp(a) + b * c
+    h = e - d + f
+    i = a + b
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b - c + d
+    h = e - f
+    i = np.dot(a, b)
+    j = np.ones_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.sqrt(a) * b + c
+    h = e - d * f
+    i = a + b
+    j = np.zeros_like(c)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = np.dot(a, b)
+    g = np.add(g, c)
+    h = np.multiply(d, e)
+    h = np.subtract(h, f)
+    i = np.sum(a)
+    j = np.mean(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    g = np.where(g > 0, g, 0)
+    h = e * f
+    h = np.subtract(h, d)
+    i = np.max(a)
+    j = np.min(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    g = np.sum(g, axis=0)
+    h = e + f
+    h = np.subtract(h, d)
+    i = np.mean(a)
+    j = np.std(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    g = np.add(g, c)
+    h = d * e
+    h = np.subtract(h, f)
+    i = np.sum(a, axis=1)
+    j = np.mean(b, axis=0)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    g = np.where(g > 0, g, 0)
+    h = e * f
+    h = np.subtract(h, d)
+    i = np.max(a)
+    j = np.min(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    g = np.sum(g, axis=0)
+    h = e + f
+    h = np.subtract(h, d)
+    i = np.mean(a)
+    j = np.std(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    g = np.where(g > 0, g, 0)
+    h = e * f
+    h = np.subtract(h, d)
+    i = np.max(a)
+    j = np.min(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    g = np.sum(g, axis=0)
+    h = e + f
+    h = np.subtract(h, d)
+    i = np.mean(a)
+    j = np.std(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    g = np.where(g > 0, g, 0)
+    h = e * f
+    h = np.subtract(h, d)
+    i = np.max(a)
+    j = np.min(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    g = np.sum(g, axis=0)
+    h = e + f
+    h = np.subtract(h, d)
+    i = np.mean(a)
+    j = np.std(b)
+    k = np.add(g, h)
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * a
+    h = c - d
+    i = e + f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = c + d
+    i = e - f
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e + f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e + f
+    j = np.eye_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = c + d
+    i = e - f
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+<string>:4: RuntimeWarning: invalid value encountered in multiply
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sin(a)
+    h = e * np.cos(d)
+    i = d + f * np.log(a)
+    j = a @ b
+    k = c * np.exp(d)
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.sqrt(b)
+    h = e - d
+    i = f + np.log(c)
+    j = a + b
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.log(b + 1)
+    h = e - f
+    i = d * np.sqrt(c)
+    j = a @ a.T
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.exp(c)
+    h = e - d
+    i = f + np.log(a)
+    j = a @ b.T
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.sin(b + c)
+    h = e - f
+    i = d + np.log(c)
+    j = a + b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.cos(b)
+    h = e - d
+    i = f + np.log(c)
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:2: RuntimeWarning: divide by zero encountered in log
+<string>:2: RuntimeWarning: invalid value encountered in multiply
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.log(c)
+    h = e - f
+    i = d + np.sqrt(c)
+    j = a @ a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = e - d
+    i = f + np.log(c)
+    j = a @ b.T
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * np.sqrt(c)
+    h = e - f
+    i = d + np.log(c)
+    j = a @ a.T
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.sin(b + c)
+    h = e - d
+    i = f + np.log(c)
+    j = a + b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.cos(b)
+    h = e - f
+    i = d + np.log(c)
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b.T @ a
+    h = e - a.T
+    i = d + f.T
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: 230892479951.4002
+⚠️ Error Output: <string>:3: RuntimeWarning: divide by zero encountered in divide
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.pi
+    h = e / a
+    i = d + f
+    j = np.eye_like(a)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = f + g
+    j = np.ones_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * 2
+    h = e - c
+    i = d + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.sin(b)
+    h = e + c
+    i = d - f
+    j = np.eye(a.shape[0])
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b.T
+    h = e - a.T
+    i = d + f.T
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k
+score: 2.0742094832589832
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 2
+    h = e - c
+    i = d + f
+    j = np.ones_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b.T @ a
+    h = e - a.T
+    i = d + f.T
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: 230892479951.4002
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e @ c
+    i = d + e
+    j = np.zeros_like(f)
+    k = g + h
+    return g, c, h, i, j, k
+score: 265948408.91893983
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b + c
+    h = d - e
+    i = f + g
+    j = np.eye_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b
+    h = c - d
+    i = e + f
+    j = np.ones(a.shape)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:4: RuntimeWarning: invalid value encountered in remainder
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c / d
+    i = e % f
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = e - f
+    i = c * d
+    j = np.zeros_like(a)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e + c
+    i = d - f
+    j = np.eye(a.shape[0])
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e - g
+    i = d + f
+    j = np.ones_like(c)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e - d
+    i = f + g
+    j = np.zeros_like(a)
+    k = h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c * np.cos(d)
+    i = e + f
+    j = a * b.T
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = c - np.log(d)
+    i = e + f.T
+    j = np.maximum(a, b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f + a.T
+    j = np.mean(a, axis=0)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.sin(b)
+    h = c + np.cos(d)
+    i = e - f.T
+    j = np.sqrt(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:2: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.log(b)
+    h = c * np.exp(d)
+    i = e + f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = c - np.log(d)
+    i = e + f.T
+    j = np.mean(a, axis=1)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c * np.cos(d)
+    i = e - f
+    j = a * b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = c + np.log(d)
+    i = e - f.T
+    j = np.sqrt(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + np.sin(b)
+    h = c - np.cos(d)
+    i = e + f
+    j = a * b.T
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * np.exp(b)
+    h = c + np.log(d)
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + d
+    i = f - a
+    j = np.dot(a, b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.sin(c)
+    k = g * h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - f
+    i = d + a
+    j = np.cos(d)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + f
+    i = d - a
+    j = np.log(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.sqrt(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + f
+    i = d - a
+    j = np.exp(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.sin(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + f
+    i = d - a
+    j = np.cos(d)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+⚠️ Error Output: <string>:5: RuntimeWarning: divide by zero encountered in log
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.log(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + f
+    i = d - a
+    j = np.sqrt(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = c + d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c * d
+    i = e - f
+    j = a @ b
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = np.zeros_like(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c
+    h = e * d
+    i = f + a
+    j = np.zeros_like(b)
+    k = g - h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e - d
+    i = f + a
+    j = np.eye_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = e + d
+    i = f - a
+    j = np.ones_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.zeros_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e + d
+    i = f - a
+    j = np.eye_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e + d
+    i = f - a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b + c
+    h = e + d
+    i = f - a
+    j = np.zeros_like(b)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = e - d
+    i = f + a
+    j = np.ones_like(c)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a.T
+    h = e - a.sum()
+    i = d * f
+    j = np.vdot(a, b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e - a
+    i = d + f
+    j = np.trace(a)
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + g
+    i = d - f
+    j = np.max(a)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c.T
+    h = e - a.sum()
+    i = d * f
+    j = np.dot(a, b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e + g
+    i = d - f
+    j = np.trace(c)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ a.T
+    h = e - a.sum()
+    i = d * f
+    j = np.vdot(a, b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e + g
+    i = d - f
+    j = np.max(c)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = e + g
+    i = d - f
+    j = np.trace(a)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b @ c.T
+    h = e - a.sum()
+    i = d * f
+    j = np.dot(a, b)
+    k = g + h + i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a @ b.T
+    h = e + g
+    i = d - f
+    j = np.min(c)
+    k = h - i
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e * f
+    j = a + b
+    k = c - d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a ** 2
+    h = b * c
+    i = d + e
+    j = f - a
+    k = g + h
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b
+    h = c - d
+    i = e * f
+    j = a ** 2
+    k = b + c
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b
+    h = c + d
+    i = e - f
+    j = a + c
+    k = b * d
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a ** 2 + b
+    h = c * d
+    i = e + f
+    j = a - b
+    k = c + e
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c
+    h = d ** 2
+    i = e - f
+    j = a + d
+    k = b * c
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b * c
+    h = d - e
+    i = f ** 2
+    j = a * d
+    k = b + c
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a ** 2 + b * c
+    h = d + e
+    i = f - a
+    j = b * d
+    k = c + e
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a + b ** 2
+    h = c * d
+    i = e + f
+    j = a - d
+    k = b + c
+    return g, c, h, i, j, k
+score: inf
+function:
+def aproximate(a, b, c, d, e, f):
+    g = a * b + c ** 2
+    h = d - e
+    i = f * a
+    j = b + d
+    k = c + e
+    return g, c, h, i, j, k
+score: inf
+[Process 0] after evaluate_graphs
+[Process 0] step=0, generation took 129.45s 
+[Process 0] best score so far: 2.0742094832589832, content:
+def aproximate(a, b, c, d, e, f):
+    g = a * 0.5
+    h = e + g
+    i = d - f
+    j = np.zeros_like(c)
+    k = h - g
+    return g, c, h, i, j, k 
+[Process 0] step=1, sampling done
+[Process 0] step=1, text tokenized
