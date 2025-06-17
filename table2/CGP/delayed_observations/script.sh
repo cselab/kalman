@@ -12,4 +12,4 @@
 # run code
 
 
-python full_kalman_filter.py
+python train.py

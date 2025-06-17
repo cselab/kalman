@@ -12,4 +12,4 @@
 # run code
 
 
-python full_kalman_filter_non_lineariry_modeled.py
+python train.py
