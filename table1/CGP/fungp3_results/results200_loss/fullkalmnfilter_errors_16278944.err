@@ -1,5 +1,0 @@
-/n/home10/vsaketos/wavegp/kalmangp/fun_gp_no_oracle/results200_loss/extract.py:369: RuntimeWarning: invalid value encountered in matmul
-  K = (P @ H.T) @ np.linalg.inv(S)
-/n/home10/vsaketos/wavegp/kalmangp/fun_gp_no_oracle/results200_loss/extract.py:371: RuntimeWarning: invalid value encountered in matmul
-  P = (np.eye(dim) - (K @ H)) @ P
-slurmstepd: error: *** JOB 16278944 ON holy7c24405 CANCELLED AT 2025-05-20T13:32:41 ***
