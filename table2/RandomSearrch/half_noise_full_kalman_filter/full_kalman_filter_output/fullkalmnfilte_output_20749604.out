@@ -1,0 +1,41 @@
+Sanity check loss: 1.8006615473941938 distance from kalman filter :  0.0
+Generation 00000 - Island 0 Best found in this generation: 2.0742094832590188
+Island 0 BEST SO FAR: 2.0742094832590188 DISTANCE FROM KALMAN FILTER : 4.479107658473145 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  10 [label = "transpose"]
+  8 -> 10
+  11 [label = "minus"]
+  3 -> 11 [color = red]
+  2 -> 11 [color = blue]
+  15 [label = "minus"]
+  5 -> 15 [color = red]
+  10 -> 15 [color = blue]
+  16 [label = "matmul"]
+  2 -> 16 [color = red]
+  8 -> 16 [color = blue]
+  18 [label = "minus"]
+  15 -> 18 [color = red]
+  16 -> 18 [color = blue]
+  25 [label = o0]
+  4 -> 25
+  26 [label = o1]
+  11 -> 26
+  27 [label = o2]
+  18 -> 27
+  28 [label = o3]
+  0 -> 28
+  29 [label = o4]
+  8 -> 29
+  30 [label = o5]
+  4 -> 30
+}
+
