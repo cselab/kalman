@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py", line 1, in <module>
-    import scipy.linalg
-ModuleNotFoundError: No module named 'scipy'

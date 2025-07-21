@@ -1,36 +1,0 @@
-/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
-  warnings.warn(
-`low_cpu_mem_usage` was None, now default to True since model is quantized.
-Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.82s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.91s/it]
-Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
-    return list(map(*args))
-  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/funsearch.py", line 55, in inference_worker
-    mem.save_batch(generated_texts)
-  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/memory.py", line 236, in save_batch
-    score = evaluate.evaluate_graph(func)
-  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/evaluate.py", line 76, in evaluate_graph
-    xp, P, y, S = new_function(xx, F, P, Q, z, R)
-  File "<string>", line 4, in fun
-NameError: name 'output1' is not defined
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/funsearch.py", line 147, in <module>
-    main()
-  File "/n/home10/vsaketos/wavegp/kalmangp/PureFunsearch_predict_plus_two/funsearch.py", line 98, in main
-    results = pool.map(inference_worker, args_list)
-  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 364, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 771, in get
-    raise self._value
-NameError: name 'output1' is not defined
-srun: error: holygpu8a16601: task 0: Exited with exit code 1

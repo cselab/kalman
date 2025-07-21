@@ -1,9 +1,0 @@
-/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py:116: RuntimeWarning: overflow encountered in matmul
-  if (x_true - xp)@((x_true - xp).T) < 0 :
-/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py:118: RuntimeWarning: overflow encountered in matmul
-  mse_true_trajectory =  np.add(mse_true_trajectory, ((x_true - xp)@((x_true - xp).T) )/100).real
-/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py:168: RuntimeWarning: overflow encountered in matmul
-  return inp[0] @ inp[1]
-/n/home10/vsaketos/wavegp/kalmangp/Kalmangp.py:105: RuntimeWarning: invalid value encountered in matmul
-  y = z - (H @ xp)  # Measurement residual
-slurmstepd: error: *** JOB 10528108 ON holy7c02410 CANCELLED AT 2025-04-14T07:02:51 ***

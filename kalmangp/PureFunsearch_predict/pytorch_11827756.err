@@ -1,21 +1,0 @@
-/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
-  warnings.warn(
-/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
-  warnings.warn(
-/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
-  warnings.warn(
-/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
-  warnings.warn(
-`low_cpu_mem_usage` was None, now default to True since model is quantized.
-`low_cpu_mem_usage` was None, now default to True since model is quantized.
-`low_cpu_mem_usage` was None, now default to True since model is quantized.
-`low_cpu_mem_usage` was None, now default to True since model is quantized.
-Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
-Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
-Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
-Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.12s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.12s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.18s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:31<00:34, 17.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:31<00:34, 17.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:34, 17.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:34, 17.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:54<00:19, 19.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:54<00:19, 19.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:54<00:19, 19.43s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:54<00:19, 19.44s/it]srun: got SIGCONT
-slurmstepd: error: *** JOB 11827756 ON holygpu8a16204 CANCELLED AT 2025-04-22T12:44:52 ***
-srun: forcing job termination
-slurmstepd: error: *** STEP 11827756.0 ON holygpu8a16204 CANCELLED AT 2025-04-22T12:44:52 ***
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

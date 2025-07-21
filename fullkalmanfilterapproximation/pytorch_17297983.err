@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation/funsearch.py", line 12, in <module>
-    import memory  # your custom memory module
-  File "/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation/memory.py", line 6, in <module>
-    import evaluate
-  File "/n/home10/vsaketos/wavegp/fullkalmanfilterapproximation/evaluate.py", line 143, in <module>
-    result = evaluate_graph(my_function, traj)
-TypeError: evaluate_graph() takes 1 positional argument but 2 were given
-srun: error: holygpu8a16502: task 0: Exited with exit code 1
