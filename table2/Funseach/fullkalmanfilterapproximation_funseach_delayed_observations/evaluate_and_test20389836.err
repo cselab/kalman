@@ -1,0 +1,8 @@
+<string>:6: RuntimeWarning: overflow encountered in exp
+<string>:6: RuntimeWarning: invalid value encountered in matmul
+/n/home10/vsaketos/wavegp/table2/Funseach/fullkalmanfilterapproximation_funseach_delayed_observations/evaluate_and_test.py:89: RuntimeWarning: overflow encountered in square
+  pred_errors.append(np.sum((x_true - xp) ** 2))
+/n/home10/vsaketos/wavegp/table2/Funseach/fullkalmanfilterapproximation_funseach_delayed_observations/evaluate_and_test.py:90: RuntimeWarning: overflow encountered in square
+  squared_errors.append(np.sum((x_true - x_est_apx) ** 2))
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:185: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)

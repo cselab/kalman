@@ -1,0 +1,177 @@
+
+📄 Checking predict25017349.out (graph 1/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 2/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 3/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 4/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 5/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 6/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 7/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 8/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 1/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 2/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 3/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 4/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 5/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 6/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 7/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 8/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 1/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 2/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 3/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 4/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 5/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 6/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 7/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 8/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 1/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 2/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 3/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 4/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 5/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 6/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 7/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 8/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 1/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 2/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 3/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 4/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 5/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 6/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 7/8)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 8/8)
+✅ DOT structure is accepted.
+
+✅ Total evaluated graphs: 40
+./predict25017349.out --> Score: 1.193231
+./predict25017349.out --> Score: 1.209344
+./predict25017349.out --> Score: 2.333718
+./predict25017349.out --> Score: 1.009967
+./predict25017349.out --> Score: 0.999072
+./predict25017347.out --> Score: 1.528313
+./predict25017347.out --> Score: 1.533246
+./predict25017347.out --> Score: 1.193231
+./predict25017347.out --> Score: 1.001322
+./predict25017347.out --> Score: 1.009967
+./predict25017350.out --> Score: 1.193231
+./predict25017350.out --> Score: 1.144785
+./predict25017350.out --> Score: 1.069877
+./predict25017350.out --> Score: 1.009967
+./predict25017350.out --> Score: 1.009967
+./predict25017346.out --> Score: 1.209344
+./predict25017346.out --> Score: 1.120007
+./predict25017346.out --> Score: 1.009967
+./predict25017346.out --> Score: 1.001322
+./predict25017348.out --> Score: 8.791450
+./predict25017348.out --> Score: 1.009967
+./predict25017348.out --> Score: 0.995077
+
+🏆 Best Score: 0.995077
+
+📈 Best Graphviz:
+digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = "matmul"]
+  1 -> 4 [color = red]
+  2 -> 4 [color = blue]
+  5 [label = "transpose"]
+  1 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  0 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "add"]
+  6 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = o0]
+  7 -> 9
+  10 [label = o1]
+  8 -> 10
+}
+
+
+📊 Final Test Results
+Evolved Predictor MSE     : 0.995077 ± 0.009298
+Kalman Filter MSE         : 0.995077 ± 0.009298

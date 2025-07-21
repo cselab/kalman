@@ -1,0 +1,3 @@
+Command: 
+
+for f in *; do [ -f "$f" ] && c=$(grep -aoE 'Best Cost: [0-9.]+([eE][+-]?[0-9]+)?|BEST SO FAR: [0-9.]+([eE][+-]?[0-9]+)?' "$f" | grep -oE '[0-9.]+([eE][+-]?[0-9]+)?' | sort -g | head -n1); [ -n "$c" ] && echo "$c $f"; done | sort -g

@@ -1,0 +1,153 @@
+Sanity check loss: 1.071314963686872 distance from kalman filter :  0.0
+[00047] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  2 -> 6
+  7 [label = "add"]
+  1 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  9 [label = "transpose"]
+  7 -> 9
+  20 [label = "transpose"]
+  1 -> 20
+  23 [label = "matmul"]
+  4 -> 23 [color = red]
+  5 -> 23 [color = blue]
+  25 [label = o0]
+  23 -> 25
+  26 [label = o1]
+  5 -> 26
+  27 [label = o2]
+  9 -> 27
+  28 [label = o3]
+  20 -> 28
+  29 [label = o4]
+  6 -> 29
+  30 [label = o5]
+  4 -> 30
+}
+
+[693003] New best score: 2.0726e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  1 -> 6
+  9 [label = "matmul"]
+  1 -> 9 [color = red]
+  0 -> 9 [color = blue]
+  10 [label = "inv"]
+  5 -> 10
+  15 [label = "minus"]
+  9 -> 15 [color = red]
+  4 -> 15 [color = blue]
+  16 [label = "minus"]
+  0 -> 16 [color = red]
+  15 -> 16 [color = blue]
+  17 [label = "add"]
+  15 -> 17 [color = red]
+  10 -> 17 [color = blue]
+  25 [label = o0]
+  16 -> 25
+  26 [label = o1]
+  5 -> 26
+  27 [label = o2]
+  6 -> 27
+  28 [label = o3]
+  4 -> 28
+  29 [label = o4]
+  17 -> 29
+  30 [label = o5]
+  16 -> 30
+}
+
+[5282569] New best score: 1.1468e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "add"]
+  0 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  11 [label = "inv"]
+  5 -> 11
+  14 [label = "add"]
+  11 -> 14 [color = red]
+  11 -> 14 [color = blue]
+  21 [label = "inv"]
+  14 -> 21
+  23 [label = "matmul"]
+  6 -> 23 [color = red]
+  21 -> 23 [color = blue]
+  25 [label = o0]
+  4 -> 25
+  26 [label = o1]
+  21 -> 26
+  27 [label = o2]
+  23 -> 27
+  28 [label = o3]
+  21 -> 28
+  29 [label = o4]
+  4 -> 29
+  30 [label = o5]
+  23 -> 30
+}
+
+[131567561] New best score: 1.1323e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  3 -> 6 [color = blue]
+  8 [label = "minus"]
+  6 -> 8 [color = red]
+  3 -> 8 [color = blue]
+  9 [label = "add"]
+  5 -> 9 [color = red]
+  5 -> 9 [color = blue]
+  10 [label = "matmul"]
+  9 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  11 [label = "minus"]
+  6 -> 11 [color = red]
+  9 -> 11 [color = blue]
+  12 [label = "add"]
+  0 -> 12 [color = red]
+  4 -> 12 [color = blue]
+  14 [label = "matmul"]
+  12 -> 14 [color = red]
+  2 -> 14 [color = blue]
+  17 [label = "inv"]
+  9 -> 17
+  25 [label = o0]
+  14 -> 25
+  26 [label = o1]
+  17 -> 26
+  27 [label = o2]
+  10 -> 27
+  28 [label = o3]
+  11 -> 28
+  29 [label = o4]
+  2 -> 29
+  30 [label = o5]
+  14 -> 30
+}
+

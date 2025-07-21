@@ -430,7 +430,9 @@ for trajectory in test_trajectories:
         mse_kalman_filter = distance_from_kalman_filter(best_predict,trajectory)
         mses_kalman_filter.append(mse_kalman_filter)
 
-sys.stdout.write(f"MSE real trajectories on the test set : {np.mean(mse_real_trajectories):.6f}"+"\n")
+stderr_real = np.std(mse_real_trajectories, ddof=1) / np.sqrt(len(mse_real_trajectories))
+
+sys.stdout.write(f"MSE real trajectories on the test set : {np.mean(mse_real_trajectories):.6f}  ± {stderr_real:.6f}"+"\n")
 sys.stdout.flush()
 
 

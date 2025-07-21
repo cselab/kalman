@@ -450,11 +450,11 @@ H = np.eye(dim)
 I = np.eye(dim)
 B = np.eye(dim)
 
-trajectories = []
+validation_trajectories = []
 all_scores = []
-for trial in range(10):
+for trial in range(50):
     traj = generate_trajectory(length=500, seed=12345 + trial)
-    trajectories.append(traj)
+    validation_trajectories.append(traj)
 
 
 
@@ -470,7 +470,7 @@ for filename, predict in digraphs:
     seen_hashes.add(key)    
     try:
         all_scores = []
-        for trajectory in trajectories:
+        for trajectory in validation_trajectories:
             #score = distance_from_kalman_filter(predict,trajectory)
             score = distance_from_target_function(predict,trajectory)
             all_scores.append(score)
@@ -486,6 +486,11 @@ for filename, predict in digraphs:
     except Exception as e:
         print(f"Evaluation failed for {filename}: {e}")
 
+test_trajectories = []
+all_scores = []
+for trial in range(50):
+    traj = generate_trajectory(length=500, seed=32 + trial)
+    test_trajectories.append(traj)
 if best_predict is not None:
     sys.stdout.write(f"\n🏆 Best Graph Score: {best_score}"+"\n")
     g.n = 7
@@ -496,7 +501,7 @@ if best_predict is not None:
     sys.stdout.write(f"🏁 Best Graphviz:\n{gp.as_graphviz(g, best_predict)}"+"\n")
     g.n = 9
     all_scores =[]
-    for trajectory in trajectories:
+    for trajectory in test_trajectories:
         #score = distance_from_kalman_filter(predict,trajectory)
         score = distance_from_target_function(best_predict,trajectory)
         all_scores.append(score)

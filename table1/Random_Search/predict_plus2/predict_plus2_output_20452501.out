@@ -1,0 +1,270 @@
+Sanity check loss: 1.1180493160255696
+[00067] New best score: 1.3378e+05
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  1 -> 6 [color = red]
+  4 -> 6 [color = blue]
+  7 [label = "add"]
+  3 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  10 [label = "add"]
+  7 -> 10 [color = red]
+  6 -> 10 [color = blue]
+  13 [label = o0]
+  6 -> 13
+  14 [label = o1]
+  3 -> 14
+  15 [label = o2]
+  6 -> 15
+  16 [label = o3]
+  10 -> 16
+}
+
+[00264] New best score: 2.6929e+04
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  13 [label = o0]
+  0 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  0 -> 15
+  16 [label = o3]
+  5 -> 16
+}
+
+[00805] New best score: 1.3586e+04
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "matmul"]
+  3 -> 7 [color = red]
+  3 -> 7 [color = blue]
+  12 [label = "matmul"]
+  4 -> 12 [color = red]
+  5 -> 12 [color = blue]
+  13 [label = o0]
+  12 -> 13
+  14 [label = o1]
+  7 -> 14
+  15 [label = o2]
+  12 -> 15
+  16 [label = o3]
+  1 -> 16
+}
+
+[00820] New best score: 2.6391e+01
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  4 -> 6
+  13 [label = o0]
+  4 -> 13
+  14 [label = o1]
+  2 -> 14
+  15 [label = o2]
+  6 -> 15
+  16 [label = o3]
+  1 -> 16
+}
+
+[01345] New best score: 2.1190e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  8 [label = "matmul"]
+  5 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  9 [label = "transpose"]
+  5 -> 9
+  10 [label = "transpose"]
+  4 -> 10
+  13 [label = o0]
+  8 -> 13
+  14 [label = o1]
+  2 -> 14
+  15 [label = o2]
+  10 -> 15
+  16 [label = o3]
+  9 -> 16
+}
+
+[03708] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  8 [label = "transpose"]
+  5 -> 8
+  9 [label = "minus"]
+  8 -> 9 [color = red]
+  8 -> 9 [color = blue]
+  10 [label = "transpose"]
+  9 -> 10
+  11 [label = "add"]
+  1 -> 11 [color = red]
+  10 -> 11 [color = blue]
+  13 [label = o0]
+  4 -> 13
+  14 [label = o1]
+  9 -> 14
+  15 [label = o2]
+  0 -> 15
+  16 [label = o3]
+  11 -> 16
+}
+
+[06194] New best score: 2.0038e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  9 [label = "matmul"]
+  0 -> 9 [color = red]
+  5 -> 9 [color = blue]
+  10 [label = "minus"]
+  4 -> 10 [color = red]
+  0 -> 10 [color = blue]
+  12 [label = "add"]
+  2 -> 12 [color = red]
+  1 -> 12 [color = blue]
+  13 [label = o0]
+  9 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  10 -> 15
+  16 [label = o3]
+  12 -> 16
+}
+
+[402066] New best score: 1.7477e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  2 -> 6 [color = red]
+  0 -> 6 [color = blue]
+  7 [label = "transpose"]
+  4 -> 7
+  8 [label = "add"]
+  1 -> 8 [color = red]
+  1 -> 8 [color = blue]
+  13 [label = o0]
+  6 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  7 -> 15
+  16 [label = o3]
+  8 -> 16
+}
+
+[1870396] New best score: 1.4956e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  8 [label = "add"]
+  5 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  13 [label = o0]
+  6 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  4 -> 15
+  16 [label = o3]
+  8 -> 16
+}
+
+[9789529] New best score: 1.3794e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  1 -> 7 [color = blue]
+  8 [label = "transpose"]
+  4 -> 8
+  12 [label = "matmul"]
+  2 -> 12 [color = red]
+  0 -> 12 [color = blue]
+  13 [label = o0]
+  12 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  8 -> 15
+  16 [label = o3]
+  7 -> 16
+}
+
+[15203380] New best score: 1.3746e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  8 [label = "matmul"]
+  2 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  9 [label = "add"]
+  1 -> 9 [color = red]
+  5 -> 9 [color = blue]
+  13 [label = o0]
+  8 -> 13
+  14 [label = o1]
+  1 -> 14
+  15 [label = o2]
+  0 -> 15
+  16 [label = o3]
+  9 -> 16
+}
+

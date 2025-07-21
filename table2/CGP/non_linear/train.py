@@ -401,7 +401,7 @@ if __name__ == "__main__":
         sampler = TopCandidateSampler(max_candidates=50)
         population = [rand() for _ in range(island_population)]
         genes = population
-        population[0] =  kalman_filter
+        #population[0] =  kalman_filter
         costs = pool.map(distance_from_target_function, genes)
         sampler.update(genes, costs)
         islands.append({"sampler": sampler, "population": population})

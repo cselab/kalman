@@ -1,0 +1,29 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_one/funsearch.py", line 17, in inference_worker
+    torch.cuda.set_device(gpu_id)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/cuda/__init__.py", line 476, in set_device
+    torch._C._cuda_setDevice(device)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/torch/cuda/__init__.py", line 319, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_one/funsearch.py", line 147, in <module>
+    main()
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_one/funsearch.py", line 98, in main
+    results = pool.map(inference_worker, args_list)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+RuntimeError: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+srun: error: holygpu8a16301: task 0: Exited with exit code 1

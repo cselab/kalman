@@ -142,6 +142,7 @@ def safe_exec_function(code):
         sys.stdout.flush()
         return None
 
+
 # === Main Evaluation ===
 def main():
     input_path = "pytorch_18877820.out"  # 🔁 Update with your file
@@ -163,8 +164,10 @@ def main():
         func = safe_exec_function(code)
         if not func:
             continue
-        score = np.mean([distance_from_target_function(func, traj) for traj in validation_trajectories])
-        sys.stdout.write(f"🔬 Function {i + 1}: MSE = {score:.6f}\n")
+        errors = [distance_from_target_function(func, traj) for traj in validation_trajectories]
+        score = np.mean(errors)
+        stderr = np.std(errors, ddof=1) / np.sqrt(len(errors))  # manual stderr
+        sys.stdout.write(f"🔬 Function {i + 1}: MSE = {score:.6f}, StdErr = {stderr:.6f}\n")
         sys.stdout.flush()
         if score < best_score:
             best_score = score
@@ -174,12 +177,17 @@ def main():
     if best_func:
         sys.stdout.write("\n🏆 Best Function Code:\n\n")
         sys.stdout.write(best_code + "\n")
-        sys.stdout.write(f"\n✅ Validation MSE: {best_score:.6f}\n")
+
+        val_errors = [distance_from_target_function(best_func, traj) for traj in validation_trajectories]
+        val_score = np.mean(val_errors)
+        val_stderr = np.std(val_errors, ddof=1) / np.sqrt(len(val_errors))
+        sys.stdout.write(f"\n✅ Validation MSE: {val_score:.6f}, StdErr = {val_stderr:.6f}\n")
         sys.stdout.flush()
 
-        test_score_target = np.mean([distance_from_target_function(best_func, traj) for traj in test_trajectories])
-
-        sys.stdout.write(f"\n🧪 Test MSE (vs target): {test_score_target:.6f}\n")
+        test_errors = [distance_from_target_function(best_func, traj) for traj in test_trajectories]
+        test_score = np.mean(test_errors)
+        test_stderr = np.std(test_errors, ddof=1) / np.sqrt(len(test_errors))
+        sys.stdout.write(f"\n🧪 Test MSE (vs target): {test_score:.6f}, StdErr = {test_stderr:.6f}\n")
 
         baseline_errors = []
         for traj in test_trajectories:
@@ -188,8 +196,10 @@ def main():
                 kf.predict(u)
                 x_kf = kf.update(z)
                 baseline_errors.append(np.sum((x_true - x_kf)**2))
+
         baseline_mse = np.mean(baseline_errors)
-        sys.stdout.write(f"\n🏑 Kalman Filter Baseline MSE (vs target): {baseline_mse:.6f}\n")
+        baseline_stderr = np.std(baseline_errors, ddof=1) / np.sqrt(len(baseline_errors))
+        sys.stdout.write(f"\n🏑 Kalman Filter Baseline MSE (vs target): {baseline_mse:.6f}, StdErr = {baseline_stderr:.6f}\n")
         sys.stdout.flush()
     else:
         sys.stdout.write("❌ No valid executable function found.\n")

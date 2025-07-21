@@ -1,0 +1,4 @@
+/n/netscratch/koumoutsakos_lab/Lab/vasileios/primes/primes.py:90: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/n/netscratch/koumoutsakos_lab/Lab/vasileios/primes/primes.py:91: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig("plot1.png")

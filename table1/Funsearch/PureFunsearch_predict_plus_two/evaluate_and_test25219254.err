@@ -1,0 +1,3 @@
+<string>:4: RuntimeWarning: overflow encountered in matmul
+/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_two/evaluate_and_test.py:35: RuntimeWarning: invalid value encountered in matmul
+  K = self.P @ np.linalg.inv(S)

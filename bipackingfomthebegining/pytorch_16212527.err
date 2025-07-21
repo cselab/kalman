@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch.py", line 32, in <module>
-    import gp  # This assumes gp module with as_graphviz exists
-ModuleNotFoundError: No module named 'gp'
-srun: error: holygpu8a16302: task 0: Exited with exit code 1

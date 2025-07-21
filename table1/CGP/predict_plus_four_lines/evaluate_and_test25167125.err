@@ -1,0 +1,5 @@
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_four_lines/evaluate_and_test.py:12: RuntimeWarning: overflow encountered in matmul
+  def matmul(inp, args): return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_four_lines/evaluate_and_test.py:220: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+slurmstepd: error: *** JOB 25167125 ON holy7c24205 CANCELLED AT 2025-07-18T10:01:46 ***

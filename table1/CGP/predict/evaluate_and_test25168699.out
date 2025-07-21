@@ -1,0 +1,75 @@
+
+📄 Checking predict25017349.out (graph 1/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017349.out (graph 2/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 1/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017347.out (graph 2/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 1/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017350.out (graph 2/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 1/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017346.out (graph 2/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 1/2)
+✅ DOT structure is accepted.
+
+📄 Checking predict25017348.out (graph 2/2)
+✅ DOT structure is accepted.
+
+✅ Total evaluated graphs: 10
+./predict25017349.out --> Score: 1.217188
+./predict25017349.out --> Score: 1.025489
+./predict25017347.out --> Score: 1.555277
+./predict25017347.out --> Score: 1.015570
+./predict25017350.out --> Score: 1.217188
+./predict25017350.out --> Score: 1.025489
+./predict25017346.out --> Score: 2.392255
+./predict25017346.out --> Score: 1.025489
+./predict25017348.out --> Score: 8.399313
+./predict25017348.out --> Score: 1.025489
+
+🏆 Best Score: 1.015570
+
+📈 Best Graphviz:
+digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = "matmul"]
+  1 -> 4 [color = red]
+  0 -> 4 [color = blue]
+  5 [label = "transpose"]
+  1 -> 5
+  6 [label = "matmul"]
+  2 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  5 -> 8 [color = blue]
+  9 [label = o0]
+  4 -> 9
+  10 [label = o1]
+  8 -> 10
+}
+
+
+📊 Final Test Results
+Evolved Predictor MSE     : 1.001322 ± 0.009531
+Kalman Filter MSE         : 0.995077 ± 0.009298

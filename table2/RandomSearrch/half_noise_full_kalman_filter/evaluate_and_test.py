@@ -1,6 +1,6 @@
 import numpy as np
 
-# System and noise model (matches your GP/Kalman setup)
+# === System and noise model (matches your GP/Kalman setup) ===
 dim = 2
 F = np.array([[1, 1], [0, 1]], dtype=float)
 cQ = np.array([[1 / 2, 0], [1, 0]], dtype=float)
@@ -19,14 +19,17 @@ def generate_trajectory(length=500, seed=None):
         traj.append((x.copy(), z.copy()))
     return traj
 
-def compute_observation_vs_truth_mse(trajectories):
-    errors = []
+def compute_mse_per_trajectory(trajectories):
+    mse_list = []
     for traj in trajectories:
-        for x_true, z in traj:
-            errors.append(np.linalg.norm(x_true - z) ** 2)
-    return np.mean(errors)
+        errors = [(np.linalg.norm(x_true - z) ** 2) for x_true, z in traj]
+        mse_list.append(np.mean(errors))
+    return np.array(mse_list)
 
 # === Run the experiment ===
 test_trajectories = [generate_trajectory(seed=32 + i) for i in range(50)]
-mse = compute_observation_vs_truth_mse(test_trajectories)
-print(f"📉 MSE of observations vs. true state (test set): {mse:.6f}")
+mse_list = compute_mse_per_trajectory(test_trajectories)
+mse = np.mean(mse_list)
+stderr_real = np.std(mse_list, ddof=1) / np.sqrt(len(mse_list))
+
+print(f"📉 MSE of observations vs. true state (test set): {mse:.6f} ± {stderr_real:.6f}\n")

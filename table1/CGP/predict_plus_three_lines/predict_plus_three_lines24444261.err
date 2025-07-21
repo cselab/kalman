@@ -1,0 +1,1415 @@
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: overflow encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:165: RuntimeWarning: invalid value encountered in matmul
+  xx = xp + (K @ y)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/CGP/predict_plus_three_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+slurmstepd: error: *** JOB 24444261 ON holy8a31610 CANCELLED AT 2025-07-17T14:12:21 DUE TO TIME LIMIT ***

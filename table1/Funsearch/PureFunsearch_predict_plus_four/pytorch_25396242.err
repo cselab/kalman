@@ -1,0 +1,956 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 288, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_four/funsearch.py", line 14, in <module>
+    login(token="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")
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 126, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 412, in _login
+    _set_active_token(token_name=token_name, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 457, in _set_active_token
+    raise ValueError(f"Token {token_name} not found in {constants.HF_STORED_TOKENS_PATH}")
+ValueError: Token Vasileios not found in /n/home10/vsaketos/.cache/huggingface/stored_tokens
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.36s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.35s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.42s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.44s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.81s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.83s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.23s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.39s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.43s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.58s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.71s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.74s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.84s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.92s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.30s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.31s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.41s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.38s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.74s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.75s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.75s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.95s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.27s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.28s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.29s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.66s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.36s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.36s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.39s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.74s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.73s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.73s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.73s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.99s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.16s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.48s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.62s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.58s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.62s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.68s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.61s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.91s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.92s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.97s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.23s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.30s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.54s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.68s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.77s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.88s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.93s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.27s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.29s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.61s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.38s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.37s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.70s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.70s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.92s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.90s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.36s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.25s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.46s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.37s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.59s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.34s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.55s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.71s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.69s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.89s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.92s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.26s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.28s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.27s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.38s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.38s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.69s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.72s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.72s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 288, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 288, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 97, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 87, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_four/funsearch.py", line 14, in <module>
+    exec(code, run_globals)
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_four/funsearch.py", line 14, in <module>
+    login(token="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")
+    login(token="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")
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 126, in login
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 126, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 412, in _login
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 412, in _login
+    _set_active_token(token_name=token_name, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 457, in _set_active_token
+    _set_active_token(token_name=token_name, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 457, in _set_active_token
+    raise ValueError(f"Token {token_name} not found in {constants.HF_STORED_TOKENS_PATH}")
+ValueError: Token Vasileios not found in /n/home10/vsaketos/.cache/huggingface/stored_tokens
+    raise ValueError(f"Token {token_name} not found in {constants.HF_STORED_TOKENS_PATH}")
+ValueError: Token Vasileios not found in /n/home10/vsaketos/.cache/huggingface/stored_tokens
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.67s/it]/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.91s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.98s/it]`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.08s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.16s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.22s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.29s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.32s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.67s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.69s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 288, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/n/home10/vsaketos/wavegp/table1/Funsearch/PureFunsearch_predict_plus_four/funsearch.py", line 14, in <module>
+    login(token="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")
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 31, in inner_f
+    return f(*args, **kwargs)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 126, in login
+    _login(token, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 412, in _login
+    _set_active_token(token_name=token_name, add_to_git_credential=add_to_git_credential)
+  File "/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/huggingface_hub/_login.py", line 457, in _set_active_token
+    raise ValueError(f"Token {token_name} not found in {constants.HF_STORED_TOKENS_PATH}")
+ValueError: Token Vasileios not found in /n/home10/vsaketos/.cache/huggingface/stored_tokens
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.26s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.32s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.37s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.44s/it]/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.56s/it]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.79s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.87s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.16s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.64s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:4: RuntimeWarning: divide by zero encountered in divide
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.24s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.29s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.29s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.34s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.53s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.67s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.73s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.88s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.93s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.37s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.49s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.60s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.73s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.85s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.91s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.23s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.31s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.30s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.53s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.68s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.90s/it]
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+<string>:8: RuntimeWarning: divide by zero encountered in divide
+<string>:8: RuntimeWarning: invalid value encountered in divide
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 25396242 ON holygpu8a16601 CANCELLED AT 2025-07-20T09:59:04 ***
+srun: forcing job termination
+slurmstepd: error: *** STEP 25396242.0 ON holygpu8a16601 CANCELLED AT 2025-07-20T09:59:04 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

@@ -371,10 +371,11 @@ def distance_from_target_function(predict, alpha=1.0):
                 return float('inf')
 
             # Raw prediction error
-            err_pred = x_true - xp
-            if np.any(np.isnan(err_pred)) or np.any(np.isinf(err_pred)):
+            diff_current = x - xx
+            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)):
                 return float('inf')
-            pred_errors.append(np.dot(err_pred, err_pred))
+            diff.append(diff_current @ diff_current.T)
+
 
             # Kalman-style update
             K = (P @ H.T) @ np.linalg.inv(S)
@@ -440,7 +441,7 @@ B = np.eye(dim)
 traj = []
 nprng = np.random.default_rng(seed=12345)
 
-for t in range(2000):
+for t in range(200):
     x = F @ x + cQ @ nprng.normal(0, 1, dim)
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x, z))

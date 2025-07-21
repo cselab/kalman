@@ -1,0 +1,15 @@
+Detected 4 GPU(s). We will spawn 1 processes.
+
+
+==== Outer Iteration 0 ====
+[Process 0] started on GPU 0, running 10 iterations...
+[Process 0] step=0, generation took 626.48s
+[Process 0] best score so far: 514051101.87138283, content:
+def fun(i1, i2, i3, i4, i5, i6):
+    a = i1 @ i3
+    b = i2 + i4
+    c = i5 - i6
+    d = a @ b
+    e = c @ i1
+    return a, b, c, d, e
+

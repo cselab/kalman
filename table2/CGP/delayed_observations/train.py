@@ -158,10 +158,6 @@ for t in range(1, 200):
     delay = nprng.uniform(0.01, 0.3)
     effective_dt = dt + delay
     F_dyn, Q_dyn = get_F_Q(effective_dt)
-    x = np.array([
-        0.05 * x[0]**3-2*x[0],       # nonlinearity in x[0]
-        0.1 * np.sin(x[1])    # nonlinearity in x[1]
-    ])
     x = F_dyn @ x + cQ @ nprng.normal(0, 1, dim)
     true_states.append(x.copy())
 
@@ -187,10 +183,6 @@ def distance_from_target_function(predict, alpha=1.0):
 
     for x_true, z, F_dyn, Q_dyn in traj:
         try:
-            x = np.array([
-                0.05 * x[0]**3-2*x[0],       # nonlinearity in x[0]
-                0.1 * np.sin(x[1])    # nonlinearity in x[1]
-            ])
             xp, P, y, S, K, x_est = execute(predict, [x_est, F_dyn, P, Q_dyn, z, R])
 
             if xp.shape != (dim,) or np.any(np.isnan(xp)) or np.any(np.isinf(xp)):

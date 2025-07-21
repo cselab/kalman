@@ -1,0 +1,899 @@
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: invalid value encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:167: RuntimeWarning: overflow encountered in matmul
+  P = (I - (K @ H)) @ P
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: overflow encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:178: RuntimeWarning: overflow encountered in matmul
+  diff.append(diff_current @ diff_current.T)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:22: RuntimeWarning: invalid value encountered in matmul
+  return inp[0] @ inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: invalid value encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/.conda/envs/env2/lib/python3.9/site-packages/numpy/_core/_methods.py:127: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: invalid value encountered in scalar subtract
+  return inp[0] - inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:25: RuntimeWarning: overflow encountered in scalar add
+  return inp[0] + inp[1]
+/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_four_lines.py:19: RuntimeWarning: overflow encountered in subtract
+  return inp[0] - inp[1]
+slurmstepd: error: *** JOB 20962905 ON holy7c24407 CANCELLED AT 2025-06-27T09:04:35 DUE TO TIME LIMIT ***

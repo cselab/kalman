@@ -1,0 +1,320 @@
+Sanity check loss: 1.1180493160255693
+[00101] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  4 -> 6
+  8 [label = "transpose"]
+  2 -> 8
+  9 [label = "transpose"]
+  4 -> 9
+  10 [label = "minus"]
+  9 -> 10 [color = red]
+  5 -> 10 [color = blue]
+  13 [label = "transpose"]
+  6 -> 13
+  17 [label = "add"]
+  9 -> 17 [color = red]
+  4 -> 17 [color = blue]
+  19 [label = "matmul"]
+  6 -> 19 [color = red]
+  9 -> 19 [color = blue]
+  22 [label = "add"]
+  10 -> 22 [color = red]
+  4 -> 22 [color = blue]
+  23 [label = o0]
+  17 -> 23
+  24 [label = o1]
+  22 -> 24
+  25 [label = o2]
+  19 -> 25
+  26 [label = o3]
+  8 -> 26
+  27 [label = o4]
+  2 -> 27
+  28 [label = o5]
+  13 -> 28
+}
+
+[27940] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "transpose"]
+  3 -> 6
+  7 [label = "add"]
+  0 -> 7 [color = red]
+  4 -> 7 [color = blue]
+  14 [label = "add"]
+  3 -> 14 [color = red]
+  1 -> 14 [color = blue]
+  17 [label = "minus"]
+  0 -> 17 [color = red]
+  1 -> 17 [color = blue]
+  18 [label = "minus"]
+  14 -> 18 [color = red]
+  17 -> 18 [color = blue]
+  22 [label = "minus"]
+  7 -> 22 [color = red]
+  0 -> 22 [color = blue]
+  23 [label = o0]
+  7 -> 23
+  24 [label = o1]
+  5 -> 24
+  25 [label = o2]
+  18 -> 25
+  26 [label = o3]
+  6 -> 26
+  27 [label = o4]
+  1 -> 27
+  28 [label = o5]
+  22 -> 28
+}
+
+[412463] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  0 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  9 [label = "matmul"]
+  4 -> 9 [color = red]
+  6 -> 9 [color = blue]
+  10 [label = "add"]
+  9 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  14 [label = "minus"]
+  10 -> 14 [color = red]
+  9 -> 14 [color = blue]
+  17 [label = "inv"]
+  6 -> 17
+  21 [label = "transpose"]
+  10 -> 21
+  23 [label = o0]
+  21 -> 23
+  24 [label = o1]
+  1 -> 24
+  25 [label = o2]
+  17 -> 25
+  26 [label = o3]
+  4 -> 26
+  27 [label = o4]
+  6 -> 27
+  28 [label = o5]
+  14 -> 28
+}
+
+[1791201] New best score: 2.0742e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  8 [label = "matmul"]
+  5 -> 8 [color = red]
+  2 -> 8 [color = blue]
+  9 [label = "transpose"]
+  8 -> 9
+  10 [label = "inv"]
+  9 -> 10
+  14 [label = "matmul"]
+  4 -> 14 [color = red]
+  9 -> 14 [color = blue]
+  15 [label = "matmul"]
+  14 -> 15 [color = red]
+  10 -> 15 [color = blue]
+  20 [label = "transpose"]
+  15 -> 20
+  23 [label = o0]
+  20 -> 23
+  24 [label = o1]
+  6 -> 24
+  25 [label = o2]
+  3 -> 25
+  26 [label = o3]
+  8 -> 26
+  27 [label = o4]
+  1 -> 27
+  28 [label = o5]
+  20 -> 28
+}
+
+[3962966] New best score: 2.0737e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "minus"]
+  5 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  8 [label = "minus"]
+  1 -> 8 [color = red]
+  6 -> 8 [color = blue]
+  10 [label = "add"]
+  2 -> 10 [color = red]
+  6 -> 10 [color = blue]
+  14 [label = "matmul"]
+  10 -> 14 [color = red]
+  4 -> 14 [color = blue]
+  19 [label = "minus"]
+  8 -> 19 [color = red]
+  5 -> 19 [color = blue]
+  23 [label = o0]
+  0 -> 23
+  24 [label = o1]
+  1 -> 24
+  25 [label = o2]
+  3 -> 25
+  26 [label = o3]
+  14 -> 26
+  27 [label = o4]
+  19 -> 27
+  28 [label = o5]
+  14 -> 28
+}
+
+[9178240] New best score: 2.0718e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  8 [label = "inv"]
+  7 -> 8
+  9 [label = "matmul"]
+  4 -> 9 [color = red]
+  2 -> 9 [color = blue]
+  10 [label = "matmul"]
+  9 -> 10 [color = red]
+  8 -> 10 [color = blue]
+  13 [label = "minus"]
+  5 -> 13 [color = red]
+  1 -> 13 [color = blue]
+  14 [label = "minus"]
+  10 -> 14 [color = red]
+  2 -> 14 [color = blue]
+  15 [label = "matmul"]
+  0 -> 15 [color = red]
+  1 -> 15 [color = blue]
+  23 [label = o0]
+  15 -> 23
+  24 [label = o1]
+  7 -> 24
+  25 [label = o2]
+  14 -> 25
+  26 [label = o3]
+  5 -> 26
+  27 [label = o4]
+  13 -> 27
+  28 [label = o5]
+  10 -> 28
+}
+
+[83013747] New best score: 2.0654e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  7 [label = "add"]
+  5 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  9 [label = "transpose"]
+  4 -> 9
+  10 [label = "inv"]
+  7 -> 10
+  11 [label = "transpose"]
+  5 -> 11
+  12 [label = "matmul"]
+  1 -> 12 [color = red]
+  9 -> 12 [color = blue]
+  15 [label = "matmul"]
+  10 -> 15 [color = red]
+  2 -> 15 [color = blue]
+  17 [label = "matmul"]
+  15 -> 17 [color = red]
+  0 -> 17 [color = blue]
+  18 [label = "add"]
+  17 -> 18 [color = red]
+  4 -> 18 [color = blue]
+  23 [label = o0]
+  12 -> 23
+  24 [label = o1]
+  15 -> 24
+  25 [label = o2]
+  11 -> 25
+  26 [label = o3]
+  15 -> 26
+  27 [label = o4]
+  5 -> 27
+  28 [label = o5]
+  18 -> 28
+}
+
+[113685207] New best score: 1.3746e+00
+Graph: digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = i5]
+  6 [label = "inv"]
+  1 -> 6
+  9 [label = "add"]
+  6 -> 9 [color = red]
+  5 -> 9 [color = blue]
+  10 [label = "add"]
+  0 -> 10 [color = red]
+  4 -> 10 [color = blue]
+  11 [label = "minus"]
+  5 -> 11 [color = red]
+  9 -> 11 [color = blue]
+  12 [label = "inv"]
+  2 -> 12
+  18 [label = "matmul"]
+  12 -> 18 [color = red]
+  10 -> 18 [color = blue]
+  23 [label = o0]
+  4 -> 23
+  24 [label = o1]
+  9 -> 24
+  25 [label = o2]
+  0 -> 25
+  26 [label = o3]
+  11 -> 26
+  27 [label = o4]
+  10 -> 27
+  28 [label = o5]
+  18 -> 28
+}
+

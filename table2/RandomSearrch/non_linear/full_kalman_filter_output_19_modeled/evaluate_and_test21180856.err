@@ -1,0 +1,2 @@
+/n/home10/vsaketos/wavegp/table2/RandomSearrch/non_linear/full_kalman_filter_output_19_modeled/evaluate_and_test.py:227: RuntimeWarning: overflow encountered in scalar power
+  0.05 * x_est[0]**3-2*x_est[0],       # nonlinearity in x[0]

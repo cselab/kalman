@@ -65,7 +65,7 @@ def priority(item: float, bins: np.ndarray) -> np.ndarray:
         #### Example 2:
         self.example2 = """ 
 def priority(item: float, bins: np.ndarray) -> np.ndarray:
-    return -(bins - item)
+    return (item / (item + bins)) * (np.log(bins + 8) + np.exp(-(item + bins) ** 2 / (item + 1)) + np.sin(np.pi * (item - bins) / (item + 1)) )
 """
 
     def create_prompt(self):

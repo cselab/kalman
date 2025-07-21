@@ -1,0 +1,672 @@
+Sanity check loss: 1.1180493160255696
+Generation 00000 - Island 0 Best found in this generation: 2.0702932158828107
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 2.0729552781897684 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  2 -> 14
+}
+
+Generation 00000 - Island 1 Best found in this generation: 2.0718029788320784
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 2.07186192797794 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "matmul"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  7 [label = "transpose"]
+  5 -> 7
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  7 -> 13
+  14 [label = o2]
+  7 -> 14
+}
+
+Generation 00000 - Island 2 Best found in this generation: 2.0702932158828107
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 2.072200792058324 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  6 [label = "matmul"]
+  2 -> 6 [color = red]
+  2 -> 6 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  2 -> 13
+  14 [label = o2]
+  6 -> 14
+}
+
+Generation 00000 - Island 3 Best found in this generation: 2.0729552781897684
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 3 BEST SO FAR: 2.0702932158828107 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  9 [label = "transpose"]
+  2 -> 9
+  10 [label = "minus"]
+  2 -> 10 [color = red]
+  3 -> 10 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  9 -> 13
+  14 [label = o2]
+  10 -> 14
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 3]
+Resetting Island 1 using best from Island 0
+Resetting Island 2 using best from Island 3
+Generation 00050 - Island 0 Best found in this generation: 1.9635357864328262
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 1.4572782824906958 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  5 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  2 -> 11 [color = red]
+  8 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00050 - Island 1 Best found in this generation: 1.746079533615034
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 1.4572782824906958 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  5 -> 6 [color = red]
+  1 -> 6 [color = blue]
+  7 [label = "matmul"]
+  6 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  2 -> 11 [color = red]
+  8 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00050 - Island 2 Best found in this generation: 1.9323492444476975
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 1.9635357864328262 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  4 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  0 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  10 [label = "add"]
+  7 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  11 [label = "minus"]
+  10 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  2 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00050 - Island 3 Best found in this generation: 1.9635357864328262
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 3 BEST SO FAR: 1.9635357864328262 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  4 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "transpose"]
+  1 -> 6
+  7 [label = "minus"]
+  0 -> 7 [color = red]
+  5 -> 7 [color = blue]
+  10 [label = "add"]
+  7 -> 10 [color = red]
+  7 -> 10 [color = blue]
+  11 [label = "minus"]
+  10 -> 11 [color = red]
+  6 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  2 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 1]
+Resetting Island 2 using best from Island 0
+Resetting Island 3 using best from Island 1
+Generation 00100 - Island 0 Best found in this generation: 1.4572782824906954
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  8 -> 11 [color = red]
+  2 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00100 - Island 1 Best found in this generation: 1.4572782824906954
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  2 -> 11 [color = red]
+  8 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00100 - Island 2 Best found in this generation: 1.4572782824906958
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  8 -> 11 [color = red]
+  2 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00100 - Island 3 Best found in this generation: 2.0597731419314926
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 3 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  2 -> 11 [color = red]
+  8 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [3, 0]
+Resetting Island 1 using best from Island 3
+Resetting Island 2 using best from Island 0
+Generation 00150 - Island 0 Best found in this generation: 1.4572782824906954
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  8 -> 11 [color = red]
+  2 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00150 - Island 1 Best found in this generation: 1.4572782824906954
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+Generation 00150 - Island 2 Best found in this generation: 1.3745510994770327
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 1.4572782824906954 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "add"]
+  2 -> 5 [color = red]
+  2 -> 5 [color = blue]
+  6 [label = "matmul"]
+  0 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "matmul"]
+  1 -> 7 [color = red]
+  6 -> 7 [color = blue]
+  8 [label = "minus"]
+  7 -> 8 [color = red]
+  4 -> 8 [color = blue]
+  11 [label = "matmul"]
+  8 -> 11 [color = red]
+  2 -> 11 [color = blue]
+  12 [label = o0]
+  4 -> 12
+  13 [label = o1]
+  5 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00150 - Island 3 Best found in this generation: 2.0581487678131096
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 3 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [1, 3]
+Resetting Island 0 using best from Island 1
+Resetting Island 2 using best from Island 3
+Generation 00200 - Island 0 Best found in this generation: 1.3745510994770327
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+Generation 00200 - Island 1 Best found in this generation: 1.3745510994770327
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+Generation 00200 - Island 2 Best found in this generation: 1.3745510994770327
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+Generation 00200 - Island 3 Best found in this generation: 1.3745510994770327
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 3 BEST SO FAR: 1.3745510994770327 DISTANCE FROM KALMAN FILTER : inf 
+Island 3 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  12 [label = o0]
+  6 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+
+
+--- Resetting half of the worst islands ---
+Best half island indices: [0, 2]
+Resetting Island 1 using best from Island 0
+Resetting Island 3 using best from Island 2
+Generation 00250 - Island 0 Best found in this generation: 1.3745510994770325
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 0 BEST SO FAR: 1.3745510994770322 DISTANCE FROM KALMAN FILTER : inf 
+Island 0 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  6 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  0 -> 8 [color = blue]
+  11 [label = "minus"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = o0]
+  8 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00250 - Island 1 Best found in this generation: 1.3745510994770325
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 1 BEST SO FAR: 1.3745510994770322 DISTANCE FROM KALMAN FILTER : inf 
+Island 1 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  6 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  0 -> 8 [color = blue]
+  11 [label = "minus"]
+  6 -> 11 [color = red]
+  7 -> 11 [color = blue]
+  12 [label = o0]
+  8 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  11 -> 14
+}
+
+Generation 00250 - Island 2 Best found in this generation: 1.3745510994770322
+Error during prediction: not enough values to unpack (expected 4, got 3)
+Warning: no valid data for plotting.
+Island 2 BEST SO FAR: 1.3745510994770325 DISTANCE FROM KALMAN FILTER : inf 
+Island 2 BEST Graph : digraph {
+  0 [label = i0]
+  1 [label = i1]
+  2 [label = i2]
+  3 [label = i3]
+  4 [label = i4]
+  5 [label = "transpose"]
+  2 -> 5
+  6 [label = "matmul"]
+  4 -> 6 [color = red]
+  5 -> 6 [color = blue]
+  7 [label = "minus"]
+  6 -> 7 [color = red]
+  0 -> 7 [color = blue]
+  8 [label = "add"]
+  7 -> 8 [color = red]
+  0 -> 8 [color = blue]
+  12 [label = o0]
+  8 -> 12
+  13 [label = o1]
+  1 -> 13
+  14 [label = o2]
+  0 -> 14
+}
+

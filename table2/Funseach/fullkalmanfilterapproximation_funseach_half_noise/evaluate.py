@@ -148,5 +148,6 @@ def aproximate(x, F, P, Q, z, R):
     return xp, P, y, S, K, x
 """
 
+
 result = evaluate_graph(my_function)
 print("MSE:", result)

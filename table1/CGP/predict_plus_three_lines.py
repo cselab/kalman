@@ -171,9 +171,9 @@ def fun(predict):
 
             if x_true.shape != xp.shape:
                 return float('inf')
-
-            diff_current = x_true - xp
-            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)):
+            
+            diff_current = x - xx
+            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)) or x.shape != xx.shape:
                 return float('inf')
             diff.append(diff_current @ diff_current.T)
 
@@ -181,6 +181,8 @@ def fun(predict):
             return float('inf')
 
     loss = np.mean(diff)
+    if loss < 0 :
+        return float('inf')
     return loss if not math.isnan(loss) else float('inf')
 
 def execute(gen, x):
@@ -230,7 +232,7 @@ g.arity = (2,2,2,1,1)
 g.args = (0,0,0,0,0)
 
 g.i = 6
-g.n = 15
+g.n = 10
 g.o = 5
 g.a = 2
 g.p = 0
@@ -307,7 +309,7 @@ if __name__ == "__main__":
         for island_idx, island in enumerate(islands):
 
             sampler = island["sampler"]
-            top_candidate = sampler.sample(temperature=2)
+            top_candidate = sampler.sample(temperature=0.2)
             i_best = np.argmin(costs)
 
             if generation % 50 == 0:

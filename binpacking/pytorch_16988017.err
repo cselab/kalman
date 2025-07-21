@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch2.py", line 3, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-srun: error: holygpu8a16103: task 0: Exited with exit code 1

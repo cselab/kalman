@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/funsearch2.py", line 12, in <module>
-    import memory  # your custom memory module
-  File "/n/home10/vsaketos/wavegp/kalmangp/binpacking/memory.py", line 250
-    return functions
-IndentationError: unexpected indent
-srun: error: holygpu8a16203: task 0: Exited with exit code 1
