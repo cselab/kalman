@@ -77,16 +77,32 @@ outputs = model.generate(**inputs, max_length=3024)  # Reduce to 2024
 
 
 
-To reproduce the results (Will be done soon):
+To reproduce the results:
 
-```bash
-# Clone the repo and set up the environment
-git clone https://github.com/yourname/algorithm-discovery-kalman
-cd algorithm-discovery-kalman
-pip install -r requirements.txt
+1.  **Navigate to the `bipacking` directory:**
+    ```bash
+    cd bipacking
+    ```
 
-# Run CGP experiments
-python run_cgp.py --config configs/ideal.yaml
+2.  **Run the FunSearch experiment:**
+    This script will generate candidate programs using the LLM-assisted evolutionary search. The output will be saved to `.out` and `.err` files.
 
-# Run LLM-assisted search
-python run_funsearch.py --config configs/nonideal.yaml
+    ```bash
+    python funsearch.py --iterations 1000 --num_threads 4 --outer_iterations 100
+    ```
+    *   `--iterations`: The number of iterations for each of the `num_threads` processes.
+    *   `--num_threads`: The number of parallel processes (islands) to run. This should typically match the number of available GPUs.
+    *   `--outer_iterations`: The number of times the evolutionary process is repeated, re-initializing the worst-performing islands.
+
+3.  **Validate the results:**
+    This script will analyze the `.out` files, extract the best-performing programs, and evaluate them on a validation set.
+
+    ```bash
+    python validate.py
+    ```
+
+---
+
+### Other Experiments
+
+The `table1` and `table2` directories contain scripts for the CGP and Random Search experiments, as well as the different configurations for the FunSearch experiments. The scripts in these directories are specific to the experiments described in the paper and may require more specific setup. The `bipacking` directory contains the core logic for the FunSearch experiments.
