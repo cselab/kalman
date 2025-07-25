@@ -33,6 +33,50 @@ This repository includes:
 - Configurable environments for ideal and non-ideal conditions
 - Automatic logging of symbolic programs, MSE scores, and trajectory plots
 
+
+## 💻 Computational Resources
+
+This section describes the hardware and software setup used to run the experiments in this project.
+
+### 🧠 CGP-Based Symbolic Search
+- **Compute Node**: 64-core SEAS cluster node  
+- **RAM**: 10 GB  
+- **Runtime**: Approximately 3 days per experiment  
+- **Environment**: Python 3.10  
+The CGP pipeline is CPU-efficient and does not require GPU acceleration. Parallel evaluation of mutant programs across multiple CPU cores significantly accelerates the search process.
+
+### 🤖 LLM-Assisted Evolutionary Search
+- **GPU Configuration**: 4× NVIDIA H100 (80 GB each)  
+- **Use Case**: Large language model inference and parallel fitness evaluation  
+- **Runtime**: Approximately 3 days  
+- **Model Used**: `deepseek-ai/DeepSeek-R1-Distill-Qwen-14B`  
+LLM-assisted search requires GPU execution. We recommend assigning one GPU per island to fully parallelize the symbolic search process.
+
+#### SLURM Configuration Example
+```bash
+#SBATCH --gres=gpu:4
+#SBATCH --constraint=h100
+```
+#### num_threads coresponds to the number of islands 
+```python
+parser.add_argument("--num_threads", type=int, default=4)
+```
+
+To run the experiments on smaller or fewer GPUs, reduce memory usage with the following modifications:
+
+Lower the batch size:
+```python
+prompt = mem.sample_batch(30)  # Reduce to 10–15 for lower memory usage
+```
+
+Limit the output token length from the LLM (It might affect convergence):
+
+```python
+outputs = model.generate(**inputs, max_length=3024)  # Reduce to 2024 
+```
+
+
+
 To reproduce the results:
 
 ```bash
