@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/n/home10/vsaketos/wavegp/table1/Random_Search/predict_plus_three_lines/evaluate_and_test.py", line 460, in <module>
+    mse_real = distance_from_target_function(kf, trajectory)
+NameError: name 'kf' is not defined

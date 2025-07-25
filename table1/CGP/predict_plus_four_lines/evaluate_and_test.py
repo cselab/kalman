@@ -113,9 +113,9 @@ def normalize_dot(dot):
 
 
 pattern = re.compile(
-    r"""Generation\s+\d+\s+-\s+Island\s+0\s+Best\s+Cost:\s+[0-9.e+-]+\s*
-        Island\s+0\s+BEST\s+SO\s+FAR:\s+[0-9.e+-]+\s*
-        Island\s+0\s+BEST\s+Graph\s+:\s*
+    r"""Generation\s+\d+\s+-\s+Island\s+[0-4]\s+Best\s+Cost:\s+[0-9.e+-]+\s*
+        Island\s+[0-4]\s+BEST\s+SO\s+FAR:\s+[0-9.e+-]+\s*
+        Island\s+[0-4]\s+BEST\s+Graph\s+:\s*
         (digraph\s*\{.*?\})""",
     re.DOTALL | re.VERBOSE
 )

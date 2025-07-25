@@ -3223,4 +3223,3 @@ def fun(i1, i2, i3, i4, i5, i6):
 
 📊 Final Test Performance
 Evolved Predictor MSE     : 1.042292 ± 0.008735
-Kalman Filter MSE         : nan ± nan

@@ -165,7 +165,6 @@ def evaluate_all_functions_in_logs(base_dir="./"):
 
         print("\n📊 Final Test Performance")
         print(f"Evolved Predictor MSE     : {mean_pred:.6f} ± {stderr_pred:.6f}")
-        print(f"Kalman Filter MSE         : {mean_kf:.6f} ± {stderr_kf:.6f}")
 
 # === Main Entry ===
 if __name__ == "__main__":

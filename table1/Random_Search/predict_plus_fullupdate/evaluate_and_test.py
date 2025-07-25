@@ -517,5 +517,4 @@ stderr_kalman = np.std(mses_kalman_filter, ddof=1) / np.sqrt(len(mses_kalman_fil
 
 sys.stdout.write("\nKalman filter performance\n")
 sys.stdout.write(f"MSE real trajectories on test set     : {mean_real:.6f} ± {stderr_real:.6f}\n")
-sys.stdout.write(f"MSE Kalman filter on test set         : {mean_kalman:.6f} ± {stderr_kalman:.6f}\n")
 sys.stdout.flush()

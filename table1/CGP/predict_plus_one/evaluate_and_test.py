@@ -211,7 +211,7 @@ def generate_trajectory(length=500, seed=None):
     return traj
 
 pattern = re.compile(
-    r"Island\s+0\s+BEST\s+Graph\s+:\s*(digraph\s*\{.*?\})",
+    r"Island\s+[0-4]\s+BEST\s+Graph\s+:\s*(digraph\s*\{.*?\})",
     re.DOTALL
 )
 

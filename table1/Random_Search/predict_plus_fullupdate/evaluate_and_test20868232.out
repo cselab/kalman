@@ -1499,4 +1499,3 @@ MSE on test set (best_predict)        : 1.209344 ± 0.012823
 
 Kalman filter performance
 MSE real trajectories on test set     : 0.995077 ± 0.009298
-MSE Kalman filter on test set         : 7700156.119213 ± 1172856.548935

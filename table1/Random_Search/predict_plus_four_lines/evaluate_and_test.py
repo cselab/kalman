@@ -452,27 +452,3 @@ stderr_best = np.std(mse_best_predict, ddof=1) / np.sqrt(len(mse_best_predict))
 sys.stdout.write("Evolved predictor performance\n")
 sys.stdout.write(f"MSE on test set (best_predict)        : {mean_best:.6f} ± {stderr_best:.6f}\n")
 sys.stdout.flush()
-
-# Now evaluate Kalman filter on the same test set
-mse_real_trajectories = []
-mses_kalman_filter = []
-
-for trajectory in test_trajectories:
-    mse_real = distance_from_target_function(kf, trajectory)
-    mse_kalman = distance_from_kalman_filter(kf, trajectory)
-    mse_real_trajectories.append(mse_real)
-    mses_kalman_filter.append(mse_kalman)
-
-mse_real_trajectories = np.array(mse_real_trajectories)
-mses_kalman_filter = np.array(mses_kalman_filter)
-
-mean_real = np.mean(mse_real_trajectories)
-stderr_real = np.std(mse_real_trajectories, ddof=1) / np.sqrt(len(mse_real_trajectories))
-
-mean_kalman = np.mean(mses_kalman_filter)
-stderr_kalman = np.std(mses_kalman_filter, ddof=1) / np.sqrt(len(mses_kalman_filter))
-
-sys.stdout.write("\nKalman filter performance\n")
-sys.stdout.write(f"MSE real trajectories on test set     : {mean_real:.6f} ± {stderr_real:.6f}\n")
-sys.stdout.write(f"MSE Kalman filter on test set         : {mean_kalman:.6f} ± {stderr_kalman:.6f}\n")
-sys.stdout.flush()
