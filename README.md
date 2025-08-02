@@ -106,3 +106,9 @@ To reproduce the results:
 ### Other Experiments
 
 The `table1` and `table2` directories contain scripts for the CGP and Random Search experiments, as well as the different configurations for the FunSearch experiments. The scripts in these directories are specific to the experiments described in the paper and may require more specific setup. The `bipacking` directory contains the core logic for the FunSearch experiments.
+
+### Generate zip
+
+```bash
+git archive --format=zip --prefix=kalman/ HEAD > kalman.zip
+```
