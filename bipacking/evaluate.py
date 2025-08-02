@@ -15,6 +15,7 @@ import pickle
 import tempfile
 import traceback
 
+
 # === Load Pickled Datasets ===
 def load_datasets(directory):
     datasets = {}
@@ -25,26 +26,32 @@ def load_datasets(directory):
                 datasets[filename.replace(".pkl", "")] = pickle.load(f)
     return datasets['all_datasets']
 
+
 # === L1 Lower Bound ===
 def l1_bound(items: np.ndarray, capacity: int) -> float:
     return np.ceil(np.sum(items) / capacity)
 
+
 def l1_bound_dataset(instances: list) -> float:
     return np.mean([
-        l1_bound(instance['Items']['Size'].to_numpy(), instance['Bin Capacity'])
-        for instance in instances
+        l1_bound(instance['Items']['Size'].to_numpy(),
+                 instance['Bin Capacity']) for instance in instances
     ])
+
 
 # === Online Bin Packing Helper ===
 def get_valid_bin_indices(item: float, bins: np.ndarray) -> np.ndarray:
     return np.nonzero((bins - item) >= 0)[0]
 
+
 class g:
     pass
+
 
 def create_function_from_string(function_code):
     exec(function_code, globals())
     return priority
+
 
 # === Evaluate Graph Using Global train_instances ===
 def evaluate_graph(predict: str) -> float:
@@ -52,11 +59,14 @@ def evaluate_graph(predict: str) -> float:
     opt_bins = train_l1
     #print("[evaluate_graph] Predict function:\n", predict)
     try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as code_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as code_file:
             code_file.write(predict)
             code_file.flush()
 
-        with tempfile.NamedTemporaryFile(mode='wb', suffix='.pkl', delete=False) as data_file:
+        with tempfile.NamedTemporaryFile(mode='wb',
+                                         suffix='.pkl',
+                                         delete=False) as data_file:
             pickle.dump((instances, opt_bins), data_file)
             data_file.flush()
 
@@ -126,8 +136,8 @@ except:
     print(float('inf'))
 """
 
-
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as eval_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as eval_file:
             eval_file.write(eval_script)
             eval_file.flush()
 
@@ -135,8 +145,7 @@ except:
             [sys.executable, eval_file.name, code_file.name, data_file.name],
             stderr=subprocess.PIPE,
             stdout=subprocess.PIPE,
-            timeout=60
-        )
+            timeout=60)
 
         result_str = process.stdout.decode().strip()
         stderr_output = process.stderr.decode().strip()

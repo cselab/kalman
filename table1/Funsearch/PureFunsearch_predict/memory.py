@@ -9,6 +9,7 @@ import multiprocessing
 
 
 class Memory:
+
     def __init__(self, capacity):
         self.Hash = set()
         self.capacity = capacity
@@ -50,7 +51,7 @@ Generate **30 UNIQUE correct implementations** of a Python function named `fun`.
 ### Examples of Unique Implementations you should modify and combine:
 
         """
-        #### Example 1: 
+        #### Example 1:
         self.example1 = """
 #score : 6.9
 def fun(i1, i2, i3, i4):
@@ -77,14 +78,18 @@ def fun(i1,i2,i3,i4):
             return self.instuction + "\n#### Example 1: \n" + self.example1 + "\n#### Example 2: \n" + self.example2
         else:
             samples = self.sample_softmax_inv(num_samples=20)
-            return self.instuction + "\n # Try to minimize the loss in the generated examples\n\n#### Example 1: \n" + samples[0][1] + "\n loss = " + str(samples[0][0]) + "\n#### Example 2: \n" + samples[1][1] + "\n loss = " + str(samples[1][0]) #+ "\n<think>\n"
+            return self.instuction + "\n # Try to minimize the loss in the generated examples\n\n#### Example 1: \n" + samples[
+                0][1] + "\n loss = " + str(
+                    samples[0][0]) + "\n#### Example 2: \n" + samples[1][
+                        1] + "\n loss = " + str(
+                            samples[1][0])  #+ "\n<think>\n"
 
     def add(self, score, item):
         """
         Add a new (score, item) entry to the heap.
         Also update self.Hash so it contains only the hashes for items in the heap.
         """
-        
+
         entry = (-score, item)
         new_hash = hashlib.sha256(item.encode()).hexdigest()
         if new_hash in self.Hash:
@@ -99,14 +104,16 @@ def fun(i1,i2,i3,i4):
                 # heapreplace returns the removed (worst) entry.
                 replaced = heapq.heapreplace(self.heap, entry)
                 replaced_item = replaced[1]
-                replaced_hash = hashlib.sha256(replaced_item.encode()).hexdigest()
+                replaced_hash = hashlib.sha256(
+                    replaced_item.encode()).hexdigest()
                 if replaced_hash in self.Hash:
                     self.Hash.remove(replaced_hash)
                 self.Hash.add(new_hash)
 
     def get_sorted(self):
         # Returns items sorted by score (lowest first)
-        return sorted([(-s, item) for s, item in self.heap], key=lambda x: x[0])
+        return sorted([(-s, item) for s, item in self.heap],
+                      key=lambda x: x[0])
 
     def get_best(self):
         """
@@ -126,19 +133,25 @@ def fun(i1,i2,i3,i4):
         n = len(self.heap)
         if n == 0:
             return
-        sorted_entries = self.get_sorted()  # Sorted from best (lowest score) to worst (highest score)
+        sorted_entries = self.get_sorted(
+        )  # Sorted from best (lowest score) to worst (highest score)
         num_to_keep = n - (n // 2)
         kept_entries = sorted_entries[:num_to_keep]
         for score, item in kept_entries:
-            self.add(-score,item)
+            self.add(-score, item)
         # Rebuild self.Hash from the new heap.
-        self.Hash = {hashlib.sha256(item.encode()).hexdigest() for _, item in self.heap}
+        self.Hash = {
+            hashlib.sha256(item.encode()).hexdigest()
+            for _, item in self.heap
+        }
+
     def remove_duplicates_by_score(self):
         """
         Remove duplicate implementations based solely on score.
         If multiple implementations have the same score, only the first encountered is kept.
         """
-        sorted_items = self.get_sorted()  # (score, item) tuples sorted from lowest to highest score
+        sorted_items = self.get_sorted(
+        )  # (score, item) tuples sorted from lowest to highest score
         seen_scores = set()
         unique_items = []
         for score, item in sorted_items:
@@ -148,7 +161,10 @@ def fun(i1,i2,i3,i4):
             unique_items.append((score, item))
         self.heap = [(-score, item) for score, item in unique_items]
         heapq.heapify(self.heap)
-        self.Hash = {hashlib.sha256(item.encode()).hexdigest() for _, item in self.heap}
+        self.Hash = {
+            hashlib.sha256(item.encode()).hexdigest()
+            for _, item in self.heap
+        }
 
     @staticmethod
     def softmax(x, temperature=0.2):
@@ -172,7 +188,10 @@ def fun(i1,i2,i3,i4):
         #    print("We catchedd the error")
         #    print("num_samples : ",num_samples)
         #    print("len(actual_entries) : ",len(actual_entries))
-        indices = np.random.choice(len(actual_entries), size=num_samples, replace=True, p=probs)
+        indices = np.random.choice(len(actual_entries),
+                                   size=num_samples,
+                                   replace=True,
+                                   p=probs)
         return [actual_entries[i] for i in indices]
 
     def save(self, filename="memory_save.txt"):
@@ -183,8 +202,6 @@ def fun(i1,i2,i3,i4):
             pickle.dump({'capacity': self.capacity, 'heap': self.heap}, f)
         with open("seen_solutions.pkl", "wb") as f:
             pickle.dump(self.Hash, f)
-
-    
 
     @classmethod
     def load(cls, filename="memory_save.txt"):

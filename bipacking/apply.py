@@ -2,6 +2,7 @@ import os
 import pickle
 import numpy as np
 
+
 # === Load Pickled Datasets ===
 def load_datasets(directory):
     datasets = {}
@@ -12,9 +13,11 @@ def load_datasets(directory):
                 datasets[filename.replace(".pkl", "")] = pickle.load(f)
     return datasets['all_datasets']
 
+
 # === L1 Lower Bound ===
 def l1_bound(items: np.ndarray, capacity: int) -> float:
     return np.ceil(np.sum(items) / capacity)
+
 
 def l1_bound_dataset(instances: list) -> float:
     l1_bounds = []
@@ -24,14 +27,18 @@ def l1_bound_dataset(instances: list) -> float:
         l1_bounds.append(l1_bound(items, capacity))
     return np.mean(l1_bounds)
 
+
 # === Online Bin Packing ===
 def get_valid_bin_indices(item: float, bins: np.ndarray) -> np.ndarray:
     return np.nonzero((bins - item) >= 0)[0]
 
+
 def default_priority(item: float, bins: np.ndarray) -> np.ndarray:
     return -(bins - item)
 
+
 def or_priority(item: float, bins: np.ndarray) -> np.ndarray:
+
     def s(bin, item):
         gap = bin - item
         if gap <= 2:
@@ -56,9 +63,14 @@ def or_priority(item: float, bins: np.ndarray) -> np.ndarray:
             return 0.98
         else:
             return 0.99
+
     return np.array([s(b, item) for b in bins])
 
-def online_binpack(items: np.ndarray, bins: np.ndarray, priority_fn=default_priority) -> tuple[list[list[float]], np.ndarray]:
+
+def online_binpack(
+        items: np.ndarray,
+        bins: np.ndarray,
+        priority_fn=default_priority) -> tuple[list[list[float]], np.ndarray]:
     packing = [[] for _ in bins]
     for item in items:
         valid_bin_indices = get_valid_bin_indices(item, bins)
@@ -71,6 +83,7 @@ def online_binpack(items: np.ndarray, bins: np.ndarray, priority_fn=default_prio
     packing = [bin_items for bin_items in packing if bin_items]
     return packing, bins
 
+
 def evaluate(instances: list, priority_fn=default_priority) -> float:
     num_bins = []
     for instance in instances:
@@ -81,6 +94,7 @@ def evaluate(instances: list, priority_fn=default_priority) -> float:
         num_bins.append((bins_packed != capacity).sum())
     return -np.mean(num_bins)
 
+
 # === Evaluation Helper ===
 def run_evaluation(name: str, instances: list, priority_fn, opt_bins: float):
     avg_bins = -evaluate(instances, priority_fn=priority_fn)
@@ -89,6 +103,7 @@ def run_evaluation(name: str, instances: list, priority_fn, opt_bins: float):
     print(f"  Average bins used: {avg_bins:.2f}")
     print(f"  L1 lower bound: {opt_bins:.2f}")
     print(f"  Excess: {100 * excess:.2f}%")
+
 
 # === Main Evaluation ===
 if __name__ == "__main__":
@@ -107,10 +122,14 @@ if __name__ == "__main__":
 
     # Training set
     train_l1 = l1_bound_dataset(train_instances)
-    run_evaluation("Train Set (Default Priority)", train_instances, default_priority, train_l1)
-    run_evaluation("Train Set (OR Priority)", train_instances, or_priority, train_l1)
+    run_evaluation("Train Set (Default Priority)", train_instances,
+                   default_priority, train_l1)
+    run_evaluation("Train Set (OR Priority)", train_instances, or_priority,
+                   train_l1)
 
     # Validation set
     val_l1 = l1_bound_dataset(val_instances)
-    run_evaluation("Validation Set (Default Priority)", val_instances, default_priority, val_l1)
-    run_evaluation("Validation Set (OR Priority)", val_instances, or_priority, val_l1)
+    run_evaluation("Validation Set (Default Priority)", val_instances,
+                   default_priority, val_l1)
+    run_evaluation("Validation Set (OR Priority)", val_instances, or_priority,
+                   val_l1)

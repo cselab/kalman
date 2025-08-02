@@ -6,15 +6,31 @@ import sys
 import math
 from scipy.stats import sem  # Add this import at the top
 
+
 # === GP CONFIGURATION ===
 class g:
     pass
 
-def minus(inp, args): return inp[0] - inp[1]
-def matmul(inp, args): return inp[0] @ inp[1]
-def add(inp, args): return inp[0] + inp[1]
-def transpose(inp, args): return inp[0].T
-def inv(inp, args): return np.linalg.inv(inp[0])
+
+def minus(inp, args):
+    return inp[0] - inp[1]
+
+
+def matmul(inp, args):
+    return inp[0] @ inp[1]
+
+
+def add(inp, args):
+    return inp[0] + inp[1]
+
+
+def transpose(inp, args):
+    return inp[0].T
+
+
+def inv(inp, args):
+    return np.linalg.inv(inp[0])
+
 
 g.nodes = (matmul, minus, add, transpose, inv)
 g.names = ("matmul", "minus", "add", "transpose", "inv")
@@ -27,16 +43,15 @@ g.a = 2
 g.p = 0
 g.lmb = 1000
 
-kalman_filter = gp.build(
-        g,
-        ["i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose", "matmul",
-         "add", "minus", "add", "inv", "matmul", "matmul", "add", "matmul", "minus", "o0",
-         "o1", "o2", "o3", "o4", "o5"],
-        [(1, 6), (0, 6), (1, 7), (2, 7), (1, 8), (7, 9), (8, 9), (9, 10), (3, 10),
-         (4, 11), (6, 11), (10, 12), (5, 12), (12, 13), (10, 14), (13, 14), (14, 15),
-         (11, 15), (6, 16), (15, 16), (14, 17), (10, 17), (10, 18), (17, 18), (6, 19),
-         (18, 20), (11, 21), (12, 22), (14, 23), (16, 24)],
-        [])
+kalman_filter = gp.build(g, [
+    "i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose",
+    "matmul", "add", "minus", "add", "inv", "matmul", "matmul", "add",
+    "matmul", "minus", "o0", "o1", "o2", "o3", "o4", "o5"
+], [(1, 6), (0, 6), (1, 7), (2, 7), (1, 8), (7, 9), (8, 9), (9, 10), (3, 10),
+    (4, 11), (6, 11), (10, 12), (5, 12), (12, 13), (10, 14), (13, 14),
+    (14, 15), (11, 15), (6, 16), (15, 16), (14, 17), (10, 17), (10, 18),
+    (17, 18), (6, 19), (18, 20), (11, 21), (12, 22), (14, 23), (16, 24)], [])
+
 
 def from_graphviz(g, dot_str):
     import re
@@ -95,7 +110,8 @@ def from_graphviz(g, dot_str):
                 gen[nid, 1 + j] = node_id_to_row.get(inputs[j], inputs[j])
         elif label is None:
             continue
-        elif not label.startswith("i") and not label.startswith("o")  and not label.startswith("inv"):
+        elif not label.startswith("i") and not label.startswith(
+                "o") and not label.startswith("inv"):
             # fill dummy "add" node
             gen[nid, 0] = g.names.index("add")
             gen[nid, 1:] = 0
@@ -113,16 +129,18 @@ def from_graphviz(g, dot_str):
     return gen
 
 
-
-
 def normalize_dot(dot):
-    return "\n".join(sorted(line.strip() for line in dot.strip().splitlines() if line.strip()))
+    return "\n".join(
+        sorted(line.strip() for line in dot.strip().splitlines()
+               if line.strip()))
+
 
 def get_F_Q(effective_dt):
     F = np.array([[1, effective_dt], [0, 1]], dtype=float)
-    G = np.array([[0.5 * effective_dt ** 2], [effective_dt]])
+    G = np.array([[0.5 * effective_dt**2], [effective_dt]])
     Q = G @ G.T
     return F, Q
+
 
 def generate_trajectory(length=500, seed=42):
     dim = 2
@@ -151,7 +169,9 @@ def generate_trajectory(length=500, seed=42):
         traj.append((x.copy(), z.copy(), F_dyn, Q_dyn))
     return traj
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -175,8 +195,10 @@ class KalmanFilter:
         self.P = (I - K @ self.H) @ self.P
         return self.x
 
+
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def distance_from_target_function(predict, traj, alpha=1.0):
     dim = 2
@@ -192,18 +214,20 @@ def distance_from_target_function(predict, traj, alpha=1.0):
 
     for x_true, z, F_dyn, Q_dyn in traj:
         try:
-            xp, P, y, S, K, x_est = execute(predict, [x_est, F_dyn, P, Q_dyn, z, R])
-            if xp.shape != (dim,) or np.any(~np.isfinite(xp)):
+            xp, P, y, S, K, x_est = execute(predict,
+                                            [x_est, F_dyn, P, Q_dyn, z, R])
+            if xp.shape != (dim, ) or np.any(~np.isfinite(xp)):
                 print(1)
                 return float('inf')
             pred_errors.append(np.dot(x_true - xp, x_true - xp))
             squared_errors.append(np.dot(x_true - x_est, x_true - x_est))
         except Exception as e:
-            print(2,)
+            print(2, )
             print(e)
             return float('inf')
 
     return alpha * np.mean(squared_errors) + (1 - alpha) * np.mean(pred_errors)
+
 
 def distance_from_kalman_filter(predict, traj):
     dim = 2
@@ -218,8 +242,10 @@ def distance_from_kalman_filter(predict, traj):
 
     for x_true, z, F_dyn, Q_dyn in traj:
         try:
-            xp, P, y, S, K, x_est = execute(predict, [x_est, F_dyn, P, Q_dyn, z, R])
-            kf = KalmanFilter(F_dyn, np.eye(dim), np.eye(dim), Q_dyn, R, P.copy(), x_est.copy())
+            xp, P, y, S, K, x_est = execute(predict,
+                                            [x_est, F_dyn, P, Q_dyn, z, R])
+            kf = KalmanFilter(F_dyn, np.eye(dim), np.eye(dim), Q_dyn, R,
+                              P.copy(), x_est.copy())
             x_kalman = kf.predict()
             kf.update(z)
             err = xp - x_kalman
@@ -233,8 +259,11 @@ def distance_from_kalman_filter(predict, traj):
 
     return np.mean(diff) if diff else float('inf')
 
+
 # === EVALUATION ===
-pattern = re.compile(r"\[(\d+)\]\s+New best score:\s+([0-9.e+-]+)\s+Graph:\s+(digraph\s*\{.*?\})", re.DOTALL)
+pattern = re.compile(
+    r"\[(\d+)\]\s+New best score:\s+([0-9.e+-]+)\s+Graph:\s+(digraph\s*\{.*?\})",
+    re.DOTALL)
 
 log_dir = "./"
 total_graphs = 0
@@ -255,13 +284,15 @@ for root, _, files in os.walk(log_dir):
                         regenerated = gp.as_graphviz(g, predict)
 
                         if normalize_dot(dot) != normalize_dot(regenerated):
-                            print("❌ MISMATCH between input DOT and regenerated Graphviz!")
+                            print(
+                                "❌ MISMATCH between input DOT and regenerated Graphviz!"
+                            )
                             print("\n--- Original DOT ---\n", dot)
                             print("\n--- Regenerated DOT ---\n", regenerated)
                             raise SystemExit("❌ Stopped due to mismatch.")
                         else:
                             print("✅ DOT matches regenerated Graphviz.")
-                        digraphs.append((path,predict))
+                        digraphs.append((path, predict))
                         total_graphs += 1
                     except Exception as e:
                         print(f"❌ Error parsing/evaluating graph: {e}")
@@ -269,10 +300,8 @@ for root, _, files in os.walk(log_dir):
 print(f"\n✅ Done. Total evaluated graphs: {total_graphs}")
 total_graphs = 0
 
-
 # === CONTINUATION OF EVALUATION ===
 print(f"\n✅ Done. Total evaluated graphs: {total_graphs}")
-
 
 # === Trajectory Generation with Small Delays ===
 dim = 2
@@ -294,19 +323,22 @@ best_score = float('inf')
 best_predict = None
 seen_hashes = set()
 
-
 # Kalman filter score
 
-val_scores = [distance_from_target_function(kalman_filter, traj) for traj in validation_trajectories]
+val_scores = [
+    distance_from_target_function(kalman_filter, traj)
+    for traj in validation_trajectories
+]
 score = np.mean(val_scores)
-print("kalman filter validation score :",score)
+print("kalman filter validation score :", score)
 
-test_scores = [distance_from_target_function(kalman_filter, traj) for traj in test_trajectories]
+test_scores = [
+    distance_from_target_function(kalman_filter, traj)
+    for traj in test_trajectories
+]
 score = np.mean(test_scores)
 stderr_mse = sem(test_scores)
-print("kalman filter test score :",score,f" ± {stderr_mse:.6f} ")
-
-
+print("kalman filter test score :", score, f" ± {stderr_mse:.6f} ")
 
 for filename, predict in digraphs:
     key = predict.tobytes()
@@ -314,7 +346,10 @@ for filename, predict in digraphs:
         continue
     seen_hashes.add(key)
     try:
-        val_scores = [distance_from_target_function(predict, traj) for traj in validation_trajectories]
+        val_scores = [
+            distance_from_target_function(predict, traj)
+            for traj in validation_trajectories
+        ]
         score = np.mean(val_scores)
         print(f"{filename} --> Score: {score:.6f}")
         if score < best_score:
@@ -323,14 +358,18 @@ for filename, predict in digraphs:
     except Exception as e:
         print(f"Evaluation failed for {filename}: {e}")
 
-
 if best_predict is not None:
     print(f"\n🏆 Best Graph Score: {best_score}")
     print(f"🏁 Best Graphviz:\n{gp.as_graphviz(g, best_predict)}")
 
-    traj_mses = [distance_from_target_function(best_predict, traj) for traj in test_trajectories]
+    traj_mses = [
+        distance_from_target_function(best_predict, traj)
+        for traj in test_trajectories
+    ]
 
     mean_mse = np.mean(traj_mses)
     stderr_mse = sem(traj_mses)
 
-    print(f"MSE real trajectories on test set: {mean_mse:.6f} ± {stderr_mse:.6f}")
+    print(
+        f"MSE real trajectories on test set: {mean_mse:.6f} ± {stderr_mse:.6f}"
+    )

@@ -6,6 +6,7 @@ def seen(a, b):
         Hash.add((a, b))
     return ans
 
+
 def seen(a):
     a = a.tobytes()
     ans = (a) in Hash

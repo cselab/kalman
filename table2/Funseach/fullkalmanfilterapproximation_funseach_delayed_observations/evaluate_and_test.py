@@ -12,8 +12,10 @@ H = np.eye(dim)
 B = np.eye(dim)
 u = np.zeros(dim)
 
+
 # === Kalman Filter ===
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -23,7 +25,7 @@ class KalmanFilter:
         self.P = P.copy()
         self.x = x.copy()
 
-    def predict(self, u=np.zeros((2,))):
+    def predict(self, u=np.zeros((2, ))):
         self.x = (self.F @ self.x) + (self.B @ u)
         self.P = ((self.F @ self.P) @ self.F.T) + self.Q
         return self.x
@@ -37,11 +39,13 @@ class KalmanFilter:
         self.P = (I - K @ self.H) @ self.P
         return self.x
 
+
 def get_F_Q(effective_dt):
     F = np.array([[1, effective_dt], [0, 1]], dtype=float)
-    G = np.array([[0.5 * effective_dt ** 2], [effective_dt]])
+    G = np.array([[0.5 * effective_dt**2], [effective_dt]])
     Q = G @ G.T
     return F, Q
+
 
 # === Trajectory Generator ===
 def generate_trajectory(length=500, seed=42):
@@ -71,6 +75,7 @@ def generate_trajectory(length=500, seed=42):
         traj.append((x.copy(), z.copy(), F_dyn, Q_dyn))
     return traj
 
+
 # === Evaluation Functions ===
 def distance_from_target_function(func, traj, alpha=1.0):
     x_est = np.zeros(dim)
@@ -80,14 +85,19 @@ def distance_from_target_function(func, traj, alpha=1.0):
 
     for x_true, z, F_dyn, Q_dyn in traj:
         try:
-            xp, P_new, y, S, K, x_est_apx = func(x_est.copy(), F_dyn.copy(), P.copy(), Q_dyn.copy(), z.copy(), R.copy())
-            if xp.shape != (dim,) or x_est_apx.shape != (dim,) or P_new.shape != (dim, dim):
+            xp, P_new, y, S, K, x_est_apx = func(x_est.copy(), F_dyn.copy(),
+                                                 P.copy(), Q_dyn.copy(),
+                                                 z.copy(), R.copy())
+            if xp.shape != (dim, ) or x_est_apx.shape != (
+                    dim, ) or P_new.shape != (dim, dim):
                 return float("inf")
-            if any(np.any(np.isnan(m)) or np.any(np.isinf(m)) for m in [xp, x_est_apx, P_new]):
+            if any(
+                    np.any(np.isnan(m)) or np.any(np.isinf(m))
+                    for m in [xp, x_est_apx, P_new]):
                 return float("inf")
 
-            pred_errors.append(np.sum((x_true - xp) ** 2))
-            squared_errors.append(np.sum((x_true - x_est_apx) ** 2))
+            pred_errors.append(np.sum((x_true - xp)**2))
+            squared_errors.append(np.sum((x_true - x_est_apx)**2))
 
             P = P_new.copy()
             x_est = x_est_apx.copy()
@@ -101,16 +111,18 @@ def distance_from_target_function(func, traj, alpha=1.0):
     mse_post = np.mean(squared_errors)
     return alpha * mse_post + (1 - alpha) * mse_pred
 
+
 # === Text Parsing & Execution ===
 def load_functions_from_file(path):
     with open(path, "r") as f:
         text = f.read()
     pattern = re.compile(
         r'\[Process\s+\d+\]\s+best score so far:\s*(\S+),\s*content:\s*(def aproximate\(.*?)(?=\n\[Process|\Z)',
-        re.DOTALL
-    )
+        re.DOTALL)
     matches = pattern.findall(text)
-    return [(float(s), code.strip()) for s, code in matches if math.isfinite(float(s))]
+    return [(float(s), code.strip()) for s, code in matches
+            if math.isfinite(float(s))]
+
 
 def safe_exec_function(code):
     try:
@@ -122,6 +134,7 @@ def safe_exec_function(code):
         sys.stdout.flush()
         return None
 
+
 # === Main Evaluation ===
 def main():
     input_path = "pytorch_18877820.out"  # 🔁 Update with your file
@@ -132,8 +145,12 @@ def main():
         sys.stdout.flush()
         return
 
-    validation_trajectories = [generate_trajectory(500, seed=12 + i) for i in range(50)]
-    test_trajectories = [generate_trajectory(500, seed=32 + i) for i in range(50)]
+    validation_trajectories = [
+        generate_trajectory(500, seed=12 + i) for i in range(50)
+    ]
+    test_trajectories = [
+        generate_trajectory(500, seed=32 + i) for i in range(50)
+    ]
 
     best_score = float("inf")
     best_func = None
@@ -143,10 +160,14 @@ def main():
         func = safe_exec_function(code)
         if not func:
             continue
-        errors = [distance_from_target_function(func, traj) for traj in validation_trajectories]
+        errors = [
+            distance_from_target_function(func, traj)
+            for traj in validation_trajectories
+        ]
         score = np.mean(errors)
         stderr = np.std(errors, ddof=1) / np.sqrt(len(errors))  # manual stderr
-        sys.stdout.write(f"🔬 Function {i + 1}: MSE = {score:.6f}, StdErr = {stderr:.6f}\n")
+        sys.stdout.write(
+            f"🔬 Function {i + 1}: MSE = {score:.6f}, StdErr = {stderr:.6f}\n")
         sys.stdout.flush()
         if score < best_score:
             best_score = score
@@ -157,16 +178,26 @@ def main():
         sys.stdout.write("\n🏆 Best Function Code:\n\n")
         sys.stdout.write(best_code + "\n")
 
-        val_errors = [distance_from_target_function(best_func, traj) for traj in validation_trajectories]
+        val_errors = [
+            distance_from_target_function(best_func, traj)
+            for traj in validation_trajectories
+        ]
         val_score = np.mean(val_errors)
         val_stderr = np.std(val_errors, ddof=1) / np.sqrt(len(val_errors))
-        sys.stdout.write(f"\n✅ Validation MSE: {val_score:.6f}, StdErr = {val_stderr:.6f}\n")
+        sys.stdout.write(
+            f"\n✅ Validation MSE: {val_score:.6f}, StdErr = {val_stderr:.6f}\n"
+        )
         sys.stdout.flush()
 
-        test_errors = [distance_from_target_function(best_func, traj) for traj in test_trajectories]
+        test_errors = [
+            distance_from_target_function(best_func, traj)
+            for traj in test_trajectories
+        ]
         test_score = np.mean(test_errors)
         test_stderr = np.std(test_errors, ddof=1) / np.sqrt(len(test_errors))
-        sys.stdout.write(f"\n🧪 Test MSE (vs target): {test_score:.6f}, StdErr = {test_stderr:.6f}\n")
+        sys.stdout.write(
+            f"\n🧪 Test MSE (vs target): {test_score:.6f}, StdErr = {test_stderr:.6f}\n"
+        )
 
         baseline_errors = []
         for traj in test_trajectories:
@@ -177,12 +208,16 @@ def main():
                 baseline_errors.append(np.sum((x_true - x_kf)**2))
 
         baseline_mse = np.mean(baseline_errors)
-        baseline_stderr = np.std(baseline_errors, ddof=1) / np.sqrt(len(baseline_errors))
-        sys.stdout.write(f"\n🏑 Kalman Filter Baseline MSE (vs target): {baseline_mse:.6f}, StdErr = {baseline_stderr:.6f}\n")
+        baseline_stderr = np.std(baseline_errors, ddof=1) / np.sqrt(
+            len(baseline_errors))
+        sys.stdout.write(
+            f"\n🏑 Kalman Filter Baseline MSE (vs target): {baseline_mse:.6f}, StdErr = {baseline_stderr:.6f}\n"
+        )
         sys.stdout.flush()
     else:
         sys.stdout.write("❌ No valid executable function found.\n")
         sys.stdout.flush()
+
 
 if __name__ == "__main__":
     main()

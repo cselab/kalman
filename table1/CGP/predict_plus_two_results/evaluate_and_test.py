@@ -3,24 +3,32 @@ import re
 import numpy as np
 import math
 import sys
+
+
 # === Define 'g' and GP operators ===
 class g:
     pass
 
+
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def minus(inp, args):
     return inp[0] - inp[1]
 
+
 def matmul(inp, args):
     return inp[0] @ inp[1]
+
 
 def add(inp, args):
     return inp[0] + inp[1]
 
+
 def transpose(inp, args):
     return inp[0].T
+
 
 g.nodes = (matmul, minus, add, transpose)
 g.names = ("matmul", "minus", "add", "transpose")
@@ -37,7 +45,10 @@ import gp  # This assumes gp module with as_graphviz exists
 
 log_dir = './'
 digraphs = []
-gen_island_pattern = re.compile(r'Generation\s+(\d+)\s+-\s+Island\s+(\d+).*?BEST Graph\s+:\s+(digraph \{.*?\n\})', re.DOTALL)
+gen_island_pattern = re.compile(
+    r'Generation\s+(\d+)\s+-\s+Island\s+(\d+).*?BEST Graph\s+:\s+(digraph \{.*?\n\})',
+    re.DOTALL)
+
 
 def from_graphviz(g, dot_str):
     edges = []
@@ -112,8 +123,13 @@ def from_graphviz(g, dot_str):
 
 def normalize_dot(dot):
     lines = dot.strip().splitlines()
-    lines = [line.strip() for line in lines if line.strip() not in {"digraph {", "}"}]
+    lines = [
+        line.strip() for line in lines
+        if line.strip() not in {"digraph {", "}"}
+    ]
     return sorted(lines)
+
+
 def normalize_dot_structure(dot_str):
     edges = []
     labels = {}
@@ -125,7 +141,8 @@ def normalize_dot_structure(dot_str):
 
         if node_match:
             node, label = int(node_match[1]), node_match[2].strip()
-            labels[label] = labels.get(label, 0) + 1  # Count labels (i.e., 2 i0s vs 2 o3s)
+            labels[label] = labels.get(
+                label, 0) + 1  # Count labels (i.e., 2 i0s vs 2 o3s)
 
         elif edge_match:
             src, dst = int(edge_match[1]), int(edge_match[2])
@@ -135,6 +152,7 @@ def normalize_dot_structure(dot_str):
         "edges": sorted(edges),
         "label_counts": dict(sorted(labels.items()))
     }
+
 
 def patch_output_labels(dot_str, output_node_ids):
     #print("dot_str : ",dot_str)
@@ -159,6 +177,7 @@ def patch_output_labels(dot_str, output_node_ids):
 
     return "\n".join(header + body + footer)
 
+
 for root, _, files in os.walk(log_dir):
     for file in files:
         if file.endswith('.out'):
@@ -171,7 +190,8 @@ for root, _, files in os.walk(log_dir):
                     #    out_file.write(digraph)
                     try:
                         # Convert from .gv string to genotype
-                        predict, output_node_ids, row_to_graphviz_id = from_graphviz(g, digraph)
+                        predict, output_node_ids, row_to_graphviz_id = from_graphviz(
+                            g, digraph)
 
                         # Generate Graphviz from genotype (has internal row numbers like 6, 7, 8...)
                         raw_dot = gp.as_graphviz(g, predict)
@@ -181,23 +201,31 @@ for root, _, files in os.walk(log_dir):
                         for line in raw_dot.strip().splitlines():
                             line = line.strip()
                             # Match node declarations
-                            output_match = re.match(r'^(\d+)\s+\[label = o(.+?)\]$', line)
+                            output_match = re.match(
+                                r'^(\d+)\s+\[label = o(.+?)\]$', line)
                             if output_match:
                                 break
-                            node_match = re.match(r'^(\d+)\s+\[label = (.+?)\]$', line)
+                            node_match = re.match(
+                                r'^(\d+)\s+\[label = (.+?)\]$', line)
                             if node_match:
-                                node_id, label = int(node_match[1]), node_match[2]
-                                new_id = row_to_graphviz_id.get(node_id, node_id)
-                                remapped_dot_lines.append(f"  {new_id} [label = {label}]")
+                                node_id, label = int(
+                                    node_match[1]), node_match[2]
+                                new_id = row_to_graphviz_id.get(
+                                    node_id, node_id)
+                                remapped_dot_lines.append(
+                                    f"  {new_id} [label = {label}]")
                                 continue
 
                             # Match edges
-                            edge_match = re.match(r'^(\d+)\s+->\s+(\d+)(.*)', line)
+                            edge_match = re.match(r'^(\d+)\s+->\s+(\d+)(.*)',
+                                                  line)
                             if edge_match:
-                                src, tgt, rest = int(edge_match[1]), int(edge_match[2]), edge_match[3]
+                                src, tgt, rest = int(edge_match[1]), int(
+                                    edge_match[2]), edge_match[3]
                                 new_src = row_to_graphviz_id.get(src, src)
                                 new_tgt = row_to_graphviz_id.get(tgt, tgt)
-                                remapped_dot_lines.append(f"  {new_src} -> {new_tgt}{rest}")
+                                remapped_dot_lines.append(
+                                    f"  {new_src} -> {new_tgt}{rest}")
                                 continue
 
                             # Copy any unrecognized lines
@@ -207,19 +235,35 @@ for root, _, files in os.walk(log_dir):
                         for o_idx in range(g.o):
                             output_node_id = 15 + o_idx
                             src_internal = predict[g.i + g.n + o_idx, 1]
-                            src_graphviz = row_to_graphviz_id.get(src_internal, src_internal)
-                            remapped_dot_lines.append(f"  {output_node_id} [label = o{o_idx}]")
-                            remapped_dot_lines.append(f"  {src_graphviz} -> {output_node_id}")
+                            src_graphviz = row_to_graphviz_id.get(
+                                src_internal, src_internal)
+                            remapped_dot_lines.append(
+                                f"  {output_node_id} [label = o{o_idx}]")
+                            remapped_dot_lines.append(
+                                f"  {src_graphviz} -> {output_node_id}")
 
                         regenerated = "\n".join(remapped_dot_lines) + "\n}"
 
                         # Final comparison
-                        if normalize_dot(digraph) != normalize_dot(regenerated) and normalize_dot(patch_output_labels(digraph,output_node_ids)) != normalize_dot(patch_output_labels(regenerated,output_node_ids)):
+                        if normalize_dot(digraph) != normalize_dot(
+                                regenerated) and normalize_dot(
+                                    patch_output_labels(
+                                        digraph,
+                                        output_node_ids)) != normalize_dot(
+                                            patch_output_labels(
+                                                regenerated, output_node_ids)):
                             print("digraph :", digraph)
                             print("regenerated:", regenerated)
-                            print("patch_output_labels1:", patch_output_labels(digraph,output_node_ids))
-                            print("patch_output_labels2:", patch_output_labels(regenerated,output_node_ids))
-                            print(f"Mismatch in {filename} after roundtrip conversion.")
+                            print(
+                                "patch_output_labels1:",
+                                patch_output_labels(digraph, output_node_ids))
+                            print(
+                                "patch_output_labels2:",
+                                patch_output_labels(regenerated,
+                                                    output_node_ids))
+                            print(
+                                f"Mismatch in {filename} after roundtrip conversion."
+                            )
                             exit(1)
                         digraphs.append((filename, predict))
 
@@ -232,6 +276,7 @@ print(f"Extracted and parsed {len(digraphs)} digraphs.")
 #print("digraphs : ",digraphs)
 #exit(1)
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -241,7 +286,7 @@ class KalmanFilter:
         self.P = P.copy()
         self.x = x.copy()
 
-    def predict(self, u=np.zeros((1,1))):
+    def predict(self, u=np.zeros((1, 1))):
         self.x = (self.F @ self.x) + (self.B @ u)
         self.P = ((self.F @ self.P) @ self.F.T) + self.Q
         return self.x
@@ -254,6 +299,7 @@ class KalmanFilter:
         I = np.eye(self.F.shape[0])
         self.P = ((I - (self.K @ self.H)) @ self.P)
         return self.x
+
 
 def distance_from_kalman_filter(predict, traj):
     xx = np.array([0, 0], dtype=float)
@@ -270,8 +316,8 @@ def distance_from_kalman_filter(predict, traj):
     for x, z in traj:
         try:
             out = execute(predict, [xx, F, P, Q, z, R])
-            xp, P, y, S = out #[2:]
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            xp, P, y, S = out  #[2:]
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isnan(P)) or \
                np.any(np.isinf(xp)) or np.any(np.isinf(P)):
@@ -304,15 +350,18 @@ def distance_from_kalman_filter(predict, traj):
                 return float('inf')
 
             diff_current = xx - x_kalman
-            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)):
+            if np.any(np.isinf(diff_current)) or np.any(
+                    np.isnan(diff_current)):
                 return float('inf')
             diff.append(diff_current @ diff_current.T)
 
-        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError, FloatingPointError):
+        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError,
+                FloatingPointError):
             return float('inf')
 
     loss = np.mean(diff)
     return loss if not math.isnan(loss) else float('inf')
+
 
 def distance_from_target_function(predict, traj, alpha=1.0):
     """
@@ -357,9 +406,9 @@ def distance_from_target_function(predict, traj, alpha=1.0):
         try:
             out = execute(predict, [x_est, F, P, Q, z, R])
             #print("len out : ",len(out))
-            xp, P, y, S = out #[2:]
+            xp, P, y, S = out  #[2:]
 
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 print("e2")
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isinf(xp)) or \
@@ -387,14 +436,15 @@ def distance_from_target_function(predict, traj, alpha=1.0):
 
             # Updated prediction error
             error = x_true - x_est
-            if error.shape != (dim,) or np.any(np.isnan(error)) or np.any(np.isinf(error)):
+            if error.shape != (dim, ) or np.any(np.isnan(error)) or np.any(
+                    np.isinf(error)):
                 print("e6")
                 return float('inf')
 
             squared_errors.append(np.dot(error, error))
 
         except Exception as e:
-            print("e: ",e)
+            print("e: ", e)
             print("e7")
             return float('inf')
 
@@ -409,7 +459,6 @@ def distance_from_target_function(predict, traj, alpha=1.0):
     return combined_loss
 
 
-
 # Assuming all setup and imports from your script are done
 def generate_trajectory(length=200, seed=None):
     rng = np.random.default_rng(seed)
@@ -422,12 +471,10 @@ def generate_trajectory(length=200, seed=None):
     return traj
 
 
-
-
 g.nodes = (matmul, minus, add, transpose)
-g.names = ("matmul","minus","add","transpose")
-g.arity = (2,2,2,1)
-g.args = (0,0,0,0)
+g.names = ("matmul", "minus", "add", "transpose")
+g.arity = (2, 2, 2, 1)
+g.args = (0, 0, 0, 0)
 
 g.i = 6
 g.n = 9
@@ -456,9 +503,6 @@ for trial in range(50):
     traj = generate_trajectory(length=500, seed=12345 + trial)
     validation_trajectories.append(traj)
 
-
-
-
 best_score = float('inf')
 best_predict = None
 seen_hashes = set()
@@ -467,16 +511,16 @@ for filename, predict in digraphs:
     if key in seen_hashes:
         #print(f"Skipping already seen graph: {filename}")
         continue
-    seen_hashes.add(key)    
+    seen_hashes.add(key)
     try:
         all_scores = []
         for trajectory in validation_trajectories:
             #score = distance_from_kalman_filter(predict,trajectory)
-            score = distance_from_target_function(predict,trajectory)
+            score = distance_from_target_function(predict, trajectory)
             all_scores.append(score)
         score = np.mean(all_scores)
         #score = distance_from_kalman_filter(predict)
-        sys.stdout.write(f"{filename} --> Score: {score:.6f}"+"\n")
+        sys.stdout.write(f"{filename} --> Score: {score:.6f}" + "\n")
         sys.stdout.flush()
 
         if score < best_score:
@@ -492,21 +536,24 @@ for trial in range(50):
     traj = generate_trajectory(length=500, seed=32 + trial)
     test_trajectories.append(traj)
 if best_predict is not None:
-    sys.stdout.write(f"\n🏆 Best Graph Score: {best_score}"+"\n")
+    sys.stdout.write(f"\n🏆 Best Graph Score: {best_score}" + "\n")
     g.n = 7
-    sys.stdout.write(f"🏁 Best Graphviz 7:\n{gp.as_graphviz(g, best_predict)}"+"\n")
+    sys.stdout.write(f"🏁 Best Graphviz 7:\n{gp.as_graphviz(g, best_predict)}" +
+                     "\n")
     g.n = 9
-    sys.stdout.write(f"🏁 Best Graphviz 9:\n{gp.as_graphviz(g, best_predict)}"+"\n")
+    sys.stdout.write(f"🏁 Best Graphviz 9:\n{gp.as_graphviz(g, best_predict)}" +
+                     "\n")
 
-    sys.stdout.write(f"🏁 Best Graphviz:\n{gp.as_graphviz(g, best_predict)}"+"\n")
+    sys.stdout.write(f"🏁 Best Graphviz:\n{gp.as_graphviz(g, best_predict)}" +
+                     "\n")
     g.n = 9
-    all_scores =[]
+    all_scores = []
     for trajectory in test_trajectories:
         #score = distance_from_kalman_filter(predict,trajectory)
-        score = distance_from_target_function(best_predict,trajectory)
+        score = distance_from_target_function(best_predict, trajectory)
         all_scores.append(score)
     score = np.mean(all_scores)
 
     #score = distance_from_kalman_filter(predict)
-    sys.stdout.write(f"Distance Score of Kalman Filter: {score:.6f}"+"\n")
+    sys.stdout.write(f"Distance Score of Kalman Filter: {score:.6f}" + "\n")
     sys.stdout.flush()

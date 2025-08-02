@@ -5,27 +5,41 @@ import gp
 import sys
 import math
 
+
 # === GP CONFIGURATION ===
 class g:
     pass
 
-def minus(inp, args): return inp[0] - inp[1]
-def matmul(inp, args): return inp[0] @ inp[1]
-def add(inp, args): return inp[0] + inp[1]
-def transpose(inp, args): return inp[0].T
+
+def minus(inp, args):
+    return inp[0] - inp[1]
+
+
+def matmul(inp, args):
+    return inp[0] @ inp[1]
+
+
+def add(inp, args):
+    return inp[0] + inp[1]
+
+
+def transpose(inp, args):
+    return inp[0].T
+
 
 g.nodes = (matmul, minus, add, transpose)
 g.names = ("matmul", "minus", "add", "transpose")
 g.arity = (2, 2, 2, 1)
 g.args = (0, 0, 0, 0)
-g.i = 6     # [x_est, F, P, Q, z, R]
+g.i = 6  # [x_est, F, P, Q, z, R]
 g.n = 7
-g.o = 4     # [xp, P, y, S]
+g.o = 4  # [xp, P, y, S]
 g.a = 2
 g.p = 0
 g.lmb = 1000
 
 alpha = 1.0  # only post-update MSE is used
+
 
 def from_graphviz(g, dot_str):
     edges = []
@@ -74,7 +88,8 @@ def from_graphviz(g, dot_str):
             for j in range(min(len(inputs), g.a)):
                 src_nid = inputs[j]
                 if src_nid not in node_to_row:
-                    raise ValueError(f"Missing source node mapping for {src_nid}")
+                    raise ValueError(
+                        f"Missing source node mapping for {src_nid}")
                 gen[current_row, 1 + j] = node_to_row[src_nid]
             node_to_row[nid] = current_row
             current_row += 1
@@ -96,7 +111,9 @@ def from_graphviz(g, dot_str):
 
     return gen
 
+
 def graphs_structurally_equivalent(dot1, dot2):
+
     def extract_structure(dot):
         node_types = {}
         edges = set()
@@ -104,7 +121,8 @@ def graphs_structurally_equivalent(dot1, dot2):
             line = line.strip()
             if not line or line.startswith("digraph") or line in {"{", "}"}:
                 continue
-            label_match = re.match(r'^(\d+)\s+\[label\s*=\s*"?([^"]+?)"?\]', line)
+            label_match = re.match(r'^(\d+)\s+\[label\s*=\s*"?([^"]+?)"?\]',
+                                   line)
             edge_match = re.match(r'^(\d+)\s*->\s*(\d+)', line)
             if label_match:
                 nid, label = label_match.groups()
@@ -116,7 +134,9 @@ def graphs_structurally_equivalent(dot1, dot2):
 
     return extract_structure(dot1) == extract_structure(dot2)
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -125,10 +145,12 @@ class KalmanFilter:
         self.R = R.copy()
         self.P = P.copy()
         self.x = x.copy()
-    def predict(self, u=np.zeros((1,1))):
+
+    def predict(self, u=np.zeros((1, 1))):
         self.x = self.F @ self.x
         self.P = self.F @ self.P @ self.F.T + self.Q
         return self.x
+
     def update(self, z):
         self.y = z - self.x
         self.S = self.P + self.R
@@ -137,8 +159,10 @@ class KalmanFilter:
         self.P = self.P - self.K @ self.P
         return self.x
 
+
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def distance_from_target_function(predict, traj):
     x_est = np.array([0.0, 0.0])
@@ -157,7 +181,7 @@ def distance_from_target_function(predict, traj):
                 return float('inf')
             xp, P_pred, y, S = result
 
-            if xp.shape != (dim,) or P_pred.shape != (dim, dim):
+            if xp.shape != (dim, ) or P_pred.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isinf(xp)) or \
                np.any(np.isnan(P_pred)) or np.any(np.isinf(P_pred)):
@@ -170,7 +194,8 @@ def distance_from_target_function(predict, traj):
             P = (np.eye(dim) - (K @ H)) @ P_pred
 
             error = x_true - x_est
-            if error.shape != (dim,) or np.any(np.isnan(error)) or np.any(np.isinf(error)):
+            if error.shape != (dim, ) or np.any(np.isnan(error)) or np.any(
+                    np.isinf(error)):
                 return float('inf')
 
             squared_errors.append(np.dot(error, error))
@@ -183,6 +208,7 @@ def distance_from_target_function(predict, traj):
 
     return np.mean(squared_errors)
 
+
 def kalman_baseline(traj):
     kf = KalmanFilter(F, B, H, Q, R, np.eye(2), x=np.zeros(2))
     errors = []
@@ -192,6 +218,7 @@ def kalman_baseline(traj):
         errors.append((x - x_est) @ (x - x_est))
     return np.mean(errors)
 
+
 dim = 2
 F = np.array([[1, 1], [0, 1]], dtype=float)
 cQ = np.array([[0.5, 0], [1, 0]], dtype=float)
@@ -200,6 +227,7 @@ R = np.eye(dim)
 H = np.eye(dim)
 B = np.eye(dim)
 u = np.zeros(dim)
+
 
 def generate_trajectory(length=500, seed=None):
     rng = np.random.default_rng(seed)
@@ -211,7 +239,10 @@ def generate_trajectory(length=500, seed=None):
         traj.append((x.copy(), z.copy()))
     return traj
 
-pattern = re.compile(r"\[\d+\]\s+New best score:\s+[\d.eE+-]+\s+Graph:\s+(digraph\s*\{.*?\})", re.DOTALL)
+
+pattern = re.compile(
+    r"\[\d+\]\s+New best score:\s+[\d.eE+-]+\s+Graph:\s+(digraph\s*\{.*?\})",
+    re.DOTALL)
 log_dir = "./"
 digraphs = []
 
@@ -227,7 +258,8 @@ for root, _, files in os.walk(log_dir):
                     try:
                         predict = from_graphviz(g, dot)
                         regenerated = gp.as_graphviz(g, predict)
-                        if not graphs_structurally_equivalent(dot, regenerated):
+                        if not graphs_structurally_equivalent(
+                                dot, regenerated):
                             print("❌ Structure mismatch detected!")
                             print("\n🔍 Original DOT:\n", dot)
                             print("\n🔁 Regenerated DOT:\n", regenerated)
@@ -241,7 +273,7 @@ for root, _, files in os.walk(log_dir):
 
 print(f"\n✅ Total loaded graphs: {len(digraphs)}")
 
-validation_trajectories = [generate_trajectory(seed=12+i) for i in range(50)]
+validation_trajectories = [generate_trajectory(seed=12 + i) for i in range(50)]
 best_score = float('inf')
 best_predict = None
 seen_hashes = set()
@@ -251,7 +283,10 @@ for filename, predict in digraphs:
     if key in seen_hashes:
         continue
     seen_hashes.add(key)
-    scores = [distance_from_target_function(predict, traj) for traj in validation_trajectories]
+    scores = [
+        distance_from_target_function(predict, traj)
+        for traj in validation_trajectories
+    ]
     score = np.mean(scores)
     print(f"{filename} --> Score: {score:.6f}")
     if score < best_score:
@@ -262,8 +297,11 @@ if best_predict is not None:
     print(f"\n🏆 Best Score: {best_score:.6f}")
     print(f"\n📈 Best Graphviz:\n{gp.as_graphviz(g, best_predict)}")
 
-    test_trajectories = [generate_trajectory(seed=32+i) for i in range(50)]
-    pred_scores = [distance_from_target_function(best_predict, traj) for traj in test_trajectories]
+    test_trajectories = [generate_trajectory(seed=32 + i) for i in range(50)]
+    pred_scores = [
+        distance_from_target_function(best_predict, traj)
+        for traj in test_trajectories
+    ]
     kalman_scores = [kalman_baseline(traj) for traj in test_trajectories]
 
     mean_pred = np.mean(pred_scores)

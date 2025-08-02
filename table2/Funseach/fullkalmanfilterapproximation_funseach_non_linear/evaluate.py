@@ -19,22 +19,23 @@ traj = []
 nprng = np.random.default_rng(seed=12345)
 
 for _ in range(200):
-    x = np.array([
-        0.05 * x[0]**3-2*x[0],
-        0.1 * np.sin(x[1])
-    ])
+    x = np.array([0.05 * x[0]**3 - 2 * x[0], 0.1 * np.sin(x[1])])
     x = F @ x + cQ @ nprng.normal(0, 1, dim)
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x.copy(), z.copy()))
+
 
 # === Evaluate Graph Using Provided Python Code ===
 def evaluate_graph(aproximate: str) -> float:
     code_file = None
     eval_file = None
 
-    traj_str = "[" + ", ".join(f"(np.array({x.tolist()}), np.array({z.tolist()}))" for x, z in traj) + "]"
+    traj_str = "[" + ", ".join(
+        f"(np.array({x.tolist()}), np.array({z.tolist()}))"
+        for x, z in traj) + "]"
     try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as code_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as code_file:
             code_file.write(aproximate)
             code_file.flush()
             code_path = code_file.name
@@ -96,16 +97,15 @@ if __name__ == "__main__":
     evaluate()
 """
 
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as eval_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as eval_file:
             eval_file.write(eval_script)
             eval_file.flush()
 
-        process = subprocess.run(
-            [sys.executable, eval_file.name],
-            stderr=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            timeout=60
-        )
+        process = subprocess.run([sys.executable, eval_file.name],
+                                 stderr=subprocess.PIPE,
+                                 stdout=subprocess.PIPE,
+                                 timeout=60)
 
         stdout_str = process.stdout.decode().strip()
         stderr_str = process.stderr.decode().strip()
@@ -155,7 +155,6 @@ def aproximate(x, F, P, Q, z, R):
     P = (np.eye(F.shape[0]) - K) @ P
     return xp, P, y, S, K, x
 """
-
 
 result = evaluate_graph(my_function)
 print("MSE:", result)

@@ -18,20 +18,25 @@ import heapq
 def minus(inp, args):
     return inp[0] - inp[1]
 
+
 def matmul(inp, args):
     return inp[0] @ inp[1]
+
 
 def add(inp, args):
     return inp[0] + inp[1]
 
+
 def transpose(inp, args):
     return inp[0].T
+
 
 def inv(inp, args):
     return np.linalg.inv(inp[0])
 
 
 class TopCandidateSampler:
+
     def __init__(self, max_candidates=0.2):
         self.max_candidates = max_candidates
         self._heap = []
@@ -48,7 +53,6 @@ class TopCandidateSampler:
             else:
                 if -entry[0] < -self._heap[0][0]:
                     heapq.heappushpop(self._heap, entry)
-                    
 
     def sample(self, temperature=2):
         if not self._heap:
@@ -77,6 +81,7 @@ class TopCandidateSampler:
 class g:
     pass
 
+
 def seen(a):
     a = a.tobytes()
     ans = a in Hash
@@ -84,15 +89,17 @@ def seen(a):
         Hash.add(a)
     return ans
 
+
 def rand():
     while 1:
         gen = gp.rand(g)
         if not seen(gen):
             return gen
 
+
 def mutate(i, top_candidate, Hash):
     mutate_prob = 0.2
-    n_mutations = random.randint(1, max_mutations) #  max_mutations # 
+    n_mutations = random.randint(1, max_mutations)  #  max_mutations #
     new_genes = [top_candidate]
     for i in range(1, g.lmb + 1):
         new_candidate = top_candidate.copy()
@@ -112,7 +119,9 @@ def mutate(i, top_candidate, Hash):
             new_genes.append(new_candidate)
     return new_genes
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -122,7 +131,7 @@ class KalmanFilter:
         self.P = P.copy()
         self.x = x.copy()
 
-    def predict(self, u=np.zeros((1,1))):
+    def predict(self, u=np.zeros((1, 1))):
         self.x = (self.F @ self.x) + (self.B @ u)
         self.P = ((self.F @ self.P) @ self.F.T) + self.Q
         return self.x
@@ -135,6 +144,7 @@ class KalmanFilter:
         I = np.eye(self.F.shape[0])
         self.P = ((I - (self.K @ self.H)) @ self.P)
         return self.x
+
 
 def distance_from_target_function(predict):
     xx = np.array([0, 0], dtype=float)
@@ -150,8 +160,8 @@ def distance_from_target_function(predict):
 
     for x, z in traj:
         try:
-            xp, P, y, S,  K  = execute(predict, [xx, F, P, Q, z, R])
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            xp, P, y, S, K = execute(predict, [xx, F, P, Q, z, R])
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isnan(P)) or \
                np.any(np.isinf(xp)) or np.any(np.isinf(P)):
@@ -171,23 +181,26 @@ def distance_from_target_function(predict):
 
             if x_true.shape != xp.shape:
                 return float('inf')
-            
+
             diff_current = x - xx
-            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)) or x.shape != xx.shape:
+            if np.any(np.isinf(diff_current)) or np.any(
+                    np.isnan(diff_current)) or x.shape != xx.shape:
                 return float('inf')
             diff.append(diff_current @ diff_current.T)
 
-        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError, FloatingPointError):
+        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError,
+                FloatingPointError):
             return float('inf')
 
     loss = np.mean(diff)
-    if loss < 0 :
+    if loss < 0:
         return float('inf')
     return loss if not math.isnan(loss) else float('inf')
 
 
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def example():
     p = 2
@@ -197,11 +210,6 @@ def example():
         x.append(x[-1] + random.randint(-p, p))
         p, q = q, p
     return np.array(x, dtype=dtype)
-
-
-
-
-
 
 
 N = 100
@@ -226,11 +234,10 @@ for t in range(200):
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x, z))
 
-
 g.nodes = (matmul, minus, add, transpose, inv)
-g.names = ("matmul","minus","add","transpose","inv")
-g.arity = (2,2,2,1,1)
-g.args = (0,0,0,0,0)
+g.names = ("matmul", "minus", "add", "transpose", "inv")
+g.arity = (2, 2, 2, 1, 1)
+g.args = (0, 0, 0, 0, 0)
 
 g.i = 6
 g.n = 9
@@ -239,43 +246,41 @@ g.a = 2
 g.p = 0
 g.lmb = 1000
 
-
-
-
-
 predict0 = gp.build(
-        g,
-        #  0     1    2    3   4    5    6        7        8           9        10       11     12    13   14        15   16   17   18   19  
-        ["i0", "i1","i2","i3","i4","i5","matmul","matmul", "transpose","matmul", "add","minus","add","inv","matmul","o0","o1","o2","o3","o4"],#
-        [
-            (1, 6), # x = (F @ xx)
-            (0, 6),
-            (1, 7), # (F @ P)
-            (2, 7),
-            (1, 8), # F.T
-            (7, 9), # ((F @ P) @ F.T)
-            (8, 9),
-            (9, 10), # P = ((F @ P) @ F.T) + Q 
-            (3, 10),
-            (4, 11), # y = z - self.x
-            (6, 11),
-            (10, 12), # S = R + P
-            (5, 12),
-            (12,13),  # K = (P) @ np.linalg.inv(S)         
-            (10,14),
-            (13,14),
-            (6, 15),
-            (10, 16),
-            (11, 17),
-            (12, 18),
-            (14, 19),
-        ],  # o1
-        [])
-
+    g,
+    #  0     1    2    3   4    5    6        7        8           9        10       11     12    13   14        15   16   17   18   19
+    [
+        "i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose",
+        "matmul", "add", "minus", "add", "inv", "matmul", "o0", "o1", "o2",
+        "o3", "o4"
+    ],  #
+    [
+        (1, 6),  # x = (F @ xx)
+        (0, 6),
+        (1, 7),  # (F @ P)
+        (2, 7),
+        (1, 8),  # F.T
+        (7, 9),  # ((F @ P) @ F.T)
+        (8, 9),
+        (9, 10),  # P = ((F @ P) @ F.T) + Q 
+        (3, 10),
+        (4, 11),  # y = z - self.x
+        (6, 11),
+        (10, 12),  # S = R + P
+        (5, 12),
+        (12, 13),  # K = (P) @ np.linalg.inv(S)         
+        (10, 14),
+        (13, 14),
+        (6, 15),
+        (10, 16),
+        (11, 17),
+        (12, 18),
+        (14, 19),
+    ],  # o1
+    [])
 
 print("Sanity check loss :", distance_from_target_function(predict0))
-print("Solution :",gp.as_graphviz(g, predict0))
-
+print("Solution :", gp.as_graphviz(g, predict0))
 
 if __name__ == "__main__":
     multiprocessing.freeze_support()
@@ -305,6 +310,9 @@ if __name__ == "__main__":
                 if score < best_score:
                     best_score = score
                     best_gene = gene
-                    sys.stdout.write(f"[{evaluations:05}] New best score: {best_score:.4e}\n")
-                    sys.stdout.write(f"Graph: {gp.as_graphviz(g, best_gene)}\n")
+                    sys.stdout.write(
+                        f"[{evaluations:05}] New best score: {best_score:.4e}\n"
+                    )
+                    sys.stdout.write(
+                        f"Graph: {gp.as_graphviz(g, best_gene)}\n")
                     sys.stdout.flush()

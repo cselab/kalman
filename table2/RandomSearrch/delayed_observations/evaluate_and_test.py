@@ -1,10 +1,12 @@
 import numpy as np
 
+
 def get_F_Q(dt):
     F = np.array([[1, dt], [0, 1]])
     G = np.array([[0.5 * dt**2], [dt]])
     Q = G @ G.T
     return F, Q
+
 
 def generate_trajectory(length=500, seed=0):
     dim = 2
@@ -33,12 +35,14 @@ def generate_trajectory(length=500, seed=0):
 
     return traj
 
+
 def compute_mse_per_trajectory(trajectories):
     mse_list = []
     for traj in trajectories:
-        errors = [(np.linalg.norm(x_true - z) ** 2) for x_true, z, _, _ in traj]
+        errors = [(np.linalg.norm(x_true - z)**2) for x_true, z, _, _ in traj]
         mse_list.append(np.mean(errors))
     return np.array(mse_list)
+
 
 # === Run on multiple test trajectories ===
 test_trajectories = [generate_trajectory(seed=100 + i) for i in range(50)]

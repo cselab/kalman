@@ -11,25 +11,32 @@ import traceback
 with open("val_instances.pkl", "rb") as f:
     val_instances = pickle.load(f)
 
+
 def l1_bound(items: np.ndarray, capacity: int) -> float:
     return np.ceil(np.sum(items) / capacity)
 
+
 def l1_bound_dataset(instances: list) -> float:
     return np.mean([
-        l1_bound(instance['Items']['Size'].to_numpy(), instance['Bin Capacity'])
-        for instance in instances
+        l1_bound(instance['Items']['Size'].to_numpy(),
+                 instance['Bin Capacity']) for instance in instances
     ])
 
+
 val_l1 = l1_bound_dataset(val_instances)
+
 
 # === Evaluate function string on val_instances ===
 def evaluate_priority_function_on_val(priority_code: str) -> float:
     try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as code_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as code_file:
             code_file.write(priority_code)
             code_file.flush()
 
-        with tempfile.NamedTemporaryFile(mode='wb', suffix='.pkl', delete=False) as data_file:
+        with tempfile.NamedTemporaryFile(mode='wb',
+                                         suffix='.pkl',
+                                         delete=False) as data_file:
             pickle.dump((val_instances, val_l1), data_file)
             data_file.flush()
 
@@ -99,7 +106,8 @@ except:
     print(float('inf'))
 """
 
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as eval_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as eval_file:
             eval_file.write(eval_script)
             eval_file.flush()
 
@@ -107,11 +115,11 @@ except:
             [sys.executable, eval_file.name, code_file.name, data_file.name],
             stderr=subprocess.PIPE,
             stdout=subprocess.PIPE,
-            timeout=60
-        )
+            timeout=60)
 
         result_str = process.stdout.decode().strip()
-        return float(result_str) if np.isfinite(float(result_str)) else float('inf')
+        return float(result_str) if np.isfinite(
+            float(result_str)) else float('inf')
 
     except:
         traceback.print_exc()
@@ -123,6 +131,7 @@ except:
             except:
                 pass
 
+
 # === Crawl .out files and evaluate ===
 matches = []
 for filename in os.listdir("."):
@@ -132,8 +141,7 @@ for filename in os.listdir("."):
         file_matches = re.findall(
             r"best score so far: ([\d\.eE+-]+), content:\s*(def priority\(.*?)(?=\n\[Process|\Z)",
             content,
-            flags=re.DOTALL
-        )
+            flags=re.DOTALL)
         matches.extend(file_matches)
 
 total = len(matches)
@@ -148,7 +156,9 @@ for i, (raw_score, func_code) in enumerate(matches, 1):
         func_code_cleaned += "\n"
 
     validated_score = evaluate_priority_function_on_val(func_code_cleaned)
-    print(f"[{i}/{total}] Raw: {float(raw_score):.4f} | Validated: {validated_score:.4f}%")
+    print(
+        f"[{i}/{total}] Raw: {float(raw_score):.4f} | Validated: {validated_score:.4f}%"
+    )
 
     if validated_score < best_score:
         best_score = validated_score

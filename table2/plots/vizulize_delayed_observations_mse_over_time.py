@@ -12,14 +12,30 @@ plt.rcParams.update({
     'figure.titlesize': 30
 })
 
+
 class g:
     pass
 
-def minus(inp, args): return inp[0] - inp[1]
-def matmul(inp, args): return inp[0] @ inp[1]
-def add(inp, args): return inp[0] + inp[1]
-def transpose(inp, args): return inp[0].T
-def inv(inp, args): return np.linalg.inv(inp[0])
+
+def minus(inp, args):
+    return inp[0] - inp[1]
+
+
+def matmul(inp, args):
+    return inp[0] @ inp[1]
+
+
+def add(inp, args):
+    return inp[0] + inp[1]
+
+
+def transpose(inp, args):
+    return inp[0].T
+
+
+def inv(inp, args):
+    return np.linalg.inv(inp[0])
+
 
 g.nodes = (matmul, minus, add, transpose, inv)
 g.names = ("matmul", "minus", "add", "transpose", "inv")
@@ -128,7 +144,6 @@ random_search = """digraph {
 }"""
 
 
-
 def from_graphviz(g, dot_str):
     import re
     edges = []
@@ -137,7 +152,8 @@ def from_graphviz(g, dot_str):
         line = line.strip()
         if not line or line.startswith("digraph") or line in {"{", "}"}:
             continue
-        label_match = re.match(r'^(\d+)\s+\[label\s*=\s*\"?([^\"]+?)\"?\]', line)
+        label_match = re.match(r'^(\d+)\s+\[label\s*=\s*\"?([^\"]+?)\"?\]',
+                               line)
         edge_match = re.match(r'^(\d+)\s*->\s*(\d+)', line)
         if label_match:
             nid = int(label_match.group(1))
@@ -169,7 +185,8 @@ def from_graphviz(g, dot_str):
                 gen[nid, 1 + j] = node_id_to_row.get(inputs[j], inputs[j])
         elif label is None:
             continue
-        elif not label.startswith("i") and not label.startswith("o") and not label.startswith("inv"):
+        elif not label.startswith("i") and not label.startswith(
+                "o") and not label.startswith("inv"):
             gen[nid, 0] = g.names.index("add")
             gen[nid, 1:] = 0
             node_labels[nid] = "add"
@@ -182,6 +199,7 @@ def from_graphviz(g, dot_str):
                     gen[nid, 1] = node_id_to_row.get(srcs[0], srcs[0])
     return gen
 
+
 def kalman_filter(x, F, P, Q, z, R):
     x_pred = F @ x
     P_pred = F @ P @ F.T + Q
@@ -191,6 +209,8 @@ def kalman_filter(x, F, P, Q, z, R):
     x_upd = x_pred + K @ y
     P_upd = (np.eye(len(K)) - K) @ P_pred
     return x_upd, P_upd
+
+
 #function_
 def approximate(x, F, P, Q, z, R):
     a = F @ x
@@ -207,6 +227,7 @@ def approximate(x, F, P, Q, z, R):
     P = (np.eye(F.shape[0]) - K) @ P
     return x, P
 
+
 def graph_approximate(x, F, P, Q, z, R):
     A = F @ R
     B = P + Q
@@ -221,17 +242,20 @@ def graph_approximate(x, F, P, Q, z, R):
     K = T - P
     return xp, P, y, S, K, x
 
+
 dim = 2
 cQ = np.array([[1 / 2, 0], [1, 0]], dtype=float)
 cR = np.eye(dim)
 R = cR @ cR.T
 H = np.eye(dim)
 
+
 def get_F_Q(effective_dt):
     F = np.array([[1, effective_dt], [0, 1]], dtype=float)
-    G = np.array([[0.5 * effective_dt ** 2], [effective_dt]])
+    G = np.array([[0.5 * effective_dt**2], [effective_dt]])
     Q = G @ G.T
     return F, Q
+
 
 def generate_trajectory(length=501, seed=0):
     rng = np.random.default_rng(seed)
@@ -254,8 +278,6 @@ def generate_trajectory(length=501, seed=0):
     return traj, np.array(true_states)
 
 
-
-
 best_graph = from_graphviz(g, best_graph_dot)
 random_graph = from_graphviz(g, random_search)
 
@@ -276,30 +298,47 @@ for seed in range(n_runs):
 
     for t, (x_true, z, F, Q) in enumerate(traj):
         try:
-            _, P_cgp, _, _, _, x_est_cgp = wavegp.execute(g, best_graph, [x_est_cgp.copy(), F.copy(), P_cgp.copy(), Q.copy(), z.copy(), R.copy()])
-            all_mse_cgp[seed, t] = np.linalg.norm(x_est_cgp - x_true) ** 2
+            _, P_cgp, _, _, _, x_est_cgp = wavegp.execute(
+                g, best_graph, [
+                    x_est_cgp.copy(),
+                    F.copy(),
+                    P_cgp.copy(),
+                    Q.copy(),
+                    z.copy(),
+                    R.copy()
+                ])
+            all_mse_cgp[seed, t] = np.linalg.norm(x_est_cgp - x_true)**2
         except:
             all_mse_cgp[seed, t] = np.nan
 
         try:
             x_est_kf, P_kf = kalman_filter(x_est_kf, F, P_kf, Q, z, R)
-            all_mse_kf[seed, t] = np.linalg.norm(x_est_kf - x_true) ** 2
+            all_mse_kf[seed, t] = np.linalg.norm(x_est_kf - x_true)**2
         except:
             all_mse_kf[seed, t] = np.nan
 
         try:
-            x_est_approx, P_approx = approximate(x_est_approx, F, P_approx, Q, z, R)
-            all_mse_approx[seed, t] = np.linalg.norm(x_est_approx - x_true) ** 2
+            x_est_approx, P_approx = approximate(x_est_approx, F, P_approx, Q,
+                                                 z, R)
+            all_mse_approx[seed, t] = np.linalg.norm(x_est_approx - x_true)**2
         except:
             all_mse_approx[seed, t] = np.nan
 
         try:
-            _, P_random, _, _, _, x_est_random = wavegp.execute(g, random_graph, [x_est_random.copy(), F.copy(), P_random.copy(), Q.copy(), z.copy(), R.copy()])
-            all_mse_random[seed, t] = np.linalg.norm(x_est_random - x_true) ** 2
+            _, P_random, _, _, _, x_est_random = wavegp.execute(
+                g, random_graph, [
+                    x_est_random.copy(),
+                    F.copy(),
+                    P_random.copy(),
+                    Q.copy(),
+                    z.copy(),
+                    R.copy()
+                ])
+            all_mse_random[seed, t] = np.linalg.norm(x_est_random - x_true)**2
         except:
             all_mse_random[seed, t] = np.nan
 
-        all_mse_obs[seed, t] = np.linalg.norm(z - x_true) ** 2
+        all_mse_obs[seed, t] = np.linalg.norm(z - x_true)**2
 
 mean_mse_graph = np.nanmean(all_mse_cgp, axis=0)
 mean_mse_kf = np.nanmean(all_mse_kf, axis=0)
@@ -319,11 +358,20 @@ plt.fill_between(time, mean_mse_obs - se_obs, mean_mse_obs + se_obs, alpha=0.2)
 plt.plot(time, mean_mse_kf, ':', label='Kalman Filter')
 plt.fill_between(time, mean_mse_kf - se_kf, mean_mse_kf + se_kf, alpha=0.2)
 plt.plot(time, mean_mse_random, '--', label='Random Search')
-plt.fill_between(time, mean_mse_random - se_random, mean_mse_random + se_random, alpha=0.2)
+plt.fill_between(time,
+                 mean_mse_random - se_random,
+                 mean_mse_random + se_random,
+                 alpha=0.2)
 plt.plot(time, mean_mse_approx, '-.', label='Funsearch')
-plt.fill_between(time, mean_mse_approx - se_approx, mean_mse_approx + se_approx, alpha=0.2)
+plt.fill_between(time,
+                 mean_mse_approx - se_approx,
+                 mean_mse_approx + se_approx,
+                 alpha=0.2)
 plt.plot(time, mean_mse_graph, '-', label='CGP')
-plt.fill_between(time, mean_mse_graph - se_graph, mean_mse_graph + se_graph, alpha=0.2)
+plt.fill_between(time,
+                 mean_mse_graph - se_graph,
+                 mean_mse_graph + se_graph,
+                 alpha=0.2)
 plt.xlabel("Time Step")
 plt.ylabel("Mean Squared Error")
 plt.grid(True)

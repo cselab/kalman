@@ -12,10 +12,13 @@ import scipy
 import time
 import math
 
+
 class g:
     pass
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -39,9 +42,11 @@ class KalmanFilter:
         self.P = ((I - (self.K @ self.H)) @ self.P)
         return self.x
 
+
 def create_function_from_string(function_code):
     exec(function_code, globals())  # expects a function named `fun`
     return fun
+
 
 def evaluate_graph(predict):
     xx = np.array([0, 0], dtype=float)
@@ -59,7 +64,7 @@ def evaluate_graph(predict):
         try:
             xp, P, y = new_function(xx, F, P, Q, z)
 
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isnan(P)) or \
                np.any(np.isinf(xp)) or np.any(np.isinf(P)):
@@ -78,7 +83,8 @@ def evaluate_graph(predict):
                 return float('inf')
 
             diff_current = xx - x
-            if np.any(np.isnan(diff_current)) or np.any(np.isinf(diff_current)):
+            if np.any(np.isnan(diff_current)) or np.any(
+                    np.isinf(diff_current)):
                 return float('inf')
 
             diff.append(diff_current @ diff_current.T)
@@ -89,6 +95,7 @@ def evaluate_graph(predict):
     loss = np.mean(diff)
     return loss if not math.isnan(loss) else float('inf')
 
+
 def example():
     p = 2
     q = 10
@@ -97,6 +104,7 @@ def example():
         x.append(x[-1] + random.randint(-p, p))
         p, q = q, p
     return np.array(x, dtype=dtype)
+
 
 # Global setup
 dim = 2
@@ -125,12 +133,15 @@ for t in range(2000):
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x, z))
 
+
 # Optional utility functions
 def matmul(inp1, inp2):
     return inp1 @ inp2
 
+
 def add(inp1, inp2):
     return inp1 + inp2
+
 
 def transpose(inp1):
     return inp1.T

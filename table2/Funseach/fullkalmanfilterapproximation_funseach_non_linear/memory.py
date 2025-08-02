@@ -16,6 +16,7 @@ import json
 
 
 class Memory:
+
     def __init__(self, capacity):
         self.Hash = set()
         self.capacity = capacity
@@ -84,7 +85,10 @@ def aproximate(x, F, P, Q, z, R):
             return self.instuction + "\n#### Example 1: \n" + self.example1 + "\n#### Example 2: \n" + self.example2
         else:
             samples = self.sample_softmax_inv()
-            return self.instuction + "\n # Try to minimize the loss in the generated examples\n\n#### Example 1: \n" + samples[0][1] + "\n\nloss = " + str(samples[0][0]) + "\n#### Example 2: \n" + samples[1][1] + "\n\nloss = " + str(samples[1][0])
+            return self.instuction + "\n # Try to minimize the loss in the generated examples\n\n#### Example 1: \n" + samples[
+                0][1] + "\n\nloss = " + str(
+                    samples[0][0]) + "\n#### Example 2: \n" + samples[1][
+                        1] + "\n\nloss = " + str(samples[1][0])
 
     def add(self, score, item):
         entry = (-score, item)
@@ -98,13 +102,15 @@ def aproximate(x, F, P, Q, z, R):
             current_best = -self.heap[0][0]
             if score < current_best:
                 replaced = heapq.heapreplace(self.heap, entry)
-                replaced_hash = hashlib.sha256(replaced[1].encode()).hexdigest()
+                replaced_hash = hashlib.sha256(
+                    replaced[1].encode()).hexdigest()
                 if replaced_hash in self.Hash:
                     self.Hash.remove(replaced_hash)
                 self.Hash.add(new_hash)
 
     def get_sorted(self):
-        return sorted([(-s, item) for s, item in self.heap], key=lambda x: x[0])
+        return sorted([(-s, item) for s, item in self.heap],
+                      key=lambda x: x[0])
 
     def get_best(self):
         if not self.heap:
@@ -119,7 +125,10 @@ def aproximate(x, F, P, Q, z, R):
         num_to_keep = n - (n // 2)
         for score, item in sorted_entries[:num_to_keep]:
             self.add(-score, item)
-        self.Hash = {hashlib.sha256(item.encode()).hexdigest() for _, item in self.heap}
+        self.Hash = {
+            hashlib.sha256(item.encode()).hexdigest()
+            for _, item in self.heap
+        }
 
     def remove_duplicates_by_score(self):
         sorted_items = self.get_sorted()
@@ -132,7 +141,10 @@ def aproximate(x, F, P, Q, z, R):
             unique_items.append((score, item))
         self.heap = [(-score, item) for score, item in unique_items]
         heapq.heapify(self.heap)
-        self.Hash = {hashlib.sha256(item.encode()).hexdigest() for _, item in self.heap}
+        self.Hash = {
+            hashlib.sha256(item.encode()).hexdigest()
+            for _, item in self.heap
+        }
 
     @staticmethod
     def softmax(x, temperature=0.2):
@@ -145,7 +157,10 @@ def aproximate(x, F, P, Q, z, R):
         scores = [score for score, _ in actual_entries]
         inv_scores = [1.0 / score for score in scores]
         probs = Memory.softmax(inv_scores)
-        indices = np.random.choice(len(actual_entries), size=num_samples, replace=True, p=probs)
+        indices = np.random.choice(len(actual_entries),
+                                   size=num_samples,
+                                   replace=True,
+                                   p=probs)
         return [actual_entries[i] for i in indices]
 
     def save(self, filename="memory_save.txt"):
@@ -170,8 +185,12 @@ def aproximate(x, F, P, Q, z, R):
     def sample_batch(self, batch_size):
         return [self.create_prompt() for _ in range(batch_size)]
 
-    def safe_extract_matches(self, pattern: str, text: str, timeout: int = 3) -> list[str]:
-        with tempfile.NamedTemporaryFile(mode='w+', suffix='.py', delete=False) as tmp:
+    def safe_extract_matches(self,
+                             pattern: str,
+                             text: str,
+                             timeout: int = 3) -> list[str]:
+        with tempfile.NamedTemporaryFile(mode='w+', suffix='.py',
+                                         delete=False) as tmp:
             tmp.write(f"""
 import re, json
 pattern = {repr(pattern)}
@@ -182,12 +201,10 @@ print(json.dumps(matches))
             tmp.flush()
 
         try:
-            result = subprocess.run(
-                [sys.executable, tmp.name],
-                capture_output=True,
-                timeout=timeout,
-                text=True
-            )
+            result = subprocess.run([sys.executable, tmp.name],
+                                    capture_output=True,
+                                    timeout=timeout,
+                                    text=True)
             if result.returncode == 0:
                 return json.loads(result.stdout)
             else:
@@ -207,17 +224,23 @@ print(json.dumps(matches))
                 if not isinstance(llm_output, str):
                     continue
                 try:
-                    total_matches.extend(self.safe_extract_matches(self.pattern, llm_output, timeout=45))
+                    total_matches.extend(
+                        self.safe_extract_matches(self.pattern,
+                                                  llm_output,
+                                                  timeout=45))
                 except re.error as regex_err:
-                    sys.stdout.write(f"[Regex Error] Invalid pattern: {regex_err}\n")
+                    sys.stdout.write(
+                        f"[Regex Error] Invalid pattern: {regex_err}\n")
                     sys.stdout.flush()
                     break
         except Exception as e:
-            sys.stdout.write(f"[Unexpected Error] During match extraction: {e}\n")
+            sys.stdout.write(
+                f"[Unexpected Error] During match extraction: {e}\n")
             sys.stdout.flush()
             total_matches = []
 
-        sys.stdout.write(f"[Process {thread_id}] total_matches: {len(total_matches)}\n")
+        sys.stdout.write(
+            f"[Process {thread_id}] total_matches: {len(total_matches)}\n")
         sys.stdout.flush()
 
         sys.stdout.write(f"[Process {thread_id}] before evaluate_graphs\n")
@@ -227,7 +250,8 @@ print(json.dumps(matches))
                 if self.seen(func):
                     continue
             except Exception as e:
-                sys.stdout.write(f"[Seen Check Error] Could not check function: {e}\n")
+                sys.stdout.write(
+                    f"[Seen Check Error] Could not check function: {e}\n")
                 sys.stdout.flush()
                 continue
             try:
@@ -239,10 +263,10 @@ print(json.dumps(matches))
                     continue
                 self.add(score, func)
             except Exception as e:
-                sys.stdout.write(f"[Memory] Error {e} evaluating function:\n{func}\n")
+                sys.stdout.write(
+                    f"[Memory] Error {e} evaluating function:\n{func}\n")
                 sys.stdout.flush()
                 traceback.print_exc()
 
         sys.stdout.write(f"[Process {thread_id}] after evaluate_graphs\n")
         sys.stdout.flush()
-

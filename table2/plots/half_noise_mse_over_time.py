@@ -12,14 +12,30 @@ plt.rcParams.update({
     'figure.titlesize': 30
 })
 
+
 class g:
     pass
 
-def minus(inp, args): return inp[0] - inp[1]
-def matmul(inp, args): return inp[0] @ inp[1]
-def add(inp, args): return inp[0] + inp[1]
-def transpose(inp, args): return inp[0].T
-def inv(inp, args): return np.linalg.inv(inp[0])
+
+def minus(inp, args):
+    return inp[0] - inp[1]
+
+
+def matmul(inp, args):
+    return inp[0] @ inp[1]
+
+
+def add(inp, args):
+    return inp[0] + inp[1]
+
+
+def transpose(inp, args):
+    return inp[0].T
+
+
+def inv(inp, args):
+    return np.linalg.inv(inp[0])
+
 
 g.nodes = (matmul, minus, add, transpose, inv)
 g.names = ("matmul", "minus", "add", "transpose", "inv")
@@ -31,6 +47,7 @@ g.o = 6
 g.a = 2
 g.p = 0
 g.lmb = 1000
+
 
 def from_graphviz(g, dot_str):
     import re
@@ -72,7 +89,8 @@ def from_graphviz(g, dot_str):
                 gen[nid, 1 + j] = node_id_to_row.get(inputs[j], inputs[j])
         elif label is None:
             continue
-        elif not label.startswith("i") and not label.startswith("o") and not label.startswith("inv"):
+        elif not label.startswith("i") and not label.startswith(
+                "o") and not label.startswith("inv"):
             gen[nid, 0] = g.names.index("add")
             gen[nid, 1:] = 0
             node_labels[nid] = "add"
@@ -84,6 +102,7 @@ def from_graphviz(g, dot_str):
                     gen[nid, 0] = 0
                     gen[nid, 1] = node_id_to_row.get(srcs[0], srcs[0])
     return gen
+
 
 best_graph_dot = '''digraph {
   0 [label = i0]
@@ -204,23 +223,40 @@ random_search = '''digraph {
 best_graph = from_graphviz(g, best_graph_dot)
 random_graph = from_graphviz(g, random_search)
 
+
 def evaluate_best_graph(x, F, P, Q, z, R):
     try:
-        _, P_new, _, _, _, x_new = wavegp.execute(g, best_graph, [x.copy(), F.copy(), P.copy(), Q.copy(), z.copy(), R.copy()])
+        _, P_new, _, _, _, x_new = wavegp.execute(
+            g, best_graph,
+            [x.copy(),
+             F.copy(),
+             P.copy(),
+             Q.copy(),
+             z.copy(),
+             R.copy()])
     except Exception as e:
         print("Graph execution error:", e)
         x_new = np.full_like(x, np.nan)
         P_new = P
     return x_new, P_new
 
+
 def evaluate_random_graph(x, F, P, Q, z, R):
     try:
-        _, P_new, _, _, _, x_new = wavegp.execute(g, random_graph, [x.copy(), F.copy(), P.copy(), Q.copy(), z.copy(), R.copy()])
+        _, P_new, _, _, _, x_new = wavegp.execute(
+            g, random_graph,
+            [x.copy(),
+             F.copy(),
+             P.copy(),
+             Q.copy(),
+             z.copy(),
+             R.copy()])
     except Exception as e:
         print("Random graph execution error:", e)
         x_new = np.full_like(x, np.nan)
         P_new = P
     return x_new, P_new
+
 
 # === Settings ===
 dim = 2
@@ -234,6 +270,7 @@ B = np.eye(dim)
 n_runs = 1000
 time_steps = 500
 time = np.arange(time_steps + 1)
+
 
 def our_approximation(x, F, P, Q, z, R):
     xp = F @ x
@@ -257,7 +294,10 @@ def graph_approximate(x, F, P, Q, z, R):
     return xp, P, y, S, K, x
 
     return xp, P, y, S, K, x
+
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -281,6 +321,7 @@ class KalmanFilter:
         self.P = (I - K @ self.H) @ self.P
         return self.x
 
+
 def simulate_run(seed):
     rng = np.random.default_rng(seed)
     x = np.array([0, 0], dtype=float)
@@ -303,9 +344,12 @@ def simulate_run(seed):
         x = F @ x + cQ @ abs(rng.normal(0, 1, dim))
         z = H @ x + cR @ abs(rng.normal(0, 1, dim))
 
-        _, P, _, _, _, x_approx = our_approximation(x_approx.copy(), F, P, Q, z, R)
-        x_graph, P_graph = evaluate_best_graph(x_graph.copy(), F, P_graph.copy(), Q, z, R)
-        x_random, P_random = evaluate_random_graph(x_random.copy(), F, P_random.copy(), Q, z, R)
+        _, P, _, _, _, x_approx = our_approximation(x_approx.copy(), F, P, Q,
+                                                    z, R)
+        x_graph, P_graph = evaluate_best_graph(x_graph.copy(), F,
+                                               P_graph.copy(), Q, z, R)
+        x_random, P_random = evaluate_random_graph(x_random.copy(), F,
+                                                   P_random.copy(), Q, z, R)
         kf.predict()
         kf_state = kf.update(z)
 
@@ -317,7 +361,9 @@ def simulate_run(seed):
         kf_states.append(kf_state.copy())
 
     return (np.array(true_states), np.array(observations),
-            np.array(approx_states), np.array(kf_states), np.array(graph_states), np.array(random_states))
+            np.array(approx_states), np.array(kf_states),
+            np.array(graph_states), np.array(random_states))
+
 
 true_stack = []
 obs_stack = []
@@ -342,11 +388,13 @@ kf_stack = np.stack(kf_stack)
 graph_stack = np.stack(graph_stack)
 random_stack = np.stack(random_stack)
 
+
 def compute_mse_and_se(estimates, truths):
     errors = np.linalg.norm(estimates - truths, axis=2)**2
     mse = np.mean(errors, axis=0)
     se = np.std(errors, axis=0) / np.sqrt(errors.shape[0])
     return mse, se
+
 
 mse_obs, se_obs = compute_mse_and_se(obs_stack, true_stack)
 mse_approx, se_approx = compute_mse_and_se(approx_stack, true_stack)
@@ -360,9 +408,15 @@ plt.fill_between(time, mse_obs - se_obs, mse_obs + se_obs, alpha=0.2)
 plt.plot(time, mse_kf, ':', label='Kalman Filter')
 plt.fill_between(time, mse_kf - se_kf, mse_kf + se_kf, alpha=0.2)
 plt.plot(time, mse_random, '--', label='Random Search')
-plt.fill_between(time, mse_random - se_random, mse_random + se_random, alpha=0.2)
+plt.fill_between(time,
+                 mse_random - se_random,
+                 mse_random + se_random,
+                 alpha=0.2)
 plt.plot(time, mse_approx, '-.', label='Funsearch')
-plt.fill_between(time, mse_approx - se_approx, mse_approx + se_approx, alpha=0.2)
+plt.fill_between(time,
+                 mse_approx - se_approx,
+                 mse_approx + se_approx,
+                 alpha=0.2)
 plt.plot(time, mse_graph, '-', label='CGP')
 plt.fill_between(time, mse_graph - se_graph, mse_graph + se_graph, alpha=0.2)
 plt.xlabel("Time Step")

@@ -17,13 +17,13 @@ traj = []
 true_states = [x.copy()]
 nprng = np.random.default_rng(seed=12345)
 
+
 def get_F_Q(effective_dt):
-    F = np.array([[1, effective_dt],
-                  [0, 1]], dtype=float)
-    G = np.array([[0.5 * effective_dt ** 2],
-                  [effective_dt]])
+    F = np.array([[1, effective_dt], [0, 1]], dtype=float)
+    G = np.array([[0.5 * effective_dt**2], [effective_dt]])
     Q = G @ G.T
     return F, Q
+
 
 for t in range(1, 200):
     delay = nprng.uniform(0.01, 0.3)
@@ -40,6 +40,7 @@ for t in range(1, 200):
     z = H @ x_interp + cR @ nprng.normal(0, 1, dim)
     traj.append((x.copy(), z.copy(), F_dyn, Q_dyn))
 
+
 # === Evaluate Graph Using Provided Python Code ===
 def evaluate_graph(aproximate: str) -> float:
     code_file = None
@@ -47,11 +48,11 @@ def evaluate_graph(aproximate: str) -> float:
 
     traj_str = "[" + ",\n".join(
         f"(np.array({x.tolist()}), np.array({z.tolist()}), np.array({F.tolist()}), np.array({Q.tolist()}))"
-        for x, z, F, Q in traj
-    ) + "]"
+        for x, z, F, Q in traj) + "]"
 
     try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as code_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as code_file:
             code_file.write(aproximate)
             code_file.flush()
             code_path = code_file.name
@@ -110,16 +111,15 @@ if __name__ == "__main__":
     evaluate()
 """
 
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as eval_file:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py',
+                                         delete=False) as eval_file:
             eval_file.write(eval_script)
             eval_file.flush()
 
-        process = subprocess.run(
-            [sys.executable, eval_file.name],
-            stderr=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            timeout=60
-        )
+        process = subprocess.run([sys.executable, eval_file.name],
+                                 stderr=subprocess.PIPE,
+                                 stdout=subprocess.PIPE,
+                                 timeout=60)
 
         stdout_str = process.stdout.decode().strip()
         stderr_str = process.stderr.decode().strip()
@@ -152,6 +152,7 @@ if __name__ == "__main__":
                 except Exception:
                     pass
 
+
 # === Example Usage ===
 my_function = """
 def aproximate(x, F, P, Q, z, R):
@@ -164,8 +165,6 @@ def aproximate(x, F, P, Q, z, R):
     P = (np.eye(F.shape[0]) - K) @ P
     return xp, P, y, S, K, x
 """
-
-
 
 result = evaluate_graph(my_function)
 print("MSE:", result)

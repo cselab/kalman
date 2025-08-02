@@ -19,20 +19,25 @@ import os
 def minus(inp, args):
     return inp[0] - inp[1]
 
+
 def matmul(inp, args):
     return inp[0] @ inp[1]
+
 
 def add(inp, args):
     return inp[0] + inp[1]
 
+
 def transpose(inp, args):
     return inp[0].T
+
 
 def inv(inp, args):
     return np.linalg.inv(inp[0])
 
 
 class TopCandidateSampler:
+
     def __init__(self, max_candidates=0.2):
         self.max_candidates = max_candidates
         self._heap = []
@@ -94,6 +99,7 @@ class TopCandidateSampler:
 class g:
     pass
 
+
 def seen(a):
     a = a.tobytes()
     ans = a in Hash
@@ -101,11 +107,13 @@ def seen(a):
         Hash.add(a)
     return ans
 
+
 def rand():
     while 1:
         gen = gp.rand(g)
         if not seen(gen):
             return gen
+
 
 def mutate(i, top_candidate, Hash):
     mutate_prob = 0.2
@@ -129,17 +137,18 @@ def mutate(i, top_candidate, Hash):
             new_genes.append(new_candidate)
     return new_genes
 
+
 def execute(gen, x):
     return gp.execute(g, gen, x)
 
+
 # === Delay-Aware F and Q ===
 def get_F_Q(effective_dt):
-    F = np.array([[1, effective_dt],
-                  [0, 1]], dtype=float)
-    G = np.array([[0.5 * effective_dt ** 2],
-                  [effective_dt]])
+    F = np.array([[1, effective_dt], [0, 1]], dtype=float)
+    G = np.array([[0.5 * effective_dt**2], [effective_dt]])
     Q = G @ G.T
     return F, Q
+
 
 # === Trajectory Generation with Small Delays ===
 dim = 2
@@ -169,6 +178,7 @@ for t in range(1, 200):
     z = H @ x_interp + cR @ nprng.normal(0, 1, dim)
     traj.append((x.copy(), z, F_dyn, Q_dyn))
 
+
 # === Delay-Aware Fitness Function ===
 def distance_from_target_function(predict, alpha=1.0):
     x_est = np.array([0.0, 0.0])
@@ -183,9 +193,11 @@ def distance_from_target_function(predict, alpha=1.0):
 
     for x_true, z, F_dyn, Q_dyn in traj:
         try:
-            xp, P, y, S, K, x_est = execute(predict, [x_est, F_dyn, P, Q_dyn, z, R])
+            xp, P, y, S, K, x_est = execute(predict,
+                                            [x_est, F_dyn, P, Q_dyn, z, R])
 
-            if xp.shape != (dim,) or np.any(np.isnan(xp)) or np.any(np.isinf(xp)):
+            if xp.shape != (dim, ) or np.any(np.isnan(xp)) or np.any(
+                    np.isinf(xp)):
                 return float('inf')
 
             pred_error = x_true - xp
@@ -224,16 +236,15 @@ if __name__ == "__main__":
     g.p = 0
     g.lmb = 1000
 
-    predict0 = gp.build(
-        g,
-        ["i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose", "matmul",
-         "add", "minus", "add", "inv", "matmul", "matmul", "add", "matmul", "minus", "o0",
-         "o1", "o2", "o3", "o4", "o5"],
-        [(1, 6), (0, 6), (1, 7), (2, 7), (1, 8), (7, 9), (8, 9), (9, 10), (3, 10),
-         (4, 11), (6, 11), (10, 12), (5, 12), (12, 13), (10, 14), (13, 14), (14, 15),
-         (11, 15), (6, 16), (15, 16), (14, 17), (10, 17), (10, 18), (17, 18), (6, 19),
-         (18, 20), (11, 21), (12, 22), (14, 23), (16, 24)],
-        [])
+    predict0 = gp.build(g, [
+        "i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose",
+        "matmul", "add", "minus", "add", "inv", "matmul", "matmul", "add",
+        "matmul", "minus", "o0", "o1", "o2", "o3", "o4", "o5"
+    ], [(1, 6), (0, 6), (1, 7), (2, 7), (1, 8), (7, 9), (8, 9), (9, 10),
+        (3, 10), (4, 11), (6, 11), (10, 12), (5, 12), (12, 13), (10, 14),
+        (13, 14), (14, 15), (11, 15), (6, 16), (15, 16), (14, 17), (10, 17),
+        (10, 18), (17, 18), (6, 19), (18, 20), (11, 21), (12, 22), (14, 23),
+        (16, 24)], [])
 
     print("Sanity check loss:", distance_from_target_function(predict0))
 
@@ -259,17 +270,27 @@ if __name__ == "__main__":
         for island_idx, island in enumerate(islands):
             sampler = island["sampler"]
             top_candidate = sampler.sample(temperature=2)
-            i_best = np.argmin([distance_from_target_function(c) for c in island["population"]])
+            i_best = np.argmin([
+                distance_from_target_function(c) for c in island["population"]
+            ])
 
             if generation % 50 == 0:
-                sys.stdout.write(f"Generation {generation:05} - Island {island_idx} Best found in this generation: {costs[i_best]}\n")
+                sys.stdout.write(
+                    f"Generation {generation:05} - Island {island_idx} Best found in this generation: {costs[i_best]}\n"
+                )
                 best_gene, best_score = sampler.best()
-                sys.stdout.write(f"Island {island_idx} BEST SO FAR: {best_score} DISTANCE FROM KALMAN FILTER : {distance_from_target_function(best_gene)}\n")
-                sys.stdout.write(f"Island {island_idx} BEST Graph : {gp.as_graphviz(g, best_gene)}\n")
+                sys.stdout.write(
+                    f"Island {island_idx} BEST SO FAR: {best_score} DISTANCE FROM KALMAN FILTER : {distance_from_target_function(best_gene)}\n"
+                )
+                sys.stdout.write(
+                    f"Island {island_idx} BEST Graph : {gp.as_graphviz(g, best_gene)}\n"
+                )
                 sys.stdout.flush()
 
             if np.isinf(sampler.best()[1]):
-                island["population"] = [rand() for _ in range(island_population)]
+                island["population"] = [
+                    rand() for _ in range(island_population)
+                ]
             else:
                 island["population"] = mutate(i_best, top_candidate, Hash)
 
@@ -293,11 +314,11 @@ if __name__ == "__main__":
             worst_half = scores_with_index[len(islands) // 2:]
 
             for (_, worst_idx), (best_gene, best_idx) in zip(
-                worst_half,
-                [(islands[i]["sampler"].best()[0], i) for _, i in best_half]
-            ):
+                    worst_half,
+                [(islands[i]["sampler"].best()[0], i) for _, i in best_half]):
                 islands[worst_idx]["population"] = mutate(0, best_gene, Hash)
                 genes = islands[worst_idx]["population"]
                 costs = pool.map(distance_from_target_function, genes)
-                islands[worst_idx]["sampler"] = TopCandidateSampler(max_candidates=50)
+                islands[worst_idx]["sampler"] = TopCandidateSampler(
+                    max_candidates=50)
                 islands[worst_idx]["sampler"].update(genes, costs)

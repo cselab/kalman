@@ -9,6 +9,7 @@ cR = np.eye(dim)
 R = cR @ cR.T
 H = np.eye(dim)
 
+
 def generate_trajectory(length=500, seed=None):
     rng = np.random.default_rng(seed)
     x = np.zeros(dim)
@@ -19,12 +20,14 @@ def generate_trajectory(length=500, seed=None):
         traj.append((x.copy(), z.copy()))
     return traj
 
+
 def compute_observation_vs_truth_mse(trajectories):
     errors = []
     for traj in trajectories:
         for x_true, z in traj:
-            errors.append(np.linalg.norm(x_true - z) ** 2)
+            errors.append(np.linalg.norm(x_true - z)**2)
     return np.mean(errors)
+
 
 # === Run the experiment ===
 test_trajectories = [generate_trajectory(seed=32 + i) for i in range(50)]

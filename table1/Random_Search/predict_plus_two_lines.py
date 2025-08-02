@@ -33,7 +33,11 @@ def kalman_update(xp, P, y, S, H):
     return x_est, P_updated
 
 
-def visualize_prediction(predict, traj, filename="position_velocity_plot.png", title="Position vs Velocity (Phase Space)", use_half=False):
+def visualize_prediction(predict,
+                         traj,
+                         filename="position_velocity_plot.png",
+                         title="Position vs Velocity (Phase Space)",
+                         use_half=False):
     x_est = np.array([0.0, 0.0], dtype=float)
     P = np.eye(dim, dtype=float)
     xx_list = []
@@ -46,16 +50,27 @@ def visualize_prediction(predict, traj, filename="position_velocity_plot.png", t
     error_to_kalman = []
     error_pred_vs_true = []
 
-    kf = KalmanFilter(F.copy(), B.copy(), H.copy(), Q.copy(), R.copy(), P.copy(), x=x_est.copy())
-    loop_traj = traj[:len(traj)//2] if use_half else traj
+    kf = KalmanFilter(F.copy(),
+                      B.copy(),
+                      H.copy(),
+                      Q.copy(),
+                      R.copy(),
+                      P.copy(),
+                      x=x_est.copy())
+    loop_traj = traj[:len(traj) // 2] if use_half else traj
 
     for x_true, z in loop_traj:
         try:
             xp, P_new, y, S = execute(predict, [
-                x_est.copy(), F.copy(), P.copy(), Q.copy(), z.copy(), R.copy()
+                x_est.copy(),
+                F.copy(),
+                P.copy(),
+                Q.copy(),
+                z.copy(),
+                R.copy()
             ])
 
-            if xp.shape != (dim,) or P_new.shape != (dim, dim):
+            if xp.shape != (dim, ) or P_new.shape != (dim, dim):
                 break
             if np.any(np.isnan(xp)) or np.any(np.isinf(xp)) or \
                np.any(np.isnan(P_new)) or np.any(np.isinf(P_new)):
@@ -110,15 +125,29 @@ def visualize_prediction(predict, traj, filename="position_velocity_plot.png", t
 
     mse_oracle = np.mean(error_to_oracle) if error_to_oracle else float('inf')
     mse_kalman = np.mean(error_to_kalman) if error_to_kalman else float('inf')
-    mse_pred_vs_true = np.mean(error_pred_vs_true) if error_pred_vs_true else float('inf')
+    mse_pred_vs_true = np.mean(
+        error_pred_vs_true) if error_pred_vs_true else float('inf')
 
     # === Phase Space Plot ===
     os.makedirs("plots", exist_ok=True)
     plt.figure(figsize=(10, 5))
-    plt.plot(x_true_array[:, 0], x_true_array[:, 1], '--', label="Oracle (True Trajectory)")
-    plt.plot(xx_array[:, 0], xx_array[:, 1], '-', label="Predicted (Evolved Function)")
+    plt.plot(x_true_array[:, 0],
+             x_true_array[:, 1],
+             '--',
+             label="Oracle (True Trajectory)")
+    plt.plot(xx_array[:, 0],
+             xx_array[:, 1],
+             '-',
+             label="Predicted (Evolved Function)")
     plt.plot(kf_array[:, 0], kf_array[:, 1], ':', label="Kalman Filter")
-    plt.scatter(obs_array[:, 0], obs_array[:, 1], s=20, c='red', edgecolors='black', linewidths=0.3, alpha=0.8, label="Observations")
+    plt.scatter(obs_array[:, 0],
+                obs_array[:, 1],
+                s=20,
+                c='red',
+                edgecolors='black',
+                linewidths=0.3,
+                alpha=0.8,
+                label="Observations")
     loss_text = f"Loss to Oracle: {mse_oracle:.6f}, Loss to KF: {mse_kalman:.6f}, Loss xp-True: {mse_pred_vs_true:.6f}"
     plt.plot([], [], ' ', label=loss_text)
     plt.title(title)
@@ -136,16 +165,34 @@ def visualize_prediction(predict, traj, filename="position_velocity_plot.png", t
     plt.figure(figsize=(10, 4))
 
     if error_to_oracle:
-        plt.plot(error_to_oracle, label="Squared Error to Oracle", color='blue')
-        plt.axhline(mse_oracle, color='blue', linestyle='--', alpha=0.4, label=f"Avg Oracle MSE: {mse_oracle:.4f}")
+        plt.plot(error_to_oracle,
+                 label="Squared Error to Oracle",
+                 color='blue')
+        plt.axhline(mse_oracle,
+                    color='blue',
+                    linestyle='--',
+                    alpha=0.4,
+                    label=f"Avg Oracle MSE: {mse_oracle:.4f}")
 
     if error_to_kalman:
-        plt.plot(error_to_kalman, label="Squared Error to Kalman Filter", color='green')
-        plt.axhline(mse_kalman, color='green', linestyle='--', alpha=0.4, label=f"Avg KF MSE: {mse_kalman:.4f}")
+        plt.plot(error_to_kalman,
+                 label="Squared Error to Kalman Filter",
+                 color='green')
+        plt.axhline(mse_kalman,
+                    color='green',
+                    linestyle='--',
+                    alpha=0.4,
+                    label=f"Avg KF MSE: {mse_kalman:.4f}")
 
     if error_pred_vs_true:
-        plt.plot(error_pred_vs_true, label="Squared Error: xp vs True", color='orange')
-        plt.axhline(mse_pred_vs_true, color='orange', linestyle='--', alpha=0.4, label=f"Avg xp vs True MSE: {mse_pred_vs_true:.4f}")
+        plt.plot(error_pred_vs_true,
+                 label="Squared Error: xp vs True",
+                 color='orange')
+        plt.axhline(mse_pred_vs_true,
+                    color='orange',
+                    linestyle='--',
+                    alpha=0.4,
+                    label=f"Avg xp vs True MSE: {mse_pred_vs_true:.4f}")
 
     plt.xlabel("Time Step")
     plt.ylabel("Squared Error")
@@ -166,22 +213,24 @@ def visualize_prediction(predict, traj, filename="position_velocity_plot.png", t
     print(f"Average MSE (xp vs x_true)  : {mse_pred_vs_true:.6f}")
 
 
-
-
 def minus(inp, args):
     return inp[0] - inp[1]
+
 
 def matmul(inp, args):
     return inp[0] @ inp[1]
 
+
 def add(inp, args):
     return inp[0] + inp[1]
+
 
 def transpose(inp, args):
     return inp[0].T
 
 
 class TopCandidateSampler:
+
     def __init__(self, max_candidates=0.2):
         self.max_candidates = max_candidates
         self._heap = []
@@ -198,7 +247,6 @@ class TopCandidateSampler:
             else:
                 if -entry[0] < -self._heap[0][0]:
                     heapq.heappushpop(self._heap, entry)
-                    
 
     def sample(self, temperature=2):
         if not self._heap:
@@ -227,6 +275,7 @@ class TopCandidateSampler:
 class g:
     pass
 
+
 def seen(a):
     a = a.tobytes()
     ans = a in Hash
@@ -234,15 +283,17 @@ def seen(a):
         Hash.add(a)
     return ans
 
+
 def rand():
     while 1:
         gen = gp.rand(g)
         if not seen(gen):
             return gen
 
+
 def mutate(i, top_candidate, Hash):
     mutate_prob = 0.2
-    n_mutations = max_mutations # random.randint(1, max_mutations) # 
+    n_mutations = max_mutations  # random.randint(1, max_mutations) #
     new_genes = [top_candidate]
     for i in range(1, g.lmb + 1):
         new_candidate = top_candidate.copy()
@@ -262,7 +313,9 @@ def mutate(i, top_candidate, Hash):
             new_genes.append(new_candidate)
     return new_genes
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -272,7 +325,7 @@ class KalmanFilter:
         self.P = P.copy()
         self.x = x.copy()
 
-    def predict(self, u=np.zeros((1,1))):
+    def predict(self, u=np.zeros((1, 1))):
         self.x = (self.F @ self.x) + (self.B @ u)
         self.P = ((self.F @ self.P) @ self.F.T) + self.Q
         return self.x
@@ -302,7 +355,7 @@ def distance_from_kalman_filter(predict):
     for x, z in traj:
         try:
             xp, P, y, S = execute(predict, [xx, F, P, Q, z, R])
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isnan(P)) or \
                np.any(np.isinf(xp)) or np.any(np.isinf(P)):
@@ -324,15 +377,18 @@ def distance_from_kalman_filter(predict):
                 return float('inf')
 
             diff_current = x - xx
-            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)):
+            if np.any(np.isinf(diff_current)) or np.any(
+                    np.isnan(diff_current)):
                 return float('inf')
             diff.append(diff_current @ diff_current.T)
 
-        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError, FloatingPointError):
+        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError,
+                FloatingPointError):
             return float('inf')
 
     loss = np.mean(diff)
     return loss if not math.isnan(loss) else float('inf')
+
 
 def distance_from_target_function(predict, alpha=1.0):
     """
@@ -362,7 +418,7 @@ def distance_from_target_function(predict, alpha=1.0):
         try:
             xp, P, y, S = execute(predict, [x_est, F, P, Q, z, R])
 
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isinf(xp)) or \
                np.any(np.isnan(P)) or np.any(np.isinf(P)):
@@ -386,7 +442,8 @@ def distance_from_target_function(predict, alpha=1.0):
 
             # Updated prediction error
             error = x_true - x_est
-            if error.shape != (dim,) or np.any(np.isnan(error)) or np.any(np.isinf(error)):
+            if error.shape != (dim, ) or np.any(np.isnan(error)) or np.any(
+                    np.isinf(error)):
                 return float('inf')
 
             squared_errors.append(np.dot(error, error))
@@ -404,9 +461,9 @@ def distance_from_target_function(predict, alpha=1.0):
     return combined_loss
 
 
-
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def example():
     p = 2
@@ -416,11 +473,6 @@ def example():
         x.append(x[-1] + random.randint(-p, p))
         p, q = q, p
     return np.array(x, dtype=dtype)
-
-
-
-
-
 
 
 N = 100
@@ -445,11 +497,10 @@ for t in range(200):
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x, z))
 
-
 g.nodes = (matmul, minus, add, transpose)
-g.names = ("matmul","minus","add","transpose")
-g.arity = (2,2,2,1)
-g.args = (0,0,0,0)
+g.names = ("matmul", "minus", "add", "transpose")
+g.arity = (2, 2, 2, 1)
+g.args = (0, 0, 0, 0)
 
 g.i = 6
 g.n = 7
@@ -458,40 +509,35 @@ g.a = 2
 g.p = 0
 g.lmb = 1000
 
-
-
-
-
 predict0 = gp.build(
-        g,
-        #  0     1    2    3   4    5    6        7        8           9        10       11     12      13      14    15   16   17   
-        ["i0", "i1","i2","i3","i4","i5","matmul","matmul", "transpose","matmul", "add","minus","add","o0","o1","o2","o3"],#
-        [
-            (1, 6), # x = (F @ xx)
-            (0, 6),
-            (1, 7), # (F @ P)
-            (2, 7),
-            (1, 8), # F.T
-            (7, 9), # ((F @ P) @ F.T)
-            (8, 9),
-            (9, 10), # P = ((F @ P) @ F.T) + Q 
-            (3, 10),
-            (4, 11), # y = z - self.x
-            (6, 11),
-            (10, 12), # R + P
-            (5, 12),         
-            (6, 13),
-            (10, 14),
-            (11, 15),
-            (12, 16)
-        ],
-        [])
-
+    g,
+    #  0     1    2    3   4    5    6        7        8           9        10       11     12      13      14    15   16   17
+    [
+        "i0", "i1", "i2", "i3", "i4", "i5", "matmul", "matmul", "transpose",
+        "matmul", "add", "minus", "add", "o0", "o1", "o2", "o3"
+    ],  #
+    [
+        (1, 6),  # x = (F @ xx)
+        (0, 6),
+        (1, 7),  # (F @ P)
+        (2, 7),
+        (1, 8),  # F.T
+        (7, 9),  # ((F @ P) @ F.T)
+        (8, 9),
+        (9, 10),  # P = ((F @ P) @ F.T) + Q 
+        (3, 10),
+        (4, 11),  # y = z - self.x
+        (6, 11),
+        (10, 12),  # R + P
+        (5, 12),
+        (6, 13),
+        (10, 14),
+        (11, 15),
+        (12, 16)
+    ],
+    [])
 
 print("Sanity check loss:", distance_from_target_function(predict0))
-
-
-
 
 if __name__ == "__main__":
     multiprocessing.freeze_support()
@@ -521,6 +567,9 @@ if __name__ == "__main__":
                 if score < best_score:
                     best_score = score
                     best_gene = gene
-                    sys.stdout.write(f"[{evaluations:05}] New best score: {best_score:.4e}\n")
-                    sys.stdout.write(f"Graph: {gp.as_graphviz(g, best_gene)}\n")
+                    sys.stdout.write(
+                        f"[{evaluations:05}] New best score: {best_score:.4e}\n"
+                    )
+                    sys.stdout.write(
+                        f"Graph: {gp.as_graphviz(g, best_gene)}\n")
                     sys.stdout.flush()

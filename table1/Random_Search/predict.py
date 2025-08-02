@@ -18,19 +18,22 @@ import heapq
 def minus(inp, args):
     return inp[0] - inp[1]
 
+
 def matmul(inp, args):
     return inp[0] @ inp[1]
 
+
 def add(inp, args):
     return inp[0] + inp[1]
+
 
 def transpose(inp, args):
     return inp[0].T
 
 
-
 class g:
     pass
+
 
 def seen(a):
     a = a.tobytes()
@@ -39,11 +42,13 @@ def seen(a):
         Hash.add(a)
     return ans
 
+
 def rand():
     while 1:
         gen = gp.rand(g)
         if not seen(gen):
             return gen
+
 
 def mutate(i, top_candidate, Hash):
     mutate_prob = 0.2
@@ -67,7 +72,9 @@ def mutate(i, top_candidate, Hash):
             new_genes.append(new_candidate)
     return new_genes
 
+
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -77,8 +84,8 @@ class KalmanFilter:
         self.P = P.copy()
         self.x = x.copy()
 
-    def predict(self, u=np.zeros((1,1))):
-        self.x = (self.F @ self.x) 
+    def predict(self, u=np.zeros((1, 1))):
+        self.x = (self.F @ self.x)
         self.P = ((self.F @ self.P) @ self.F.T) + self.Q
         return self.x
 
@@ -87,8 +94,9 @@ class KalmanFilter:
         self.S = self.P + self.R
         self.K = self.P @ np.linalg.inv(self.S)
         self.x = self.x + (self.K @ self.y)
-        self.P = ( self.P - self.K @ self.P)
+        self.P = (self.P - self.K @ self.P)
         return self.x
+
 
 def fun(predict):
     xx = np.array([0, 0], dtype=float)
@@ -104,8 +112,8 @@ def fun(predict):
 
     for x, z in traj:
         try:
-            xp, P =  execute(predict, [xx, F, P, Q])
-            if xp.shape != (dim,) or P.shape != (dim, dim):
+            xp, P = execute(predict, [xx, F, P, Q])
+            if xp.shape != (dim, ) or P.shape != (dim, dim):
                 return float('inf')
             if np.any(np.isnan(xp)) or np.any(np.isnan(P)) or \
                np.any(np.isinf(xp)) or np.any(np.isinf(P)):
@@ -126,19 +134,23 @@ def fun(predict):
                 return float('inf')
 
             diff_current = x - xx
-            if np.any(np.isinf(diff_current)) or np.any(np.isnan(diff_current)):
+            if np.any(np.isinf(diff_current)) or np.any(
+                    np.isnan(diff_current)):
                 return float('inf')
 
             diff.append(diff_current @ diff_current.T)
 
-        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError, FloatingPointError):
+        except (ValueError, TypeError, np.linalg.LinAlgError, OverflowError,
+                FloatingPointError):
             return float('inf')
 
     loss = np.mean(diff)
     return loss if not math.isnan(loss) else float('inf')
 
+
 def execute(gen, x):
     return gp.execute(g, gen, x)
+
 
 def example():
     p = 2
@@ -148,11 +160,6 @@ def example():
         x.append(x[-1] + random.randint(-p, p))
         p, q = q, p
     return np.array(x, dtype=dtype)
-
-
-
-
-
 
 
 N = 100
@@ -177,7 +184,6 @@ for t in range(200):
     z = H @ x + cR @ nprng.normal(0, 1, dim)
     traj.append((x, z))
 
-
 g.nodes = (matmul, add, transpose)
 g.names = ("matmul", "add", "transpose")
 g.arity = (2, 2, 1)
@@ -189,29 +195,29 @@ g.a = 4
 g.p = 0
 Hash = set()
 
-
 # Sanity check
 predict0 = gp.build(
     g,
-    ["i0", "i1","i2","i3","matmul","matmul","transpose","matmul","add","o0","o1"],
     [
-        (1, 4),   # (F @ xx)
+        "i0", "i1", "i2", "i3", "matmul", "matmul", "transpose", "matmul",
+        "add", "o0", "o1"
+    ],
+    [
+        (1, 4),  # (F @ xx)
         (0, 4),
-        (1, 5),   # (F @ P)
+        (1, 5),  # (F @ P)
         (2, 5),
-        (1, 6),   # F.T
-        (5, 7),   # ((F @ P) @ F.T)
+        (1, 6),  # F.T
+        (5, 7),  # ((F @ P) @ F.T)
         (6, 7),
-        (7, 8),   # ((F @ P) @ F.T) + Q
+        (7, 8),  # ((F @ P) @ F.T) + Q
         (3, 8),
         (4, 9),
         (8, 10)
     ],
-    []
-)
+    [])
 
 print("Sanity check loss:", fun(predict0))
-
 
 if __name__ == "__main__":
     multiprocessing.freeze_support()
@@ -241,6 +247,9 @@ if __name__ == "__main__":
                 if score < best_score:
                     best_score = score
                     best_gene = gene
-                    sys.stdout.write(f"[{evaluations:05}] New best score: {best_score:.4e}\n")
-                    sys.stdout.write(f"Graph: {gp.as_graphviz(g, best_gene)}\n")
+                    sys.stdout.write(
+                        f"[{evaluations:05}] New best score: {best_score:.4e}\n"
+                    )
+                    sys.stdout.write(
+                        f"Graph: {gp.as_graphviz(g, best_gene)}\n")
                     sys.stdout.flush()

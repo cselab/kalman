@@ -1,7 +1,9 @@
 import numpy as np
 
+
 # === Kalman Filter Class ===
 class KalmanFilter:
+
     def __init__(self, F, B, H, Q, R, P, x):
         self.F = F.copy()
         self.B = B.copy()
@@ -25,16 +27,18 @@ class KalmanFilter:
         self.P = (I - K @ self.H) @ self.P
         return self.x
 
+
 # === System parameters ===
 dim = 2
 F = np.array([[1, 1], [0, 1]], dtype=float)
-cQ = np.array([[1/2, 0], [1, 0]], dtype=float)
+cQ = np.array([[1 / 2, 0], [1, 0]], dtype=float)
 Q = cQ @ cQ.T
 cR = np.eye(dim)
 R = cR @ cR.T
 H = np.eye(dim)
 B = np.eye(dim)
 u = np.zeros(dim)
+
 
 # === Generate trajectories ===
 def generate_trajectory(length=500, seed=None):
@@ -46,6 +50,7 @@ def generate_trajectory(length=500, seed=None):
         z = H @ x + cR @ rng.normal(0, 1, dim)
         traj.append((x.copy(), z.copy()))
     return traj
+
 
 # === Evaluate Kalman filter ===
 def evaluate_kalman_filter(traj):
@@ -62,8 +67,11 @@ def evaluate_kalman_filter(traj):
 
     return np.mean(squared_errors)
 
+
 # === Main Evaluation on Test Set ===
-test_trajectories = [generate_trajectory(length=500, seed=12 + i) for i in range(10)]
+test_trajectories = [
+    generate_trajectory(length=500, seed=12 + i) for i in range(10)
+]
 mse_scores = [evaluate_kalman_filter(traj) for traj in test_trajectories]
 
 print("✅ Kalman Filter Evaluation on Test Set")

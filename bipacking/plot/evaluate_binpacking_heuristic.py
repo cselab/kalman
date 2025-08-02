@@ -13,9 +13,11 @@ def load_datasets(directory):
                 datasets[filename.replace(".pkl", "")] = pickle.load(f)
     return datasets['all_datasets']
 
+
 # === L1 Lower Bound ===
 def l1_bound(items: np.ndarray, capacity: int) -> float:
     return np.ceil(np.sum(items) / capacity)
+
 
 def l1_bound_dataset(instances: list) -> float:
     l1_bounds = []
@@ -25,14 +27,18 @@ def l1_bound_dataset(instances: list) -> float:
         l1_bounds.append(l1_bound(items, capacity))
     return np.mean(l1_bounds)
 
+
 # === Online Bin Packing ===
 def get_valid_bin_indices(item: float, bins: np.ndarray) -> np.ndarray:
     return np.nonzero((bins - item) >= 0)[0]
 
+
 def default_priority(item: float, bins: np.ndarray) -> np.ndarray:
     return -(bins - item)
 
+
 def or_priority(item: float, bins: np.ndarray) -> np.ndarray:
+
     def s(bin, item):
         gap = bin - item
         if gap <= 2:
@@ -57,9 +63,14 @@ def or_priority(item: float, bins: np.ndarray) -> np.ndarray:
             return 0.98
         else:
             return 0.99
+
     return np.array([s(b, item) for b in bins])
 
-def online_binpack(items: np.ndarray, bins: np.ndarray, priority_fn=default_priority) -> tuple[list[list[float]], np.ndarray]:
+
+def online_binpack(
+        items: np.ndarray,
+        bins: np.ndarray,
+        priority_fn=default_priority) -> tuple[list[list[float]], np.ndarray]:
     packing = [[] for _ in bins]
     for item in items:
         valid_bin_indices = get_valid_bin_indices(item, bins)
@@ -72,6 +83,7 @@ def online_binpack(items: np.ndarray, bins: np.ndarray, priority_fn=default_prio
     packing = [bin_items for bin_items in packing if bin_items]
     return packing, bins
 
+
 def evaluate(instances: list, priority_fn=default_priority) -> float:
     num_bins = []
     for instance in instances:
@@ -82,8 +94,13 @@ def evaluate(instances: list, priority_fn=default_priority) -> float:
         num_bins.append((bins_packed != capacity).sum())
     return -np.mean(num_bins)
 
+
 def new_priority(item: float, bins: np.ndarray) -> np.ndarray:
-    return (item * (bins ** 2)) * np.exp(item - bins) + np.sin(np.pi * (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(bins) ** 4 + np.mean(bins) * np.log(1 + item)
+    return (item * (bins**2)) * np.exp(item - bins) + np.sin(
+        np.pi *
+        (item / bins)) + np.log(1 + np.sin(np.pi * (item / bins))) + np.mean(
+            bins) * np.log(item + 1) + np.mean(bins) * np.sqrt(item) + np.mean(
+                bins)**4 + np.mean(bins) * np.log(1 + item)
 
 
 # === Main Evaluation ===
@@ -93,17 +110,19 @@ if __name__ == "__main__":
     opt_num_bins = {}
     for name, dataset in datasets.items():
         if name == "binpack5.txt":
-            continue 
+            continue
 
-        instances = dataset if isinstance(dataset, list) else list(dataset.values())[0]
+        instances = dataset if isinstance(dataset, list) else list(
+            dataset.values())[0]
         opt_num_bins[name] = l1_bound_dataset(instances)
 
     # Evaluate default priority
     for name, dataset in datasets.items():
         if name == "binpack5.txt":
-            continue 
+            continue
 
-        instances = dataset if isinstance(dataset, list) else list(dataset.values())[0]
+        instances = dataset if isinstance(dataset, list) else list(
+            dataset.values())[0]
         avg_num_bins = -evaluate(instances)
         print("\n\n\n++++++++++++++++++++++++++++++++++++++++++++++++\n\n\n\n")
         excess = (avg_num_bins - opt_num_bins[name]) / opt_num_bins[name]
@@ -112,8 +131,8 @@ if __name__ == "__main__":
         print(f"  Lower bound on optimum: {opt_num_bins[name]:.2f}")
         print(f"  Excess: {100 * excess:.2f}%")
 
-
-        instances = dataset if isinstance(dataset, list) else list(dataset.values())[0]
+        instances = dataset if isinstance(dataset, list) else list(
+            dataset.values())[0]
         avg_num_bins = -evaluate(instances, priority_fn=or_priority)
         excess = (avg_num_bins - opt_num_bins[name]) / opt_num_bins[name]
         print(f"\n📊 Dataset: {name} (funsearch found)")
@@ -121,22 +140,16 @@ if __name__ == "__main__":
         print(f"  Lower bound on optimum: {opt_num_bins[name]:.2f}")
         print(f"  Excess: {100 * excess:.2f}%")
 
-            
-        instances = dataset if isinstance(dataset, list) else list(dataset.values())[0]
+        instances = dataset if isinstance(dataset, list) else list(
+            dataset.values())[0]
         avg_num_bins = -evaluate(instances, priority_fn=new_priority)
         excess = (avg_num_bins - opt_num_bins[name]) / opt_num_bins[name]
         print(f"\n📊 Dataset: {name} (new_priority found)")
         print(f"  Average number of bins: {avg_num_bins:.2f}")
         print(f"  Lower bound on optimum: {opt_num_bins[name]:.2f}")
         print(f"  Excess: {100 * excess:.2f}%")
-        
-
-
-
-
 
 import matplotlib.pyplot as plt
-
 
 plt.rcParams.update({
     'font.size': 30,
@@ -155,9 +168,10 @@ newpriority_excess = []
 
 for name, dataset in datasets.items():
     if name == "binpack5.txt":
-        continue 
+        continue
 
-    instances = dataset if isinstance(dataset, list) else list(dataset.values())[0]
+    instances = dataset if isinstance(dataset, list) else list(
+        dataset.values())[0]
     opt = opt_num_bins[name]
 
     # Default
