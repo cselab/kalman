@@ -1,3 +1,5 @@
+# This file implements Cartesian Genetic Programming (CGP).
+# See CITATIONS.md for the full reference to the CGP paper.
 import collections
 import copy
 import io
