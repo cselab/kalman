@@ -59,10 +59,8 @@ def create_function_from_string(function_code):
 # === Evaluate Graph Using Global train_instances ===
 def evaluate_graph(predict: str) -> float:
     # This function evaluates a given program (in the form of a Python string)
-    # on the training instances. This is the "evaluator" component of FunSearch,
-    # as described in "FunSearch: Making Discoveries in Mathematical Sciences
-    # Using Large Language Models"
-    # (https://deepmind.google/discover/blog/funsearch-making-discoveries-in-mathematical-sciences-using-large-language-models/).
+    # on the training instances. This is the "evaluator" component of FunSearch.
+    # See CITATIONS.md for the full reference to the FunSearch paper.
     # The program is executed in a separate process to prevent it from
     # interfering with the main process.
     instances = train_instances
