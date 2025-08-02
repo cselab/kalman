@@ -13,6 +13,9 @@ import memory  # your custom memory module
 
 
 def inference_worker(args):
+    # This function implements the core logic of FunSearch.
+    # See CITATIONS.md for the full reference to the FunSearch paper.
+    # Each worker process is responsible for generating new programs and evaluating them.
     thread_id, mem, model_name, cache_dir, gpu_id, iterations = args
 
     device = f"cuda:{gpu_id}"
@@ -46,6 +49,8 @@ def inference_worker(args):
 
     for step in range(iterations):
         try:
+            # Sample a batch of programs from the memory. This is the "selection"
+            # step of the evolutionary process, as described in the FunSearch paper.
             prompt = mem.sample_batch(30)
             sys.stdout.write(
                 f"[Process {thread_id}] step={step}, sampling done\n")
@@ -61,6 +66,8 @@ def inference_worker(args):
             inputs = inputs.to(device)
 
             start_time = time.time()
+            # The LLM generates new programs based on the selected prompts.
+            # This is the "mutation" step of the evolutionary process.
             with torch.inference_mode():
                 outputs = model.generate(**inputs, max_length=3024)
             end_time = time.time()
@@ -76,6 +83,8 @@ def inference_worker(args):
                 f"[Process {thread_id}] step={step}, text decoded\n")
             sys.stdout.flush()
             #print("generated_texts : ",generated_texts)
+            # The new programs are saved to the memory, which will then
+            # evaluate them and update its scores.
             mem.save_batch(generated_texts, thread_id)
             sys.stdout.write(
                 f"[Process {thread_id}] step={step}, generation took {elapsed:.2f}s \n"
@@ -102,6 +111,10 @@ def inference_worker(args):
 
 
 def main():
+    # This function implements the outer loop of FunSearch, which periodically
+    # reinitializes the memories of the worst-performing workers with the
+    # best-performing programs. This is a form of "population migration"
+    # that helps to prevent the search from getting stuck in local optima.
     parser = argparse.ArgumentParser(
         description="Outer loop reinitializes worst memories.")
     parser.add_argument("--iterations", type=int, default=10)
@@ -163,6 +176,8 @@ def main():
                 print(f"  Thread {info[1]} with score {info[0]}")
 
             if donor_candidates:
+                # Reinitialize the worst-performing half of the population
+                # with the best-performing programs.
                 for donor_idx, (score, idx, item) in enumerate(worst_half):
                     donor = donor_candidates[min(donor_idx,
                                                  len(donor_candidates) - 1)]
