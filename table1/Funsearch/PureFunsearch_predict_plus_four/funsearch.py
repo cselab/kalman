@@ -11,7 +11,7 @@ from multiprocessing import Pool
 import memory  # your custom memory module
 from huggingface_hub import login
 
-login(token="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")
+login(token="HUGGINGFACE_TOKEN")
 
 
 def inference_worker(args):
@@ -27,7 +27,7 @@ def inference_worker(args):
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
         bnb_4bit_compute_dtype=torch.bfloat16,
-        use_auth_token='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'
+        use_auth_token='HUGGINGFACE_TOKEN'
     )
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -35,7 +35,7 @@ def inference_worker(args):
         quantization_config=nf4_config,
         cache_dir=cache_dir,
         trust_remote_code=True,
-        use_auth_token='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'
+        use_auth_token='HUGGINGFACE_TOKEN'
     ).to(device)
     model = torch.compile(model, mode="reduce-overhead", fullgraph=True)
     model.eval()
