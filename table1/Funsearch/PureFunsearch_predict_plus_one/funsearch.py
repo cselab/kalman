@@ -78,7 +78,7 @@ def main():
     #google/codegemma-7b
     #deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
     model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
-    cache_dir = "/n/netscratch/koumoutsakos_lab/Lab/vasileios/.cache"
+    cache_dir = ".cache"
 
     num_gpus = torch.cuda.device_count()
     if num_gpus == 0:
