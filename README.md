@@ -4,6 +4,8 @@ This project explores the automatic discovery of interpretable algorithms from d
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cselab/kalman/blob/main/demo/demo.ipynb) — a self-contained reproduction of Tables 1 and 2 (see `demo/demo.py` / `demo/demo.ipynb`).
 
+For directory layout, the seed convention, how to run CGP and FunSearch end-to-end, and known reproducibility caveats, see [`DEVELOPER.md`](DEVELOPER.md).
+
 ---
 
 ## 🧪 Experimental Overview
