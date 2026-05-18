@@ -501,5 +501,4 @@ for col, (sname, gen, phi) in enumerate(SCENARIOS):
             ax.set_xlabel("$t$", fontsize=8)
 fig.suptitle(r"$\|\hat{x}_t - x_t\|$", y=0.995)
 fig.tight_layout(rect=(0, 0, 1, 0.985))
-fig.savefig("trajectory.png", dpi=200, bbox_inches="tight")
 plt.show()
