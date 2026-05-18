@@ -2,6 +2,8 @@
 
 This project explores the automatic discovery of interpretable algorithms from data using **Cartesian Genetic Programming (CGP)** and **Large Language Model (LLM)-assisted evolutionary search**. We focus on reconstructing and improving the **Kalman filter** using only raw input-output trajectories and black-box loss optimization.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cselab/kalman/blob/main/demo/demo.ipynb) — a self-contained reproduction of Tables 1 and 2 (see `demo/demo.py` / `demo/demo.ipynb`).
+
 ---
 
 ## 🧪 Experimental Overview

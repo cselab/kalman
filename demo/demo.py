@@ -1,50 +1,86 @@
-"""Reproduce the Kalman-filter results of Saketos et al.
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:percent
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#       jupytext_version: 1.19.1
+#   kernelspec:
+#     display_name: Python 3
+#     language: python
+#     name: python3
+# ---
 
-Six discovered programs (three from CGP, three from FunSearch with a 14B
-LLM) are run head-to-head against the classical Kalman filter on four
-scenarios.  Each program is reproduced verbatim from the kalman repo:
+# %% [markdown]
+# # Discovered Kalman-filter variants vs the classical Kalman filter
+#
+# This notebook reproduces the head-to-head numbers reported in *Saketos
+# et al., "Data-Driven Discovery of Interpretable Kalman Filter Variants
+# through Large Language Models and Genetic Programming"*.
+#
+# Six discovered programs are run on four scenarios:
+#
+# | discovery method | source file in the kalman repo |
+# |---|---|
+# | FunSearch half      | `table2/Funseach/.../half_noise/evaluate_and_test.out` |
+# | FunSearch delayed   | `table2/Funseach/.../delayed_observations/pytorch_18588979.out` |
+# | FunSearch non-lin   | `table2/Funseach/.../non_linear/evaluate_and_test.out` |
+# | CGP half            | `table2/CGP/half_noise_full_kalman_filter/evaluate_and_test24560815.out` |
+# | CGP delayed         | `table2/CGP/delayed_observations/evaluate_and_test24573447.out` |
+# | CGP non-lin         | `table2/CGP/non_linear/evaluate_and_test.out` |
+#
+# Scenarios:
+#
+# | scenario     | description                                       |
+# |---           |---                                                |
+# | Gaussian     | classical Kalman assumptions hold (Table 1)       |
+# | Half-normal  | positively biased non-Gaussian noise (Table 2)    |
+# | Delayed obs  | observation lags state by a random fraction (T.2) |
+# | Non-linear   | cubic / sine state nonlinearity (Table 2)         |
+#
+# **Runtime:** ~10 s on a Colab CPU runtime.
 
-    program            source
-    -----------------  -----------------------------------------------------
-    FunSearch half     table2/Funseach/fullkalmanfilterapproximation_funseach_half_noise/evaluate_and_test.out
-    FunSearch delayed  table2/Funseach/fullkalmanfilterapproximation_funseach_delayed_observations/pytorch_18588979.out
-    FunSearch non-lin  table2/Funseach/fullkalmanfilterapproximation_funseach_non_linear/evaluate_and_test.out
-    CGP half           table2/CGP/half_noise_full_kalman_filter/evaluate_and_test24560815.out
-    CGP delayed        table2/CGP/delayed_observations/evaluate_and_test24573447.out
-    CGP non-lin        table2/CGP/non_linear/evaluate_and_test.out
+# %% [markdown]
+# ## Setup
 
-The four scenarios match the tables of the paper:
-
-    Gaussian           classical Kalman is optimal
-    Half-normal        non-Gaussian observation/process noise
-    Delayed obs        observation lags the state by a random fraction
-    Non-linear         cubic / sine state nonlinearity
-
-Run:
-    python demo.py
-
-Output is a table of MSEs (one row per scenario, one column per filter)
-and a 2x2 figure of estimation error |x_est - x_true| over time.
-"""
-
+# %%
 import re
-import warnings
 
 import numpy as np
 import matplotlib.pyplot as plt
 
+# %% [markdown]
+# ## State-space model
+#
+# A 2-D linear-Gaussian template shared by every scenario.  The non-linear
+# and delayed scenarios override pieces of it (`phi(x)`, time-varying `F_t`)
+# while reusing `Q`, `R`, `H`.
+
+# %%
 DIM = 2
-F0 = np.array([[1.0, 1.0], [0.0, 1.0]])
-CQ = np.array([[0.5, 0.0], [1.0, 0.0]])
+F0 = np.array([[1.0, 1.0], [0.0, 1.0]])     # constant-velocity dynamics
+CQ = np.array([[0.5, 0.0], [1.0, 0.0]])     # process-noise Cholesky factor
 Q0 = CQ @ CQ.T
-R = np.eye(DIM)
-H = np.eye(DIM)
+R = np.eye(DIM)                             # observation noise covariance
+H = np.eye(DIM)                             # direct observation
 I2 = np.eye(DIM)
 
+
+def phi_nl(x):
+    """The nonlinearity used by the non-linear scenario."""
+    return np.array([0.05 * x[0] ** 3 - 2.0 * x[0], 0.1 * np.sin(x[1])])
+
+# %% [markdown]
+# ## Classical Kalman baseline
+#
+# Standard Kalman recursion.  When `phi` is given, the predict step applies
+# it before `F @ x` — this is the EKF-style baseline that the paper's
+# non-linear evaluation uses.
+
+# %%
 def kalman_filter(zs, Fs, Qs, phi=None):
-    """Classical Kalman filter.  If `phi` is given, applies it before the
-    F_t @ x predict step
-    """
     x = np.zeros(DIM)
     P = np.eye(DIM)
     est = np.empty_like(zs)
@@ -63,12 +99,9 @@ def kalman_filter(zs, Fs, Qs, phi=None):
     return est
 
 
-def phi_nl(x):
-    return np.array([0.05 * x[0] ** 3 - 2.0 * x[0], 0.1 * np.sin(x[1])])
-
-
 def run_discovered(approximate, zs, Fs, Qs):
-    """Loop the discovered (x, F, P, Q, z, R) -> (xp, P, y, S, K, x) program."""
+    """Loop a discovered program with signature
+    (x, F, P, Q, z, R) -> (xp, P, y, S, K, x)."""
     x = np.zeros(DIM)
     P = np.eye(DIM)
     est = np.empty_like(zs)
@@ -77,13 +110,18 @@ def run_discovered(approximate, zs, Fs, Qs):
         est[t] = x
     return est
 
+# %% [markdown]
+# ## Trajectory generators
+#
+# One per scenario.  Each returns `(xs, zs, Fs, Qs)` so the filters can
+# share a single loop — `Fs` and `Qs` are constant for three of the four
+# scenarios and time-varying for `delayed_obs`.
 
+# %%
 def gen_gauss(length, seed):
-    """Linear dynamics + Gaussian noise"""
     rng = np.random.default_rng(seed)
     x = np.zeros(DIM)
-    xs = np.empty((length, DIM))
-    zs = np.empty((length, DIM))
+    xs = np.empty((length, DIM)); zs = np.empty((length, DIM))
     for t in range(length):
         x = F0 @ x + CQ @ rng.normal(0.0, 1.0, DIM)
         zs[t] = H @ x + rng.normal(0.0, 1.0, DIM)
@@ -94,11 +132,9 @@ def gen_gauss(length, seed):
 
 
 def gen_half(length, seed):
-    """Linear dynamics + half-normal noise (positive bias)."""
     rng = np.random.default_rng(seed)
     x = np.zeros(DIM)
-    xs = np.empty((length, DIM))
-    zs = np.empty((length, DIM))
+    xs = np.empty((length, DIM)); zs = np.empty((length, DIM))
     for t in range(length):
         x = F0 @ x + CQ @ np.abs(rng.normal(0.0, 1.0, DIM))
         zs[t] = H @ x + np.abs(rng.normal(0.0, 1.0, DIM))
@@ -109,13 +145,9 @@ def gen_half(length, seed):
 
 
 def gen_delayed(length, seed):
-    """Time-varying dt = 1 + U(0.01, 0.3); observation interpolates the
-    state at t - delay."""
     rng = np.random.default_rng(seed)
-    xs = np.empty((length - 1, DIM))
-    zs = np.empty((length - 1, DIM))
-    Fs = np.empty((length - 1, DIM, DIM))
-    Qs = np.empty((length - 1, DIM, DIM))
+    xs = np.empty((length - 1, DIM)); zs = np.empty((length - 1, DIM))
+    Fs = np.empty((length - 1, DIM, DIM)); Qs = np.empty((length - 1, DIM, DIM))
     x = np.zeros(DIM)
     history = [x.copy()]
     for t in range(1, length):
@@ -138,11 +170,9 @@ def gen_delayed(length, seed):
 
 
 def gen_nonlinear(length, seed):
-    """Cubic-in-x[0] / sin-in-x[1] state update, then linear F0."""
     rng = np.random.default_rng(seed)
     x = np.zeros(DIM)
-    xs = np.empty((length, DIM))
-    zs = np.empty((length, DIM))
+    xs = np.empty((length, DIM)); zs = np.empty((length, DIM))
     for t in range(length):
         x = F0 @ phi_nl(x) + CQ @ rng.normal(0.0, 1.0, DIM)
         zs[t] = H @ x + rng.normal(0.0, 1.0, DIM)
@@ -151,7 +181,13 @@ def gen_nonlinear(length, seed):
     Qs = np.broadcast_to(Q0, (length, DIM, DIM))
     return xs, zs, Fs, Qs
 
+# %% [markdown]
+# ## FunSearch-discovered programs
+#
+# These are reproduced verbatim from the FunSearch training output.  Each
+# takes `(x, F, P, Q, z, R)` and returns `(xp, P_new, y, S, K, x_new)`.
 
+# %%
 def fs_half(x, F, P, Q, z, R):
     xp = F @ x
     P_new = F @ P @ F.T + Q
@@ -164,6 +200,9 @@ def fs_half(x, F, P, Q, z, R):
 
 
 def fs_delayed(x, F, P, Q, z, R):
+    # The function printed in evaluate_and_test.out does NOT reproduce its
+    # reported test MSE (4.96); the actual best-validated function (training
+    # score 1.925) is in pytorch_18588979.out and uses np.random.poisson.
     noise = np.random.poisson(0.03, x.shape)
     a = F @ x + noise
     b = F @ np.log(np.maximum(a * 0.02, 1e-8))
@@ -197,7 +236,15 @@ def fs_nonlinear(x, F, P, Q, z, R):
     P = (I2 - K) * P * (0.5 + 0.05 * np.mean(y ** 2))
     return xp, P, y, S, K, x
 
+# %% [markdown]
+# ## CGP-discovered programs
+#
+# CGP encodes each candidate as a DAG over the op set
+# `{matmul, minus, add, transpose, inv}` (arities 2, 2, 2, 1, 1).  The
+# winning DAGs were dumped as graphviz strings; the helper below parses one
+# and executes it with the six inputs `(x, F, P, Q, z, R)`.
 
+# %%
 CGP_OPS = {
     "matmul": lambda a, b: a @ b,
     "minus":  lambda a, b: a - b,
@@ -242,7 +289,11 @@ def _execute_graph(dot, inputs):
             out[int(m.group(1))] = vals[nid]
     return tuple(out)
 
+# %% [markdown]
+# The three winning CGP graphs, copy-pasted from each scenario's
+# `evaluate_and_test.out`.
 
+# %%
 CGP_HALF = """digraph {
   0 [label = i0]; 1 [label = i1]; 2 [label = i2]; 3 [label = i3]
   4 [label = i4]; 5 [label = i5]
@@ -324,9 +375,15 @@ def cgp_delayed(x, F, P, Q, z, R):
 
 
 def cgp_nonlinear(x, F, P, Q, z, R):
+    # The CGP non-linear training script applies phi(x) outside the program.
     return _execute_graph(CGP_NONLINEAR, (phi_nl(x), F, P, Q, z, R))
 
+# %% [markdown]
+# ## Registry
+#
+# Order here determines the table columns and plot rows/columns.
 
+# %%
 SCENARIOS = [
     ("Gaussian",    gen_gauss,     None),
     ("Half-normal", gen_half,      None),
@@ -343,10 +400,20 @@ DISCOVERED = [
     ("CGP non-lin",       cgp_nonlinear, "C6"),
 ]
 
-
 N_TRAJ = 50
 LENGTH = 500
-SEED0 = 32   # paper test seeds 32..81
+SEED0 = 32        # paper's test seeds: 32 .. 32 + N_TRAJ - 1
+
+np.random.seed(0) # for fs_delayed's np.random.poisson
+
+# %% [markdown]
+# ## Cross-evaluation
+#
+# Mean ± standard error of the MSE over 50 trajectories of 500 steps each
+# (paper test seeds 32 .. 81).  A filter is marked **diverged** if any
+# trajectory produces a non-finite estimate.
+
+# %%
 def mse(xs, est):
     if not np.all(np.isfinite(est)):
         return np.inf
@@ -374,70 +441,62 @@ def fmt(arr):
             if np.all(np.isfinite(arr)) else "{:>17}".format("diverged"))
 
 
-def print_table():
-    cols = ["Kalman"] + [name for name, _, _ in DISCOVERED]
-    widths = {c: max(17, len(c)) for c in cols}
-    head = f"{'Scenario':<22}" + "".join(f"  {c:>{widths[c]}}" for c in cols)
-    print(head)
-    print("-" * len(head))
-    for name, gen, phi in SCENARIOS:
-        kb = evaluate(gen, kalman_filter, phi=phi)
-        row = f"{name:<22}  {fmt(kb):>{widths['Kalman']}}"
-        for dname, dfun, _ in DISCOVERED:
-            d = evaluate(gen, dfun)
-            row += f"  {fmt(d):>{widths[dname]}}"
-        print(row)
+cols = ["Kalman"] + [name for name, _, _ in DISCOVERED]
+widths = {c: max(17, len(c)) for c in cols}
+head = f"{'Scenario':<22}" + "".join(f"  {c:>{widths[c]}}" for c in cols)
+print(head)
+print("-" * len(head))
+for name, gen, phi in SCENARIOS:
+    kb = evaluate(gen, kalman_filter, phi=phi)
+    row = f"{name:<22}  {fmt(kb):>{widths['Kalman']}}"
+    for dname, dfun, _ in DISCOVERED:
+        d = evaluate(gen, dfun)
+        row += f"  {fmt(d):>{widths[dname]}}"
+    print(row)
 
+# %% [markdown]
+# ## Matrix of estimation-error curves
+#
+# One row per method, one column per scenario.  Each cell shows
+# $\|\hat x_t - x_t\|$ on a single trajectory (seed 32); the mean MSE
+# (averaged over time *and* the 50 trajectories above) is annotated in
+# the upper-right corner.
 
-def plot():
-    """Matrix of estimation-error curves: one row per method, one column per
-    scenario.  Scenario names label the top of each column; method names label
-    the left of each row.  Mean MSE is annotated in the top-right of each cell;
-    cells where the method diverges show 'diverged' instead of a curve."""
-    methods = [("Kalman", None, "C0")] + list(DISCOVERED)
-    n_rows, n_cols = len(methods), len(SCENARIOS)
-    fig, axes = plt.subplots(n_rows, n_cols,
-                             figsize=(2.6 * n_cols, 1.5 * n_rows),
-                             sharex=True, sharey=True, squeeze=False)
-    for col, (sname, gen, phi) in enumerate(SCENARIOS):
-        xs, zs, Fs, Qs = gen(LENGTH, SEED0)
-        t = np.arange(len(xs))
-        for row, (mname, mfun, color) in enumerate(methods):
-            ax = axes[row, col]
-            est = (kalman_filter(zs, Fs, Qs, phi=phi)
-                   if mfun is None
-                   else run_discovered(mfun, zs, Fs, Qs))
-            if np.all(np.isfinite(est)):
-                err = np.linalg.norm(est - xs, axis=1)
-                ax.plot(t, err, color=color, lw=0.8)
-                ax.text(0.97, 0.92, f"{err.mean():.2f}",
-                        transform=ax.transAxes, ha="right", va="top",
-                        fontsize=7,
-                        bbox=dict(boxstyle="round,pad=0.2", fc="white",
-                                  ec="0.7", alpha=0.85))
-            else:
-                ax.text(0.5, 0.5, "diverged", transform=ax.transAxes,
-                        ha="center", va="center", color="0.55", fontsize=8)
-            ax.set_yscale("log")
-            ax.grid(True, which="both", alpha=0.15)
-            ax.tick_params(labelsize=7)
-            if row == 0:
-                ax.set_title(sname, fontsize=9)
-            if col == 0:
-                ax.set_ylabel(mname, fontsize=8, rotation=90, labelpad=6)
-            if row == n_rows - 1:
-                ax.set_xlabel("$t$", fontsize=8)
-    fig.suptitle(r"$\|\hat{x}_t - x_t\|$", y=0.995)
-    fig.tight_layout(rect=(0, 0, 1, 0.985))
-    fig.savefig("trajectory.png", dpi=300, bbox_inches="tight")
-
-
-def main():
-    np.random.seed(0)          # for fs_delayed's np.random.poisson
-    print_table()
-    plot()
-    print("\nSaved trajectory.png")
-
-
-if __name__ == "__main__":
-    main()
+# %%
+methods = [("Kalman", None, "C0")] + list(DISCOVERED)
+n_rows, n_cols = len(methods), len(SCENARIOS)
+fig, axes = plt.subplots(n_rows, n_cols,
+                         figsize=(2.6 * n_cols, 1.5 * n_rows),
+                         sharex=True, sharey=True, squeeze=False)
+for col, (sname, gen, phi) in enumerate(SCENARIOS):
+    xs, zs, Fs, Qs = gen(LENGTH, SEED0)
+    t = np.arange(len(xs))
+    for row, (mname, mfun, color) in enumerate(methods):
+        ax = axes[row, col]
+        est = (kalman_filter(zs, Fs, Qs, phi=phi)
+               if mfun is None
+               else run_discovered(mfun, zs, Fs, Qs))
+        if np.all(np.isfinite(est)):
+            err = np.linalg.norm(est - xs, axis=1)
+            ax.plot(t, err, color=color, lw=0.8)
+            ax.text(0.97, 0.92, f"{err.mean():.2f}",
+                    transform=ax.transAxes, ha="right", va="top",
+                    fontsize=7,
+                    bbox=dict(boxstyle="round,pad=0.2", fc="white",
+                              ec="0.7", alpha=0.85))
+        else:
+            ax.text(0.5, 0.5, "diverged", transform=ax.transAxes,
+                    ha="center", va="center", color="0.55", fontsize=8)
+        ax.set_yscale("log")
+        ax.grid(True, which="both", alpha=0.15)
+        ax.tick_params(labelsize=7)
+        if row == 0:
+            ax.set_title(sname, fontsize=9)
+        if col == 0:
+            ax.set_ylabel(mname, fontsize=8, rotation=90, labelpad=6)
+        if row == n_rows - 1:
+            ax.set_xlabel("$t$", fontsize=8)
+fig.suptitle(r"$\|\hat{x}_t - x_t\|$", y=0.995)
+fig.tight_layout(rect=(0, 0, 1, 0.985))
+fig.savefig("trajectory.png", dpi=200, bbox_inches="tight")
+plt.show()
