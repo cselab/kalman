@@ -22,14 +22,14 @@
 #
 # Six discovered programs are run on four scenarios:
 #
-# | discovery method | source file in the kalman repo |
+# | discovery method | source file |
 # |---|---|
-# | FunSearch half      | `table2/Funseach/.../half_noise/evaluate_and_test.out` |
-# | FunSearch delayed   | `table2/Funseach/.../delayed_observations/pytorch_18588979.out` |
-# | FunSearch non-lin   | `table2/Funseach/.../non_linear/evaluate_and_test.out` |
-# | CGP half            | `table2/CGP/half_noise_full_kalman_filter/evaluate_and_test24560815.out` |
-# | CGP delayed         | `table2/CGP/delayed_observations/evaluate_and_test24573447.out` |
-# | CGP non-lin         | `table2/CGP/non_linear/evaluate_and_test.out` |
+# | FunSearch half     | [evaluate_and_test.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/Funseach/fullkalmanfilterapproximation_funseach_half_noise/evaluate_and_test.out) |
+# | FunSearch delayed  | [pytorch_18588979.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/Funseach/fullkalmanfilterapproximation_funseach_delayed_observations/pytorch_18588979.out) |
+# | FunSearch non-lin  | [evaluate_and_test.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/Funseach/fullkalmanfilterapproximation_funseach_non_linear/evaluate_and_test.out) |
+# | CGP half           | [evaluate_and_test24560815.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/CGP/half_noise_full_kalman_filter/evaluate_and_test24560815.out) |
+# | CGP delayed        | [evaluate_and_test24573447.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/CGP/delayed_observations/evaluate_and_test24573447.out) |
+# | CGP non-lin        | [evaluate_and_test.out](https://github.com/cselab/kalman/blob/b156efd9c364579dc31de48fa69178bc571bb15c/table2/CGP/non_linear/evaluate_and_test.out) |
 #
 # Scenarios:
 #
